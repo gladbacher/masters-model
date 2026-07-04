@@ -61,8 +61,8 @@ first.
 
 ## Model roadmap (in order of expected value)
 
-1. **CLV / bet tracker in the app** — log flagged bets, fetch closing prices,
-   report CLV per market type. This is the feedback loop everything depends on.
+1. ~~**CLV / bet tracker in the app**~~ — built. Log flagged bets from the Value
+   finder, enter closing prices, track CLV/ROI. Use it from day one, on paper.
 2. **Better ratings**: blend OWGR with recent finishes (ESPN has full past
    leaderboards) via a simple decay-weighted fit; or jump straight to DataGolf SG.
 3. **Weather waves**: AM/PM tee-time scoring splits are the best-documented golf

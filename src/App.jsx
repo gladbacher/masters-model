@@ -4,6 +4,7 @@ import { ratePlayer, ratingsFetchedAt } from './model/ratings'
 import { simulateEvent, roundDifficultySummary } from './model/simulate'
 import ModelTable from './components/ModelTable'
 import ValueFinder from './components/ValueFinder'
+import BetTracker from './components/BetTracker'
 import './App.css'
 
 const SIMS = 5000
@@ -140,6 +141,9 @@ function App() {
         <button className={tab === 'value' ? 'active' : ''} onClick={() => setTab('value')}>
           Value finder
         </button>
+        <button className={tab === 'tracker' ? 'active' : ''} onClick={() => setTab('tracker')}>
+          Bet tracker
+        </button>
         <button className={tab === 'notes' ? 'active' : ''} onClick={() => setTab('notes')}>
           How it works
         </button>
@@ -148,7 +152,8 @@ function App() {
       {loading && !event && <div className="banner">Loading tournament data…</div>}
 
       {event && model && tab === 'model' && <ModelTable event={event} rows={model.rows} />}
-      {event && model && tab === 'value' && <ValueFinder rows={model.rows} />}
+      {event && model && tab === 'value' && <ValueFinder rows={model.rows} event={event} />}
+      {tab === 'tracker' && <BetTracker />}
       {tab === 'notes' && <Notes />}
 
       <footer>
@@ -182,6 +187,13 @@ function Notes() {
         Paste bookmaker prices into the Value finder. A bet is value when the model probability
         beats the market's implied probability by a real margin. Given this model's simplicity,
         demand a big margin (15%+ relative edge) and stake at quarter-Kelly or less.
+      </p>
+      <h3>Proving the edge</h3>
+      <p>
+        Log every flagged bet (paper bets first) to the Bet tracker, then fill in the closing
+        odds when the market shuts. Consistently positive CLV — beating the closing line —
+        over 30+ bets is the green light to bet real money and pay for better data; results
+        alone are too noisy to tell you anything for months.
       </p>
       <h3>Known limitations (v1)</h3>
       <ul>

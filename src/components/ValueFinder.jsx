@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { ev, impliedProb, kelly, parseOdds, fairOdds, formatOdds, formatPct } from '../model/betting'
+import { addBet } from '../model/tracker'
 
 const MARKETS = [
   { id: 'win', label: 'Winner' },
@@ -59,10 +60,25 @@ function parseLines(text, rows) {
   return out
 }
 
-export default function ValueFinder({ rows }) {
+export default function ValueFinder({ rows, event }) {
   const [text, setText] = useState('')
   const [market, setMarket] = useState('win')
   const [bankroll, setBankroll] = useState(1000)
+  const [logged, setLogged] = useState(() => new Set())
+
+  const logBet = (b, stake) => {
+    addBet({
+      event: event.name,
+      tour: event.tour,
+      player: b.player.name,
+      market,
+      odds: b.odds,
+      modelProb: Math.round(b.prob * 10000) / 10000,
+      stake,
+    })
+    window.dispatchEvent(new Event('greenbook:bets-changed'))
+    setLogged((s) => new Set(s).add(`${b.player.id}|${market}|${b.odds}`))
+  }
 
   const parsed = useMemo(() => parseLines(text, rows), [text, rows])
   const bets = parsed
@@ -135,23 +151,40 @@ export default function ValueFinder({ rows }) {
               <th>Edge</th>
               <th>EV / unit</th>
               <th>¼ Kelly stake</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
-            {bets.map((b, i) => (
-              <tr key={i} className={b.ev > 0.03 ? 'value-yes' : b.ev < 0 ? 'value-no' : ''}>
-                <td className="left name">{b.player.name}</td>
-                <td>{formatPct(b.prob)}</td>
-                <td>{formatOdds(b.fair)}</td>
-                <td>{formatOdds(b.odds)}</td>
-                <td>{formatPct(b.implied)}</td>
-                <td className="strong">
-                  {b.implied > 0 ? `${((b.prob / b.implied - 1) * 100).toFixed(0)}%` : '—'}
-                </td>
-                <td>{b.ev >= 0 ? '+' : ''}{b.ev.toFixed(3)}</td>
-                <td>{b.kelly > 0 ? ((b.kelly / 4) * bankroll).toFixed(0) : '—'}</td>
-              </tr>
-            ))}
+            {bets.map((b, i) => {
+              const stake = b.kelly > 0 ? Number(((b.kelly / 4) * bankroll).toFixed(0)) : 0
+              const key = `${b.player.id}|${market}|${b.odds}`
+              return (
+                <tr key={i} className={b.ev > 0.03 ? 'value-yes' : b.ev < 0 ? 'value-no' : ''}>
+                  <td className="left name">{b.player.name}</td>
+                  <td>{formatPct(b.prob)}</td>
+                  <td>{formatOdds(b.fair)}</td>
+                  <td>{formatOdds(b.odds)}</td>
+                  <td>{formatPct(b.implied)}</td>
+                  <td className="strong">
+                    {b.implied > 0 ? `${((b.prob / b.implied - 1) * 100).toFixed(0)}%` : '—'}
+                  </td>
+                  <td>{b.ev >= 0 ? '+' : ''}{b.ev.toFixed(3)}</td>
+                  <td>{stake > 0 ? stake : '—'}</td>
+                  <td>
+                    {logged.has(key) ? (
+                      <span className="logged">✓</span>
+                    ) : (
+                      <button
+                        title="Log to bet tracker"
+                        onClick={() => logBet(b, stake > 0 ? stake : 1)}
+                      >
+                        Log
+                      </button>
+                    )}
+                  </td>
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       )}

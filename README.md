@@ -21,6 +21,9 @@ refreshes every 90 seconds while play is live.
   remaining holes.
 - **Value finder** — paste bookmaker prices (decimal, fractional, or American),
   pick a market, and get model-vs-market edge, EV per unit, and ¼-Kelly stakes.
+- **Bet tracker** — one-click logging from the Value finder (paper bets first),
+  closing-odds entry, and CLV/ROI tracking — the feedback loop that proves (or
+  disproves) the edge. Stored locally in the browser; exports to CSV.
 - **In-play** — known scores are locked, only remaining holes are simulated, and
   course difficulty is re-estimated live from what the field is shooting today.
 
