@@ -1,0 +1,294 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* header */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.brand-icon {
+  font-size: 22px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: -0.5px;
+}
+
+.tagline {
+  color: var(--dim);
+  font-size: 13px;
+}
+
+.tours {
+  display: flex;
+  gap: 6px;
+}
+
+/* event header */
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.event-header h2 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+
+.event-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: var(--dim);
+  font-size: 13px;
+}
+
+.pill {
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  border: 1px solid var(--border);
+}
+
+.pill.state-in {
+  color: var(--green);
+  border-color: var(--green-dark);
+}
+
+.pill.state-post {
+  color: var(--dim);
+}
+
+.event-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.updated {
+  color: var(--dim);
+  font-size: 12px;
+}
+
+.round-diffs {
+  display: flex;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--dim);
+  padding: 0 4px;
+}
+
+.round-diffs .current {
+  color: var(--green);
+}
+
+/* tabs */
+.tabs {
+  display: flex;
+  gap: 6px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+
+/* banners */
+.banner {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.banner.error {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.banner.warn {
+  border-color: var(--amber);
+  color: var(--amber);
+  font-size: 13px;
+}
+
+/* tables */
+.table-wrap {
+  overflow-x: auto;
+}
+
+.table-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.table-controls input {
+  width: 220px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  font-variant-numeric: tabular-nums;
+}
+
+th,
+td {
+  padding: 6px 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+th {
+  background: var(--panel-2);
+  color: var(--dim);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+td.left,
+th.left {
+  text-align: left;
+}
+
+tbody tr {
+  border-top: 1px solid var(--border);
+}
+
+tbody tr:hover {
+  background: var(--panel-2);
+}
+
+tr.out {
+  opacity: 0.4;
+}
+
+td.name {
+  font-weight: 600;
+}
+
+td.dim {
+  color: var(--dim);
+}
+
+td.strong {
+  color: var(--green);
+  font-weight: 700;
+}
+
+td.under {
+  color: var(--red);
+}
+
+.unrated {
+  color: var(--amber);
+  margin-left: 5px;
+  cursor: help;
+}
+
+tr.value-yes td.strong,
+tr.value-yes {
+  background: rgb(5 150 105 / 12%);
+}
+
+tr.value-no {
+  opacity: 0.55;
+}
+
+/* value finder */
+.value-finder {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.vf-inputs {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 14px;
+}
+
+.vf-inputs textarea {
+  resize: vertical;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+}
+
+.vf-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vf-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--dim);
+  font-size: 13px;
+}
+
+.hint {
+  color: var(--dim);
+  font-size: 12px;
+  margin: 0;
+}
+
+@media (width <= 700px) {
+  .vf-inputs {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* notes */
+.notes {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 6px 20px 14px;
+  max-width: 760px;
+}
+
+.notes h3 {
+  color: var(--green);
+  margin-bottom: 4px;
+}
+
+.notes p,
+.notes li {
+  color: var(--text);
+}
+
+footer {
+  color: var(--dim);
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0 20px;
+}
