@@ -1,5 +1,7 @@
 # Green Book — live golf tournament model
 
+**Live: https://gladbacher.github.io/masters-model/**
+
 A client-side web app that models every event on the five major tours (PGA, DP World,
 LPGA, Champions, LIV) — pre-tournament and **in-play** — and compares its probabilities
 against bookmaker prices to find value. Inspired by DataGolf, built on free data.
@@ -34,7 +36,9 @@ refreshes every 90 seconds while play is live.
 | ESPN unofficial API | Live leaderboards, hole-by-hole, tee times, cut status | Fetched live from the browser (CORS-open, no key) |
 | OWGR | Player skill ratings (points average → strokes-gained proxy) | Snapshot bundled in `src/data/owgr.json` |
 
-OWGR updates Mondays — refresh the snapshot weekly:
+OWGR updates Mondays — a GitHub Actions cron refreshes the snapshot and redeploys
+the site automatically every Monday (see `.github/workflows/deploy.yml`). To
+refresh locally:
 
 ```sh
 npm run update-rankings
