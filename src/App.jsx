@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { TOURS, fetchEvents } from './api/espn'
 import { ratePlayer, ratingsFetchedAt } from './model/ratings'
 import { simulateEvent, roundDifficultySummary } from './model/simulate'
@@ -18,8 +18,11 @@ function App() {
   const [error, setError] = useState(null)
   const [updatedAt, setUpdatedAt] = useState(null)
   const [tab, setTab] = useState('model')
+  const [now, setNow] = useState(() => Date.now())
+  const lastLoadRef = useRef(0)
 
   const load = useCallback(async (t) => {
+    lastLoadRef.current = Date.now()
     setLoading(true)
     setError(null)
     try {
@@ -46,6 +49,29 @@ function App() {
     const id = setInterval(() => load(tour), REFRESH_MS)
     return () => clearInterval(id)
   }, [event, tour, load])
+
+  // Browsers suspend timers in background tabs (especially on phones), so the
+  // interval alone leaves returning users staring at stale data. Refetch as
+  // soon as the tab is visible again, debounced against double-firing.
+  useEffect(() => {
+    const maybeReload = () => {
+      if (document.visibilityState !== 'visible') return
+      if (Date.now() - lastLoadRef.current < 15_000) return
+      load(tour)
+    }
+    document.addEventListener('visibilitychange', maybeReload)
+    window.addEventListener('focus', maybeReload)
+    return () => {
+      document.removeEventListener('visibilitychange', maybeReload)
+      window.removeEventListener('focus', maybeReload)
+    }
+  }, [tour, load])
+
+  // tick every 5s so the "updated Xs ago" label stays honest
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 5000)
+    return () => clearInterval(id)
+  }, [])
 
   const model = useMemo(() => {
     if (!event) return null
@@ -115,8 +141,8 @@ function App() {
               {loading ? 'Loading…' : 'Refresh'}
             </button>
             {updatedAt && (
-              <span className="updated">
-                {updatedAt.toLocaleTimeString()} · {SIMS.toLocaleString()} sims
+              <span className={`updated ${now - updatedAt.getTime() > 240_000 && event.state === 'in' ? 'stale' : ''}`}>
+                updated {formatAgo(now - updatedAt.getTime())} · {SIMS.toLocaleString()} sims
                 {event.state === 'in' ? ' · auto 90s' : ''}
               </span>
             )}
@@ -162,6 +188,14 @@ function App() {
       </footer>
     </div>
   )
+}
+
+function formatAgo(ms) {
+  const s = Math.max(0, Math.round(ms / 1000))
+  if (s < 10) return 'just now'
+  if (s < 60) return `${s}s ago`
+  const m = Math.floor(s / 60)
+  return `${m}m ago`
 }
 
 function Notes() {

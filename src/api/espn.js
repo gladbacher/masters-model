@@ -51,7 +51,7 @@ function derivePar(competitors) {
 }
 
 export async function fetchEvents(tour) {
-  const res = await fetch(LEADERBOARD_URL(tour))
+  const res = await fetch(LEADERBOARD_URL(tour), { cache: 'no-store' })
   if (!res.ok) throw new Error(`ESPN leaderboard: HTTP ${res.status}`)
   const data = await res.json()
   return (data.events ?? []).map((ev) => normalizeEvent(ev, tour))

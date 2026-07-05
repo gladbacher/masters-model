@@ -93,6 +93,10 @@
   font-size: 12px;
 }
 
+.updated.stale {
+  color: var(--amber);
+}
+
 .round-diffs {
   display: flex;
   gap: 14px;
