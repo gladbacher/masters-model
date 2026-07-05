@@ -29,17 +29,16 @@ function playerStatus(st) {
   return 'active'
 }
 
-// Derive course par from any round where we have both strokes and relative
-// score (par = strokes - relative). ESPN doesn't expose par directly here.
-function derivePar(competitors) {
+// Derive course par from completed rounds where we have both strokes and
+// relative score (par = strokes - relative). ESPN doesn't expose par directly.
+// In-progress rounds must be excluded: their "value" is partial strokes.
+function derivePar(players) {
   const votes = new Map()
-  for (const c of competitors) {
-    for (const round of c.linescores ?? []) {
-      const rel = parseRel(round.displayValue)
-      if (round.value != null && rel != null && round.value > 50) {
-        const par = round.value - rel
-        votes.set(par, (votes.get(par) ?? 0) + 1)
-      }
+  for (const p of players) {
+    for (const round of p.rounds) {
+      if (!round.complete || round.strokes == null || round.strokes <= 50) continue
+      const par = round.strokes - round.rel
+      votes.set(par, (votes.get(par) ?? 0) + 1)
     }
   }
   let best = null
@@ -48,6 +47,19 @@ function derivePar(competitors) {
     if (count > bestCount) { best = par; bestCount = count }
   }
   return best ?? 72
+}
+
+// The true live total vs par. The competitor's `score` field only covers
+// COMPLETED rounds (a player 7 under thru 17 today still shows yesterday's
+// total there); the scoreToPar statistic includes the round in progress.
+function liveTotalRel(c) {
+  const stat = (c.statistics ?? []).find((s) => s.name === 'scoreToPar')
+  if (stat) {
+    const rel = parseRel(stat.displayValue)
+    if (rel != null) return rel
+    if (typeof stat.value === 'number') return Math.round(stat.value)
+  }
+  return parseRel(c.score?.displayValue ?? c.score)
 }
 
 export async function fetchEvents(tour) {
@@ -70,7 +82,6 @@ function normalizeEvent(ev, tour) {
   }
   if (evState === 'post') currentRound = roundsTotal
 
-  const par = derivePar(competitors)
   const hasCut = tour !== 'liv' && roundsTotal >= 4 && competitors.length > 90
 
   const players = competitors.map((c) => {
@@ -80,16 +91,16 @@ function normalizeEvent(ev, tour) {
     const started = st.type?.state !== 'pre'
     const thru = started ? Math.min(st.thru ?? 0, 18) : 0
 
-    // Per-round relative scores for rounds already completed
+    // Per-round relative scores (the in-progress round carries today's rel so far)
     const rounds = []
     for (const round of c.linescores ?? []) {
       const rel = parseRel(round.displayValue)
       if (rel == null) continue
       const complete = round.period < period || (round.period === period && thru >= 18)
-      rounds.push({ period: round.period, rel, complete })
+      rounds.push({ period: round.period, rel, strokes: round.value ?? null, complete })
     }
 
-    const totalRel = parseRel(c.score?.displayValue ?? c.score)
+    const totalRel = liveTotalRel(c)
 
     return {
       id: c.id,
@@ -105,6 +116,8 @@ function normalizeEvent(ev, tour) {
       startedCurrentRound: started && thru > 0,
     }
   })
+
+  const par = derivePar(players)
 
   return {
     id: ev.id,
