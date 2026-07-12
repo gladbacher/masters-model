@@ -109,6 +109,129 @@
   color: var(--green);
 }
 
+/* course + weather panel */
+.course-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+
+.course-name {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.course-facts {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: var(--dim);
+  font-size: 13px;
+}
+
+.weather-days {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.weather-day {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-align: center;
+  min-width: 86px;
+}
+
+.weather-day.breezy {
+  border-color: var(--amber);
+}
+
+.weather-day.rough {
+  border-color: var(--red);
+}
+
+.wd-date {
+  color: var(--dim);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+}
+
+.wd-wind {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.wd-gust {
+  color: var(--dim);
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.wd-rest {
+  color: var(--dim);
+}
+
+.wd-adj {
+  color: var(--amber);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.weather-day:not(.breezy, .rough) .wd-adj {
+  color: var(--dim);
+  font-weight: 400;
+}
+
+.weather-src,
+.weather-note {
+  flex-basis: 100%;
+  color: var(--dim);
+  font-size: 11px;
+  text-align: right;
+}
+
+/* odds controls */
+.spacer {
+  flex: 1;
+}
+
+.odds-setup,
+.odds-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--dim);
+  font-size: 13px;
+}
+
+button.linkish {
+  background: none;
+  border: none;
+  color: var(--green);
+  padding: 0;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sortable:hover {
+  color: var(--text);
+}
+
 /* tabs */
 .tabs {
   display: flex;

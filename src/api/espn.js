@@ -10,8 +10,27 @@ export const TOURS = [
   { id: 'liv', label: 'LIV' },
 ]
 
-const LEADERBOARD_URL = (tour) =>
-  `https://site.web.api.espn.com/apis/site/v2/sports/golf/leaderboard?league=${tour}`
+const LEADERBOARD_URL = (tour, eventId) =>
+  `https://site.web.api.espn.com/apis/site/v2/sports/golf/leaderboard?league=${tour}` +
+  (eventId ? `&event=${eventId}` : '')
+
+const SCOREBOARD_URL = (tour, year) =>
+  `https://site.api.espn.com/apis/site/v2/sports/golf/${tour}/scoreboard` +
+  (year ? `?dates=${year}` : '')
+
+// Season calendar: every event on the tour with its id and dates.
+// Used for the look-ahead event picker and for finding past editions.
+export async function fetchCalendar(tour, year = null) {
+  const res = await fetch(SCOREBOARD_URL(tour, year), { cache: 'no-store' })
+  if (!res.ok) throw new Error(`ESPN scoreboard: HTTP ${res.status}`)
+  const data = await res.json()
+  return (data.leagues?.[0]?.calendar ?? []).map((e) => ({
+    id: e.id,
+    label: e.label,
+    startDate: e.startDate,
+    endDate: e.endDate,
+  }))
+}
 
 function parseRel(display) {
   if (display == null) return null
@@ -62,11 +81,27 @@ function liveTotalRel(c) {
   return parseRel(c.score?.displayValue ?? c.score)
 }
 
-export async function fetchEvents(tour) {
-  const res = await fetch(LEADERBOARD_URL(tour), { cache: 'no-store' })
+export async function fetchEvents(tour, eventId = null) {
+  const res = await fetch(LEADERBOARD_URL(tour, eventId), { cache: 'no-store' })
   if (!res.ok) throw new Error(`ESPN leaderboard: HTTP ${res.status}`)
   const data = await res.json()
   return (data.events ?? []).map((ev) => normalizeEvent(ev, tour))
+}
+
+// Course profile from the event payload (available well before play starts).
+function parseCourse(ev) {
+  const c = (ev.courses ?? []).find((x) => x.host) ?? ev.courses?.[0]
+  if (!c) return null
+  const holes = c.holes ?? []
+  const count = (par) => holes.filter((h) => h.shotsToPar === par).length
+  return {
+    name: c.name ?? null,
+    yards: c.totalYards ?? null,
+    par: c.shotsToPar ?? null,
+    par3s: count(3),
+    par4s: count(4),
+    par5s: count(5),
+  }
 }
 
 function normalizeEvent(ev, tour) {
@@ -82,7 +117,13 @@ function normalizeEvent(ev, tour) {
   }
   if (evState === 'post') currentRound = roundsTotal
 
-  const hasCut = tour !== 'liv' && roundsTotal >= 4 && competitors.length > 90
+  // ESPN publishes the actual cut rule (e.g. top 70 + ties at The Open)
+  const cutRound = ev.tournament?.cutRound ?? 0
+  const cutCount = ev.tournament?.cutCount ?? 65
+  const hasCut =
+    cutRound > 0 && cutCount > 0
+      ? true
+      : tour !== 'liv' && roundsTotal >= 4 && competitors.length > 90
 
   const players = competitors.map((c) => {
     const st = c.status ?? {}
@@ -117,7 +158,8 @@ function normalizeEvent(ev, tour) {
     }
   })
 
-  const par = derivePar(players)
+  const course = parseCourse(ev)
+  const par = course?.par ?? derivePar(players)
 
   return {
     id: ev.id,
@@ -125,11 +167,16 @@ function normalizeEvent(ev, tour) {
     name: ev.name,
     state: evState,
     statusDetail: ev.status?.type?.description ?? '',
+    date: ev.date ?? null,
+    endDate: ev.endDate ?? null,
     currentRound,
     roundsTotal,
     par,
+    course,
     hasCut,
+    cutCount,
     cutMade: hasCut && currentRound > 2 && players.some((p) => p.status === 'cut'),
+    defendingChampion: ev.defendingChampion?.athlete?.displayName ?? null,
     purse: ev.displayPurse ?? null,
     players,
   }

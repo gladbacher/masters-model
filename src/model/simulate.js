@@ -13,7 +13,6 @@
 
 const ROUND_SD = 2.85 // strokes, per-round score spread for a tour pro
 const DEFAULT_DIFF = -0.75 // field avg vs par when we have no live data
-const CUT_SIZE = 65 // top 65 + ties (PGA/DPWT standard)
 
 let spare = null
 function gaussian() {
@@ -31,8 +30,11 @@ function gaussian() {
   return mag * Math.cos(2.0 * Math.PI * v)
 }
 
-// Field-average score vs par for each round, from live data where available.
-function estimateRoundDifficulties(event) {
+// Field-average score vs par for each round. Live data wins where it exists;
+// rounds we know nothing about yet take the fallback plus the weather
+// adjustment (forecast wind/rain already shows up in live scoring, so it is
+// only applied to rounds not yet underway).
+function estimateRoundDifficulties(event, roundAdjust = null) {
   const { players, currentRound, roundsTotal } = event
   const diffs = new Array(roundsTotal + 1).fill(null) // 1-indexed
 
@@ -62,14 +64,17 @@ function estimateRoundDifficulties(event) {
 
   const known = diffs.filter((d) => d != null)
   const fallback = known.length ? known.reduce((a, b) => a + b, 0) / known.length : DEFAULT_DIFF
-  for (let r = 1; r <= roundsTotal; r++) if (diffs[r] == null) diffs[r] = fallback
+  for (let r = 1; r <= roundsTotal; r++) {
+    if (diffs[r] == null) diffs[r] = fallback + (roundAdjust?.[r - 1] ?? 0)
+  }
   return diffs
 }
 
-export function simulateEvent(event, skills, { sims = 4000 } = {}) {
+export function simulateEvent(event, skills, { sims = 4000, roundAdjust = null } = {}) {
   const { players, currentRound, roundsTotal, hasCut } = event
   const n = players.length
-  const diffs = estimateRoundDifficulties(event)
+  const diffs = estimateRoundDifficulties(event, roundAdjust)
+  const cutSize = event.cutCount ?? 65
 
   const active = players.filter((p) => p.status === 'active')
   const fieldSkill = active.length
@@ -132,7 +137,7 @@ export function simulateEvent(event, skills, { sims = 4000 } = {}) {
       const scores = []
       for (let i = 0; i < n; i++) if (madeIt[i]) scores.push(totals[i])
       scores.sort((a, b) => a - b)
-      const line = scores[Math.min(CUT_SIZE - 1, scores.length - 1)]
+      const line = scores[Math.min(cutSize - 1, scores.length - 1)]
       for (let i = 0; i < n; i++) {
         if (madeIt[i] && totals[i] > line + 1e-9) madeIt[i] = 0
       }
@@ -193,7 +198,7 @@ export function simulateEvent(event, skills, { sims = 4000 } = {}) {
   }))
 }
 
-export function roundDifficultySummary(event) {
-  const diffs = estimateRoundDifficulties(event)
+export function roundDifficultySummary(event, roundAdjust = null) {
+  const diffs = estimateRoundDifficulties(event, roundAdjust)
   return diffs.slice(1).map((d, i) => ({ round: i + 1, fieldAvg: d }))
 }
