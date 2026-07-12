@@ -6,7 +6,7 @@
 
 import { fetchCalendar, fetchEvents } from './espn'
 
-const CACHE_KEY = 'greenbook.history.v1'
+const CACHE_KEY = 'greenbook.history.v2' // v2: records carry display names
 const CACHE_TTL = 6 * 86_400_000 // refresh weekly
 
 export function normName(name) {
@@ -65,7 +65,7 @@ export async function fetchEventHistory(tour, eventLabel, editions = 3) {
       found++
       for (const row of eventSgVsField(ev)) {
         const key = normName(row.name)
-        perPlayer[key] ??= { finishes: [], sgs: [] }
+        perPlayer[key] ??= { name: row.name, finishes: [], sgs: [] }
         perPlayer[key].finishes.push(`${year}: ${row.position}`)
         perPlayer[key].sgs.push(row.sg)
       }
@@ -77,6 +77,7 @@ export async function fetchEventHistory(tour, eventLabel, editions = 3) {
   const data = {}
   for (const [key, v] of Object.entries(perPlayer)) {
     data[key] = {
+      name: v.name,
       finishes: v.finishes,
       appearances: v.sgs.length,
       avgSg: Math.round((v.sgs.reduce((a, b) => a + b, 0) / v.sgs.length) * 100) / 100,

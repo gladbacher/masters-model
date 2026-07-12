@@ -200,6 +200,123 @@
   text-align: right;
 }
 
+/* course radar */
+.radar-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.radar-main {
+  display: grid;
+  grid-template-columns: minmax(300px, 420px) 1fr;
+  gap: 18px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+
+.radar {
+  width: 100%;
+  max-width: 420px;
+}
+
+.radar-grid {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.radar-label {
+  fill: var(--dim);
+  font-size: 11px;
+}
+
+.radar-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.swatch {
+  display: inline-block;
+  width: 14px;
+  height: 4px;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.swatch.dashed {
+  background-image: linear-gradient(90deg, transparent 0 2px, currentcolor 0);
+}
+
+.radar-progress {
+  color: var(--dim);
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.radar-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.axis-table {
+  font-size: 13px;
+}
+
+.side-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.side-sub {
+  color: var(--dim);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.similar-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.chip {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.chip.active {
+  border-color: #6366f1;
+  color: #a5b4fc;
+}
+
+.fit-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 18px;
+}
+
+.fit-panel table {
+  border: none;
+}
+
+@media (width <= 760px) {
+  .radar-main {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* odds controls */
 .spacer {
   flex: 1;

@@ -9,6 +9,7 @@ import ModelTable from './components/ModelTable'
 import ValueFinder from './components/ValueFinder'
 import BetTracker from './components/BetTracker'
 import CoursePanel from './components/CoursePanel'
+import CourseRadar from './components/CourseRadar'
 import './App.css'
 
 const SIMS = 5000
@@ -307,6 +308,9 @@ function App() {
         <button className={tab === 'model' ? 'active' : ''} onClick={() => setTab('model')}>
           Model
         </button>
+        <button className={tab === 'radar' ? 'active' : ''} onClick={() => setTab('radar')}>
+          Course radar
+        </button>
         <button className={tab === 'value' ? 'active' : ''} onClick={() => setTab('value')}>
           Value finder
         </button>
@@ -337,6 +341,9 @@ function App() {
           oddsError={oddsError}
           onLoadOdds={loadOdds}
         />
+      )}
+      {event && tab === 'radar' && (
+        <CourseRadar event={event} tour={tour} rows={model?.rows ?? null} />
       )}
       {event && model && tab === 'value' && <ValueFinder rows={model.rows} event={event} />}
       {tab === 'tracker' && <BetTracker />}

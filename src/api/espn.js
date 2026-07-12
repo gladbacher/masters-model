@@ -92,8 +92,10 @@ export async function fetchEvents(tour, eventId = null) {
 function parseCourse(ev) {
   const c = (ev.courses ?? []).find((x) => x.host) ?? ev.courses?.[0]
   if (!c) return null
-  const holes = c.holes ?? []
-  const count = (par) => holes.filter((h) => h.shotsToPar === par).length
+  const holes = (c.holes ?? [])
+    .filter((h) => h.shotsToPar >= 3 && h.totalYards > 50)
+    .map((h) => ({ number: h.number, par: h.shotsToPar, yards: h.totalYards }))
+  const count = (par) => holes.filter((h) => h.par === par).length
   return {
     name: c.name ?? null,
     yards: c.totalYards ?? null,
@@ -101,6 +103,7 @@ function parseCourse(ev) {
     par3s: count(3),
     par4s: count(4),
     par5s: count(5),
+    holes,
   }
 }
 
