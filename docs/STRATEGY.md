@@ -63,15 +63,18 @@ first.
 
 1. ~~**CLV / bet tracker in the app**~~ — built. Log flagged bets from the Value
    finder, enter closing prices, track CLV/ROI. Use it from day one, on paper.
-2. **Better ratings**: blend OWGR with recent finishes (ESPN has full past
+2. ~~**Look-ahead + weather + course context**~~ — built. Any upcoming event with
+   course profile, local-model (Met Office) forecast feeding round difficulty,
+   event-history skill nudge, and live odds via a free Odds API key.
+3. **Better ratings**: blend OWGR with recent finishes (ESPN has full past
    leaderboards) via a simple decay-weighted fit; or jump straight to DataGolf SG.
-3. **Weather waves**: AM/PM tee-time scoring splits are the best-documented golf
-   betting edge. The model already knows tee times; add a wave difficulty offset.
-4. **Player-specific variance**: high-variance players are undervalued in outright
+4. **Weather waves**: AM/PM tee-time scoring splits are the best-documented golf
+   betting edge. Tee times + hourly forecast are both already in hand; split the
+   field into waves and apply hour-matched difficulty.
+5. **Player-specific variance**: high-variance players are undervalued in outright
    markets and overvalued in make-cut — even a two-bucket (aggressive/steady) split helps.
-5. **3-ball / matchup pricing**: head-to-head markets are the softest of all and
+6. **3-ball / matchup pricing**: head-to-head markets are the softest of all and
    need only relative skill — the model already has everything required.
-6. **Course fit**: length, scoring conditions, field-strength adjustments.
 
 ## Ground rules
 
