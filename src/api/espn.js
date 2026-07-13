@@ -88,6 +88,59 @@ export async function fetchEvents(tour, eventId = null) {
   return (data.events ?? []).map((ev) => normalizeEvent(ev, tour))
 }
 
+// Current LIV roster. OWGR barely counts LIV results, so these players'
+// ratings are systematically too low — the UI flags them so the model's
+// number is read with appropriate suspicion. ESPN publishes no LIV fields
+// via this API (verified 2026-07), so a curated snapshot (mid-2026) is the
+// working source, with the dynamic fetch kept in case ESPN starts carrying
+// them. Only matters where LIV players meet ranked fields: the majors.
+const LIV_KEY = 'greenbook.livroster.v1'
+
+const LIV_FALLBACK = [
+  'Jon Rahm', 'Bryson DeChambeau', 'Brooks Koepka', 'Joaquin Niemann',
+  'Tyrrell Hatton', 'Cameron Smith', 'Dustin Johnson', 'Patrick Reed',
+  'Sergio Garcia', 'Louis Oosthuizen', 'Charl Schwartzel', 'Phil Mickelson',
+  'Talor Gooch', 'Dean Burmester', 'Carlos Ortiz', 'Abraham Ancer',
+  'David Puig', 'Sebastian Munoz', 'Thomas Pieters', 'Adrian Meronk',
+  'Martin Kaymer', 'Lee Westwood', 'Ian Poulter', 'Henrik Stenson',
+  'Kevin Na', 'Harold Varner III', 'Brendan Steele', 'Cameron Tringale',
+  'Jason Kokrak', 'Anirban Lahiri', 'Richard Bland', 'Caleb Surratt',
+  'Tom McKibbin', 'Lucas Herbert', 'Marc Leishman', 'Matt Jones',
+  'Peter Uihlein', 'Bubba Watson', 'Mito Pereira', 'Andy Ogletree',
+  'John Catlin', 'Danny Lee', 'Jinichiro Kozuma',
+]
+
+export async function fetchLivRoster() {
+  const hasStorage = typeof localStorage !== 'undefined'
+  if (hasStorage) {
+    try {
+      const cached = JSON.parse(localStorage.getItem(LIV_KEY))
+      if (cached && Date.now() - cached.ts < 7 * 86_400_000) return cached.names
+    } catch {
+      // fall through to refetch
+    }
+  }
+  let names = []
+  const evs = await fetchEvents('liv')
+  for (const ev of evs) names.push(...ev.players.map((p) => p.name))
+  if (names.length === 0) {
+    // between events: use the most recent completed one
+    const cal = await fetchCalendar('liv')
+    const today = new Date().toISOString().slice(0, 10)
+    const past = [...cal].reverse().find((e) => e.startDate?.slice(0, 10) <= today)
+    if (past) {
+      const [ev] = await fetchEvents('liv', past.id)
+      if (ev) names = ev.players.map((p) => p.name)
+    }
+  }
+  names = [...new Set(names)]
+  if (names.length === 0) return LIV_FALLBACK // don't cache: retry dynamic next visit
+  if (hasStorage) {
+    localStorage.setItem(LIV_KEY, JSON.stringify({ ts: Date.now(), names }))
+  }
+  return names
+}
+
 // Course profile from the event payload (available well before play starts).
 function parseCourse(ev) {
   const c = (ev.courses ?? []).find((x) => x.host) ?? ev.courses?.[0]

@@ -157,6 +157,14 @@ export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onL
                       ?
                     </span>
                   )}
+                  {r.liv && (
+                    <span
+                      className="liv-badge"
+                      title="LIV player — OWGR undercounts LIV form, so the model likely underrates them"
+                    >
+                      LIV
+                    </span>
+                  )}
                 </td>
                 {!pre && <td className={r.totalRel < 0 ? 'under' : ''}>{fmtRel(r.totalRel)}</td>}
                 {!pre && <td className="dim">{thruLabel(r, event)}</td>}

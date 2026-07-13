@@ -457,6 +457,18 @@ td.under {
   cursor: help;
 }
 
+.liv-badge {
+  color: var(--amber);
+  border: 1px solid var(--amber);
+  border-radius: 4px;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 0 4px;
+  margin-left: 6px;
+  vertical-align: 1px;
+  cursor: help;
+}
+
 tr.value-yes td.strong,
 tr.value-yes {
   background: rgb(5 150 105 / 12%);

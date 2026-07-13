@@ -1,16 +1,17 @@
 // Player skill ratings derived from the bundled OWGR snapshot.
 //
 // Skill is expressed DataGolf-style: strokes gained per round vs an average
-// tour pro. OWGR points-average maps to skill roughly logarithmically —
-// calibrated so the world #1 (~17 pts avg) sits near +2.6 and a fringe
-// top-500 player (~0.3 pts avg) sits near -0.8. It's a proxy, not true
-// strokes-gained; good enough to seed the simulator, and upgradeable later
-// (DataGolf API, or ratings fitted from round-by-round results).
+// tour pro. OWGR points-average maps to skill roughly logarithmically.
+// Recalibrated 2026-07-13: the original slope (0.85, cap 3.0) produced win
+// probabilities visibly flatter than major outright markets (Scheffler 8.9%
+// model vs ~12-14% market at The Open). Slope 1.0 / cap 3.4 reproduces the
+// market's top prices while leaving mid-field ratings nearly unchanged.
+// Still a proxy: no recent form, and OWGR undercounts LIV players.
 
 import owgr from '../data/owgr.json'
 
 const SKILL_INTERCEPT = 0.2
-const SKILL_SLOPE = 0.85
+const SKILL_SLOPE = 1.0
 const UNRANKED_SKILL = -1.0
 
 function normalizeName(name) {
@@ -41,7 +42,7 @@ for (const p of owgr.players) {
 
 export function pointsToSkill(pointsAverage) {
   const raw = SKILL_INTERCEPT + SKILL_SLOPE * Math.log(Math.max(pointsAverage, 0.05))
-  return Math.min(3.0, Math.max(-1.6, raw))
+  return Math.min(3.4, Math.max(-1.6, raw))
 }
 
 // Returns { skill, owgrRank, matched } for an ESPN display name.

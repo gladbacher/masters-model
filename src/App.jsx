@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { TOURS, fetchEvents, fetchCalendar } from './api/espn'
+import { TOURS, fetchEvents, fetchCalendar, fetchLivRoster } from './api/espn'
 import { ratePlayer, ratingsFetchedAt } from './model/ratings'
 import { simulateEvent, roundDifficultySummary } from './model/simulate'
 import { geocodeCourse, fetchForecast, weatherAdjustment } from './api/weather'
@@ -37,7 +37,19 @@ function App() {
   const [odds, setOdds] = useState(null)
   const [oddsBusy, setOddsBusy] = useState(false)
   const [oddsError, setOddsError] = useState(null)
+  const [livSet, setLivSet] = useState(null)
   const lastLoadRef = useRef(0)
+
+  // LIV roster: OWGR undercounts LIV form, so flag those players in the table
+  useEffect(() => {
+    let alive = true
+    fetchLivRoster()
+      .then((names) => alive && setLivSet(new Set(names.map(normName))))
+      .catch(() => {})
+    return () => {
+      alive = false
+    }
+  }, [])
 
   const load = useCallback(async (t, eventId) => {
     lastLoadRef.current = Date.now()
@@ -183,12 +195,13 @@ function App() {
         ...sim[i],
         marketOdds: price?.best ?? null,
         marketBooks: price?.books ?? 0,
+        liv: livSet?.has(normName(p.name)) ?? false,
       }
     })
     rows.sort((a, b) => b.win - a.win)
     const matched = ratings.filter((r) => r.matched).length
     return { rows, matched, difficulties: roundDifficultySummary(event, roundAdjust) }
-  }, [event, history, roundAdjust, odds])
+  }, [event, history, roundAdjust, odds, livSet])
 
   const upcoming = useMemo(() => {
     const today = new Date().toISOString().slice(0, 10)
@@ -408,7 +421,12 @@ function Notes() {
       </p>
       <h3>Known limitations</h3>
       <ul>
-        <li>Skill is an OWGR proxy — no strokes-gained splits or recent-form weighting.</li>
+        <li>
+          Skill is an OWGR proxy — no strokes-gained splits or recent-form weighting. The
+          curve is calibrated so favorites' win probabilities match major outright markets
+          (July 2026); in-form players still rate low until a form blend is added.
+        </li>
+        <li>LIV players (flagged) are underrated — OWGR barely counts LIV results.</li>
         <li>Event history is a coarse course-fit signal; for rota events (The Open) it spans venues.</li>
         <li>Weather adjusts scoring difficulty but not tee-time waves yet (no draw until Wed).</li>
         <li>No player-specific variance (bombers vs plodders spread differently).</li>
