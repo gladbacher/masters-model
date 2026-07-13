@@ -457,6 +457,11 @@ td.under {
   cursor: help;
 }
 
+.book {
+  color: var(--dim);
+  font-size: 10px;
+}
+
 .liv-badge {
   color: var(--amber);
   border: 1px solid var(--amber);

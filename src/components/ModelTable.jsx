@@ -177,7 +177,18 @@ export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onL
                 </td>
                 <td className="strong">{r.win >= 0.0005 ? formatPct(r.win) : '—'}</td>
                 <td className="dim">{r.win >= 0.0005 ? formatOdds(fairOdds(r.win)) : '—'}</td>
-                {odds && <td>{r.marketOdds ? formatOdds(r.marketOdds) : '—'}</td>}
+                {odds && (
+                  <td title={r.marketOdds ? `Best of ${r.marketBooks} book${r.marketBooks === 1 ? '' : 's'}` : undefined}>
+                    {r.marketOdds ? (
+                      <>
+                        {formatOdds(r.marketOdds)}{' '}
+                        {r.marketBook && <span className="book">{r.marketBook}</span>}
+                      </>
+                    ) : (
+                      '—'
+                    )}
+                  </td>
+                )}
                 {odds && (
                   <td className={e != null && e > 0.05 ? 'strong' : 'dim'}>
                     {e != null ? `${e >= 0 ? '+' : ''}${(e * 100).toFixed(0)}%` : '—'}

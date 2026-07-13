@@ -194,6 +194,7 @@ function App() {
         histBump: bumps[i],
         ...sim[i],
         marketOdds: price?.best ?? null,
+        marketBook: price?.bestBook ?? null,
         marketBooks: price?.books ?? 0,
         liv: livSet?.has(normName(p.name)) ?? false,
       }

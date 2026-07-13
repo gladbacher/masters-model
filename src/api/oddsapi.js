@@ -69,8 +69,11 @@ export async function fetchOutrightOdds(eventName) {
       const market = (book.markets ?? []).find((m) => m.key === 'outrights')
       for (const o of market?.outcomes ?? []) {
         const k = o.name.toLowerCase()
-        const cur = prices.get(k) ?? { best: 0, all: [] }
-        cur.best = Math.max(cur.best, o.price)
+        const cur = prices.get(k) ?? { best: 0, bestBook: null, all: [] }
+        if (o.price > cur.best) {
+          cur.best = o.price
+          cur.bestBook = book.title
+        }
         cur.all.push(o.price)
         prices.set(k, cur)
       }
