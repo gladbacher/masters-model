@@ -210,6 +210,7 @@ function normalizeEvent(ev, tour) {
       currentRound: period,
       thru,
       teeTime: st.teeTime ?? null,
+      startHole: st.startHole ?? 1,
       startedCurrentRound: started && thru > 0,
     }
   })

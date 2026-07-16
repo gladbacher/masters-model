@@ -11,7 +11,7 @@
 // scores, simulates only what's left). This state-aware re-simulation is the
 // core of the in-play edge: books are slow to reprice mid-round.
 
-const ROUND_SD = 2.85 // strokes, per-round score spread for a tour pro
+export const ROUND_SD = 2.85 // strokes, per-round score spread for a tour pro
 const DEFAULT_DIFF = -0.75 // field avg vs par when we have no live data
 
 let spare = null
@@ -99,6 +99,7 @@ export function simulateEvent(event, skills, { sims = 4000, roundAdjust = null }
   })
 
   const cutPending = hasCut && !event.cutMade && currentRound <= 2
+  const cutLines = cutPending ? new Float64Array(sims) : null
 
   const win = new Float64Array(n)
   const top5 = new Float64Array(n)
@@ -138,6 +139,7 @@ export function simulateEvent(event, skills, { sims = 4000, roundAdjust = null }
       for (let i = 0; i < n; i++) if (madeIt[i]) scores.push(totals[i])
       scores.sort((a, b) => a - b)
       const line = scores[Math.min(cutSize - 1, scores.length - 1)]
+      cutLines[s] = line
       for (let i = 0; i < n; i++) {
         if (madeIt[i] && totals[i] > line + 1e-9) madeIt[i] = 0
       }
@@ -187,7 +189,7 @@ export function simulateEvent(event, skills, { sims = 4000, roundAdjust = null }
     }
   }
 
-  return players.map((p, i) => ({
+  const results = players.map((p, i) => ({
     playerId: p.id,
     win: win[i] / sims,
     top5: top5[i] / sims,
@@ -196,6 +198,16 @@ export function simulateEvent(event, skills, { sims = 4000, roundAdjust = null }
     makeCut: p.status === 'cut' || p.status === 'wd' ? 0 : makeCut[i] / sims,
     expPos: sumPos[i] / sims,
   }))
+
+  // projected cut line: distribution of the simulated line after round 2
+  let cutProjection = null
+  if (cutLines) {
+    const sorted = [...cutLines].sort((a, b) => a - b)
+    const pct = (q) => Math.round(sorted[Math.min(sims - 1, Math.floor(q * sims))])
+    cutProjection = { median: pct(0.5), lo: pct(0.16), hi: pct(0.84) }
+  }
+
+  return { results, cutProjection }
 }
 
 export function roundDifficultySummary(event, roundAdjust = null) {

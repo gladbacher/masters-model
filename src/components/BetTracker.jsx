@@ -8,6 +8,7 @@ const MARKET_LABELS = {
   top10: 'Top 10',
   top20: 'Top 20',
   makeCut: 'Make cut',
+  '3ball': '3-ball',
 }
 
 function Stat({ label, value, tone }) {

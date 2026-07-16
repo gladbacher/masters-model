@@ -10,6 +10,7 @@ import ValueFinder from './components/ValueFinder'
 import BetTracker from './components/BetTracker'
 import CoursePanel from './components/CoursePanel'
 import CourseRadar from './components/CourseRadar'
+import ThreeBalls from './components/ThreeBalls'
 import './App.css'
 
 const SIMS = 5000
@@ -184,7 +185,7 @@ function App() {
     const hists = event.players.map((p) => history?.get(normName(p.name)) ?? null)
     const bumps = hists.map(historySkillBump)
     const skills = ratings.map((r, i) => r.skill + bumps[i])
-    const sim = simulateEvent(event, skills, { sims: SIMS, roundAdjust })
+    const { results, cutProjection } = simulateEvent(event, skills, { sims: SIMS, roundAdjust })
     const rows = event.players.map((p, i) => {
       const price = odds ? findPrice(odds.prices, p.name) : null
       return {
@@ -192,7 +193,7 @@ function App() {
         ...ratings[i],
         hist: hists[i],
         histBump: bumps[i],
-        ...sim[i],
+        ...results[i],
         marketOdds: price?.best ?? null,
         marketBook: price?.bestBook ?? null,
         marketBooks: price?.books ?? 0,
@@ -201,7 +202,12 @@ function App() {
     })
     rows.sort((a, b) => b.win - a.win)
     const matched = ratings.filter((r) => r.matched).length
-    return { rows, matched, difficulties: roundDifficultySummary(event, roundAdjust) }
+    return {
+      rows,
+      matched,
+      cutProjection,
+      difficulties: roundDifficultySummary(event, roundAdjust),
+    }
   }, [event, history, roundAdjust, odds, livSet])
 
   const upcoming = useMemo(() => {
@@ -318,9 +324,16 @@ function App() {
         </div>
       )}
 
+      {event && model?.cutProjection && (
+        <CutProjection event={event} projection={model.cutProjection} />
+      )}
+
       <nav className="tabs">
         <button className={tab === 'model' ? 'active' : ''} onClick={() => setTab('model')}>
           Model
+        </button>
+        <button className={tab === '3balls' ? 'active' : ''} onClick={() => setTab('3balls')}>
+          3-balls
         </button>
         <button className={tab === 'radar' ? 'active' : ''} onClick={() => setTab('radar')}>
           Course radar
@@ -356,6 +369,9 @@ function App() {
           onLoadOdds={loadOdds}
         />
       )}
+      {event && model && tab === '3balls' && (
+        <ThreeBalls event={event} rows={model.rows} roundAdjust={roundAdjust} />
+      )}
       {event && tab === 'radar' && (
         <CourseRadar event={event} tour={tour} rows={model?.rows ?? null} />
       )}
@@ -368,6 +384,35 @@ function App() {
         + Open-Meteo/Met Office models (weather) + OpenStreetMap (geocoding).
         Model estimates, not advice. Bet responsibly — begambleaware.org
       </footer>
+    </div>
+  )
+}
+
+function fmtLine(rel) {
+  if (rel === 0) return 'E'
+  return rel > 0 ? `+${rel}` : `${rel}`
+}
+
+function CutProjection({ event, projection }) {
+  // provisional line: where the cut would fall on current scores
+  const active = event.players
+    .filter((p) => p.status === 'active')
+    .map((p) => p.totalRel)
+    .sort((a, b) => a - b)
+  const provisional = active[Math.min(event.cutCount - 1, active.length - 1)]
+  const inside = active.filter((t) => t <= provisional).length
+  return (
+    <div className="cut-proj">
+      <span className="cut-title">Cut projection (top {event.cutCount} + ties):</span>
+      <span className="strong-inline">{fmtLine(projection.median)}</span>
+      <span className="dim">
+        68% range {fmtLine(projection.lo)} to {fmtLine(projection.hi)}
+      </span>
+      {event.state === 'in' && provisional != null && (
+        <span className="dim">
+          · line on current scores: {fmtLine(provisional)} ({inside} inside)
+        </span>
+      )}
     </div>
   )
 }
