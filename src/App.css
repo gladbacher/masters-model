@@ -135,6 +135,20 @@
   font-size: 13px;
 }
 
+.reno-note {
+  margin-top: 6px;
+  padding: 6px 10px;
+  border-left: 3px solid var(--amber);
+  background: rgb(251 191 36 / 8%);
+  border-radius: 4px;
+  font-size: 12px;
+  max-width: 62ch;
+}
+
+.reno-note strong {
+  color: var(--amber);
+}
+
 .weather-days {
   display: flex;
   gap: 8px;

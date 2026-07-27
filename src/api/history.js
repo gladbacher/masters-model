@@ -46,8 +46,10 @@ function eventSgVsField(event) {
 }
 
 // Returns Map(normalizedName -> { finishes: ['T5','MC',...], avgSg, appearances })
-export async function fetchEventHistory(tour, eventLabel, editions = 3) {
-  const cacheKey = `${tour}|${eventLabel}`
+// `minYear` excludes editions played before a course was materially changed —
+// results on a course that no longer exists are not course knowledge.
+export async function fetchEventHistory(tour, eventLabel, editions = 3, minYear = null) {
+  const cacheKey = `${tour}|${eventLabel}|${minYear ?? 'all'}`
   const cache = readCache()
   const hit = cache[cacheKey]
   if (hit && Date.now() - hit.ts < CACHE_TTL) return new Map(Object.entries(hit.data))
@@ -55,7 +57,8 @@ export async function fetchEventHistory(tour, eventLabel, editions = 3) {
   const thisYear = new Date().getFullYear()
   const perPlayer = {}
   let found = 0
-  for (let year = thisYear - 1; year >= thisYear - 5 && found < editions; year--) {
+  const floor = minYear ?? thisYear - 5
+  for (let year = thisYear - 1; year >= Math.max(floor, thisYear - 5) && found < editions; year--) {
     try {
       const cal = await fetchCalendar(tour, year)
       const past = cal.find((e) => e.label === eventLabel)

@@ -25,7 +25,7 @@ function posNum(pos) {
   return Number.isNaN(n) ? 999 : n
 }
 
-export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onLoadOdds }) {
+export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onLoadOdds, ratingSource }) {
   const [query, setQuery] = useState('')
   const [showAll, setShowAll] = useState(false)
   const [sort, setSort] = useState({ key: 'win', dir: -1 })
@@ -42,7 +42,7 @@ export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onL
     { key: 'name', label: 'Player', get: (r) => r.name, left: true },
     { key: 'total', label: 'Total', get: (r) => r.totalRel, show: !pre },
     { key: 'thru', label: 'Thru', get: (r) => r.thru, show: !pre },
-    { key: 'owgr', label: 'OWGR', get: (r) => r.owgrRank ?? 9999 },
+    { key: 'owgr', label: ratingSource?.rankLabel ?? 'OWGR', get: (r) => r.owgrRank ?? 9999 },
     { key: 'hist', label: 'Hist', get: (r) => r.histBump },
     { key: 'win', label: 'Win', get: (r) => r.win },
     { key: 'fair', label: 'Fair', get: (r) => r.win },
@@ -153,7 +153,10 @@ export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onL
                 <td className="left name">
                   {r.name}
                   {!r.matched && r.status === 'active' && (
-                    <span className="unrated" title="No OWGR match — default fringe rating">
+                    <span
+                      className="unrated"
+                      title={`No ${ratingSource?.label ?? 'ranking'} match — default fringe rating`}
+                    >
                       ?
                     </span>
                   )}

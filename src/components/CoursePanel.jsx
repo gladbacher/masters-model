@@ -25,6 +25,20 @@ export default function CoursePanel({ event, weather }) {
             {event.hasCut && <span>cut: top {event.cutCount} + ties</span>}
             {event.defendingChampion && <span>holder: {event.defendingChampion}</span>}
           </div>
+          {c.override && (
+            <div className="reno-note">
+              <strong>Course changed.</strong> {c.override.note}{' '}
+              <span className="dim">
+                ({c.override.source}; ESPN still lists par {c.override.espnPar}/
+                {c.override.espnYards?.toLocaleString()} yds — overridden here, verified{' '}
+                {c.override.verifiedOn}.
+                {c.override.historyValidFrom
+                  ? ` Course history before ${c.override.historyValidFrom} is excluded.`
+                  : ''}
+                )
+              </span>
+            </div>
+          )}
         </div>
       )}
       {weather?.tooFarOut && (

@@ -2,6 +2,8 @@
 // five major tours with live hole-by-hole scoring. Undocumented, so the
 // normalizer below is defensive about missing fields.
 
+import { findCourseOverride } from '../data/courseOverrides.js'
+
 export const TOURS = [
   { id: 'pga', label: 'PGA Tour' },
   { id: 'eur', label: 'DP World' },
@@ -142,21 +144,45 @@ export async function fetchLivRoster() {
 }
 
 // Course profile from the event payload (available well before play starts).
+// A curated override wins over ESPN's card when a renovation has changed the
+// course and ESPN is still serving the old one (see data/courseOverrides.js).
 function parseCourse(ev) {
   const c = (ev.courses ?? []).find((x) => x.host) ?? ev.courses?.[0]
   if (!c) return null
-  const holes = (c.holes ?? [])
-    .filter((h) => h.shotsToPar >= 3 && h.totalYards > 50)
-    .map((h) => ({ number: h.number, par: h.shotsToPar, yards: h.totalYards }))
+
+  const seasonYear = ev.date ? new Date(ev.date).getFullYear() : null
+  const override = findCourseOverride(c.name, seasonYear)
+  const src = override
+    ? { ...override.course, holes: override.course.holes }
+    : {
+        name: c.name ?? null,
+        par: c.shotsToPar ?? null,
+        yards: c.totalYards ?? null,
+        holes: (c.holes ?? [])
+          .filter((h) => h.shotsToPar >= 3 && h.totalYards > 50)
+          .map((h) => ({ number: h.number, par: h.shotsToPar, yards: h.totalYards })),
+      }
+
+  const holes = src.holes ?? []
   const count = (par) => holes.filter((h) => h.par === par).length
   return {
-    name: c.name ?? null,
-    yards: c.totalYards ?? null,
-    par: c.shotsToPar ?? null,
+    name: src.name ?? c.name ?? null,
+    yards: src.yards ?? null,
+    par: src.par ?? null,
     par3s: count(3),
     par4s: count(4),
     par5s: count(5),
     holes,
+    override: override
+      ? {
+          source: override.source,
+          note: override.note,
+          verifiedOn: override.verifiedOn,
+          historyValidFrom: override.historyValidFrom ?? null,
+          espnPar: c.shotsToPar ?? null,
+          espnYards: c.totalYards ?? null,
+        }
+      : null,
   }
 }
 

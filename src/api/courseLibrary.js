@@ -5,8 +5,12 @@
 import { fetchCalendar, fetchEvents } from './espn'
 import { profileFromCourse } from '../model/courseProfile'
 
-const LIB_KEY = 'greenbook.courselib.v1'
+// v2: entries are time-stamped. Course cards were previously cached forever,
+// which meant a renovation (or a correction to ESPN's data) could never reach
+// a browser that had already profiled the course.
+const LIB_KEY = 'greenbook.courselib.v2'
 const WIND_KEY = 'greenbook.windclim.v1'
+const LIB_TTL = 30 * 86_400_000 // re-profile monthly
 
 function readStore(key) {
   try {
@@ -33,8 +37,8 @@ export async function getSeasonCourseLibrary(tour, onProgress) {
 
   for (const e of cal) {
     const cached = store[`${tour}:${e.id}`]
-    if (cached !== undefined) {
-      if (cached) entries.push(cached)
+    if (cached !== undefined && Date.now() - (cached?.ts ?? 0) < LIB_TTL) {
+      if (cached.record) entries.push(cached.record)
     } else {
       missing.push(e)
     }
@@ -65,7 +69,7 @@ export async function getSeasonCourseLibrary(tour, onProgress) {
         // leave uncached so it retries next time
         continue
       }
-      store[`${tour}:${e.id}`] = record // cache nulls too (no course data)
+      store[`${tour}:${e.id}`] = { ts: Date.now(), record } // cache nulls too
       if (record) entries.push(record)
       done++
       onProgress?.(done, cal.length)

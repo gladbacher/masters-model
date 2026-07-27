@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { TOURS, fetchEvents, fetchCalendar, fetchLivRoster } from './api/espn'
-import { ratePlayer, ratingsFetchedAt } from './model/ratings'
+import { ratePlayer, ratingSourceFor } from './model/ratings'
 import { simulateEvent, roundDifficultySummary } from './model/simulate'
 import { geocodeCourse, fetchForecast, weatherAdjustment } from './api/weather'
 import { fetchEventHistory, historySkillBump, normName } from './api/history'
@@ -140,7 +140,8 @@ function App() {
     setHistory(null)
     if (!event || event.state === 'post') return undefined
     let alive = true
-    fetchEventHistory(tour, event.name)
+    // a renovated course voids its own history (see data/courseOverrides.js)
+    fetchEventHistory(tour, event.name, 3, event.course?.override?.historyValidFrom ?? null)
       .then((h) => alive && setHistory(h))
       .catch(() => {})
     return () => {
@@ -181,7 +182,7 @@ function App() {
 
   const model = useMemo(() => {
     if (!event || event.players.length === 0) return null
-    const ratings = event.players.map((p) => ratePlayer(p.name))
+    const ratings = event.players.map((p) => ratePlayer(p.name, event.tour))
     const hists = event.players.map((p) => history?.get(normName(p.name)) ?? null)
     const bumps = hists.map(historySkillBump)
     const skills = ratings.map((r, i) => r.skill + bumps[i])
@@ -217,6 +218,8 @@ function App() {
       .filter((e) => e.endDate?.slice(0, 10) >= today && !currentIds.has(e.id))
       .slice(0, 10)
   }, [calendar, events])
+
+  const ratingSource = useMemo(() => ratingSourceFor(tour), [tour])
 
   const pickerValue = selectedId ? `cal:${selectedId}` : `cur:${eventIdx}`
   const onPick = (v) => {
@@ -272,7 +275,7 @@ function App() {
               {event.purse && <span>{event.purse}</span>}
               {event.players.length > 0 && <span>{event.players.length} players</span>}
               {model && (
-                <span title="players matched to an OWGR rating">
+                <span title={`players matched to a ${ratingSource.label} rating`}>
                   {model.matched}/{event.players.length} rated
                 </span>
               )}
@@ -367,6 +370,7 @@ function App() {
           oddsBusy={oddsBusy}
           oddsError={oddsError}
           onLoadOdds={loadOdds}
+          ratingSource={ratingSource}
         />
       )}
       {event && model && tab === '3balls' && (
@@ -380,7 +384,8 @@ function App() {
       {tab === 'notes' && <Notes />}
 
       <footer>
-        Data: ESPN (live scoring) + OWGR snapshot ({new Date(ratingsFetchedAt).toLocaleDateString()})
+        Data: ESPN (live scoring) + {ratingSource.label} ratings (
+        {new Date(ratingSource.fetchedAt).toLocaleDateString()})
         + Open-Meteo/Met Office models (weather) + OpenStreetMap (geocoding).
         Model estimates, not advice. Bet responsibly — begambleaware.org
       </footer>
@@ -430,11 +435,31 @@ function Notes() {
     <div className="notes">
       <h3>The model</h3>
       <p>
-        Every player gets a skill rating (strokes per round vs an average tour pro), derived
-        from OWGR points-average, nudged by their record in the last three editions of the
-        event (the Hist column — capped at ±0.35 strokes). The tournament is then simulated
-        5,000 times: each remaining round is drawn from a normal distribution around
-        <em> course difficulty + player skill</em>, with the event's actual cut rule applied.
+        Every player gets a skill rating (strokes per round vs an average pro on their tour),
+        nudged by their record in the last three editions of the event (the Hist column —
+        capped at ±0.35 strokes). The tournament is then simulated 5,000 times: each remaining
+        round is drawn from a normal distribution around <em>course difficulty + player
+        skill</em>, with the event's actual cut rule applied.
+      </p>
+      <h3>Where ratings come from</h3>
+      <p>
+        <strong>Men</strong> (PGA, DP World, Champions, LIV): OWGR points-average, mapped so
+        that favourites' win probabilities line up with major outright markets.{' '}
+        <strong>Women</strong> (LPGA): OWGR contains no women, and the Rolex rankings are
+        closed to automated access, so ratings are fitted directly from LPGA results —
+        field-strength adjusted and recency weighted. That is arguably the better method:
+        it is real strokes-vs-field rather than a points proxy, and it already reflects
+        current form. Validated against the Rolex top 10 (July 2026): the top two match
+        exactly, and seven of the top twelve appear in the Rolex top ten.
+      </p>
+      <h3>Course changes</h3>
+      <p>
+        ESPN does not reliably update its course card after a redesign — for the 2026 Rocket
+        Classic it still served the pre-renovation par-72 card months after Detroit Golf Club
+        became a par 70. Known renovations are recorded in the app and override ESPN's data,
+        with a warning on the course panel; where the change is severe enough to invalidate
+        past results at the venue, earlier editions are excluded from the history and
+        course-fit signals automatically.
       </p>
       <h3>Look-ahead & weather</h3>
       <p>
@@ -468,11 +493,15 @@ function Notes() {
       <h3>Known limitations</h3>
       <ul>
         <li>
-          Skill is an OWGR proxy — no strokes-gained splits or recent-form weighting. The
-          curve is calibrated so favorites' win probabilities match major outright markets
-          (July 2026); in-form players still rate low until a form blend is added.
+          Men's skill is an OWGR proxy — no strokes-gained splits or recent-form weighting,
+          so in-form players rate low until a form blend is added. (The women's ratings do
+          not have this problem, since they are fitted from recent results.)
         </li>
         <li>LIV players (flagged) are underrated — OWGR barely counts LIV results.</li>
+        <li>
+          Course renovations are handled only where someone has recorded them; an unrecorded
+          redesign will silently use ESPN's stale card.
+        </li>
         <li>Event history is a coarse course-fit signal; for rota events (The Open) it spans venues.</li>
         <li>Weather adjusts scoring difficulty but not tee-time waves yet (no draw until Wed).</li>
         <li>No player-specific variance (bombers vs plodders spread differently).</li>
