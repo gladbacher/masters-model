@@ -1,3005 +1,3005 @@
 {
- "fetchedAt": "2026-07-20T14:00:00.860Z",
+ "fetchedAt": "2026-07-27T14:26:52.776Z",
  "players": [
   {
    "rank": 1,
    "name": "Scottie Scheffler",
    "country": "USA",
-   "pointsAverage": 16.38
+   "pointsAverage": 16.3399
   },
   {
    "rank": 2,
    "name": "Rory McIlroy",
    "country": "NIR",
-   "pointsAverage": 9.2577
+   "pointsAverage": 9.0834
   },
   {
    "rank": 3,
    "name": "Cameron Young",
    "country": "USA",
-   "pointsAverage": 8.3268
+   "pointsAverage": 8.2479
   },
   {
    "rank": 4,
    "name": "Matt Fitzpatrick",
    "country": "ENG",
-   "pointsAverage": 7.2011
+   "pointsAverage": 7.1238
   },
   {
    "rank": 5,
    "name": "Russell Henley",
    "country": "USA",
-   "pointsAverage": 5.7751
+   "pointsAverage": 5.6927
   },
   {
    "rank": 6,
    "name": "Tommy Fleetwood",
    "country": "ENG",
-   "pointsAverage": 5.6282
+   "pointsAverage": 5.5437
   },
   {
    "rank": 7,
    "name": "Chris Gotterup",
    "country": "USA",
-   "pointsAverage": 5.5157
+   "pointsAverage": 5.4541
   },
   {
    "rank": 8,
    "name": "Collin Morikawa",
    "country": "USA",
-   "pointsAverage": 5.3758
+   "pointsAverage": 5.2893
   },
   {
    "rank": 9,
    "name": "Wyndham Clark",
    "country": "USA",
-   "pointsAverage": 5.2486
+   "pointsAverage": 5.2202
   },
   {
    "rank": 10,
-   "name": "Justin Rose",
-   "country": "ENG",
-   "pointsAverage": 5.0578
+   "name": "Sam Burns",
+   "country": "USA",
+   "pointsAverage": 5.1121
   },
   {
    "rank": 11,
-   "name": "Sam Burns",
-   "country": "USA",
-   "pointsAverage": 5.0561
+   "name": "Justin Rose",
+   "country": "ENG",
+   "pointsAverage": 4.9822
   },
   {
    "rank": 12,
    "name": "Jon Rahm",
    "country": "ESP",
-   "pointsAverage": 4.8458
+   "pointsAverage": 4.7955
   },
   {
    "rank": 13,
    "name": "Viktor Hovland",
    "country": "NOR",
-   "pointsAverage": 4.7169
+   "pointsAverage": 4.6583
   },
   {
    "rank": 14,
    "name": "J.J. Spaun",
    "country": "USA",
-   "pointsAverage": 4.7138
+   "pointsAverage": 4.6374
   },
   {
    "rank": 15,
    "name": "Xander Schauffele",
    "country": "USA",
-   "pointsAverage": 4.543
+   "pointsAverage": 4.4735
   },
   {
    "rank": 16,
    "name": "Ludvig Aberg",
    "country": "SWE",
-   "pointsAverage": 4.3589
+   "pointsAverage": 4.2947
   },
   {
    "rank": 17,
    "name": "Robert MacIntyre",
    "country": "SCO",
-   "pointsAverage": 4.3542
+   "pointsAverage": 4.2902
   },
   {
    "rank": 18,
    "name": "Si Woo Kim",
    "country": "KOR",
-   "pointsAverage": 4.2601
+   "pointsAverage": 4.218
   },
   {
    "rank": 19,
    "name": "Ben Griffin",
    "country": "USA",
-   "pointsAverage": 4.2539
+   "pointsAverage": 4.1945
   },
   {
    "rank": 20,
    "name": "Aaron Rai",
    "country": "ENG",
-   "pointsAverage": 4.2325
+   "pointsAverage": 4.1876
   },
   {
    "rank": 21,
-   "name": "Justin Thomas",
-   "country": "USA",
-   "pointsAverage": 4.1688
+   "name": "Tyrrell Hatton",
+   "country": "ENG",
+   "pointsAverage": 4.1198
   },
   {
    "rank": 22,
-   "name": "Ryan Fox",
-   "country": "NZL",
-   "pointsAverage": 3.9166
+   "name": "Justin Thomas",
+   "country": "USA",
+   "pointsAverage": 4.0939
   },
   {
    "rank": 23,
-   "name": "Tyrrell Hatton",
-   "country": "ENG",
-   "pointsAverage": 3.8641
+   "name": "Ryan Fox",
+   "country": "NZL",
+   "pointsAverage": 3.8845
   },
   {
    "rank": 24,
    "name": "Ryan Gerard",
    "country": "USA",
-   "pointsAverage": 3.6144
+   "pointsAverage": 3.5743
   },
   {
    "rank": 25,
-   "name": "Sepp Straka",
-   "country": "AUT",
-   "pointsAverage": 3.6001
+   "name": "Hideki Matsuyama",
+   "country": "JPN",
+   "pointsAverage": 3.5335
   },
   {
    "rank": 26,
-   "name": "Alex Noren",
-   "country": "SWE",
-   "pointsAverage": 3.5674
+   "name": "Sepp Straka",
+   "country": "AUT",
+   "pointsAverage": 3.5307
   },
   {
    "rank": 27,
-   "name": "Kristoffer Reitan",
-   "country": "NOR",
-   "pointsAverage": 3.5095
+   "name": "Alex Noren",
+   "country": "SWE",
+   "pointsAverage": 3.5186
   },
   {
    "rank": 28,
-   "name": "Min Woo Lee",
-   "country": "AUS",
-   "pointsAverage": 3.4791
+   "name": "Kristoffer Reitan",
+   "country": "NOR",
+   "pointsAverage": 3.4788
   },
   {
    "rank": 29,
-   "name": "Patrick Reed",
-   "country": "USA",
-   "pointsAverage": 3.4443
+   "name": "Min Woo Lee",
+   "country": "AUS",
+   "pointsAverage": 3.4371
   },
   {
    "rank": 30,
-   "name": "Hideki Matsuyama",
-   "country": "JPN",
-   "pointsAverage": 3.4362
+   "name": "Patrick Reed",
+   "country": "USA",
+   "pointsAverage": 3.3944
   },
   {
    "rank": 31,
    "name": "Jacob Bridgeman",
    "country": "USA",
-   "pointsAverage": 3.4234
+   "pointsAverage": 3.3746
   },
   {
    "rank": 32,
    "name": "Akshay Bhatia",
    "country": "USA",
-   "pointsAverage": 3.3535
+   "pointsAverage": 3.3712
   },
   {
    "rank": 33,
-   "name": "Harris English",
+   "name": "Bryson DeChambeau",
    "country": "USA",
-   "pointsAverage": 3.2199
+   "pointsAverage": 3.191
   },
   {
    "rank": 34,
-   "name": "Tom Kim",
-   "country": "KOR",
-   "pointsAverage": 3.1821
+   "name": "Harris English",
+   "country": "USA",
+   "pointsAverage": 3.1584
   },
   {
    "rank": 35,
-   "name": "J.T. Poston",
-   "country": "USA",
-   "pointsAverage": 3.1009
+   "name": "Tom Kim",
+   "country": "KOR",
+   "pointsAverage": 3.1528
   },
   {
    "rank": 36,
-   "name": "Bryson DeChambeau",
+   "name": "J.T. Poston",
    "country": "USA",
-   "pointsAverage": 3.0219
+   "pointsAverage": 3.1349
   },
   {
    "rank": 37,
    "name": "Kurt Kitayama",
    "country": "USA",
-   "pointsAverage": 2.9935
+   "pointsAverage": 2.9994
   },
   {
    "rank": 38,
    "name": "Nicolai Hojgaard",
    "country": "DNK",
-   "pointsAverage": 2.9353
+   "pointsAverage": 2.9024
   },
   {
    "rank": 39,
    "name": "Patrick Cantlay",
    "country": "USA",
-   "pointsAverage": 2.8711
+   "pointsAverage": 2.8252
   },
   {
    "rank": 40,
    "name": "Bud Cauley",
    "country": "USA",
-   "pointsAverage": 2.7344
+   "pointsAverage": 2.7665
   },
   {
    "rank": 41,
    "name": "Rickie Fowler",
    "country": "USA",
-   "pointsAverage": 2.7239
+   "pointsAverage": 2.6942
   },
   {
    "rank": 42,
    "name": "Maverick McNealy",
    "country": "USA",
-   "pointsAverage": 2.6696
+   "pointsAverage": 2.6469
   },
   {
    "rank": 43,
-   "name": "Keegan Bradley",
+   "name": "Gary Woodland",
    "country": "USA",
-   "pointsAverage": 2.6021
+   "pointsAverage": 2.6393
   },
   {
    "rank": 44,
-   "name": "Gary Woodland",
+   "name": "Keegan Bradley",
    "country": "USA",
-   "pointsAverage": 2.5544
+   "pointsAverage": 2.5994
   },
   {
    "rank": 45,
    "name": "Alex Smalley",
    "country": "USA",
-   "pointsAverage": 2.5407
+   "pointsAverage": 2.5205
   },
   {
    "rank": 46,
-   "name": "Jake Knapp",
-   "country": "USA",
-   "pointsAverage": 2.3663
+   "name": "Lucas Herbert",
+   "country": "AUS",
+   "pointsAverage": 2.4386
   },
   {
    "rank": 47,
-   "name": "Shane Lowry",
-   "country": "IRL",
-   "pointsAverage": 2.359
+   "name": "Jake Knapp",
+   "country": "USA",
+   "pointsAverage": 2.436
   },
   {
    "rank": 48,
-   "name": "Corey Conners",
-   "country": "CAN",
-   "pointsAverage": 2.2764
+   "name": "Shane Lowry",
+   "country": "IRL",
+   "pointsAverage": 2.3128
   },
   {
    "rank": 49,
    "name": "Adam Scott",
    "country": "AUS",
-   "pointsAverage": 2.2556
+   "pointsAverage": 2.2226
   },
   {
    "rank": 50,
-   "name": "Marco Penge",
-   "country": "ENG",
-   "pointsAverage": 2.245
+   "name": "Corey Conners",
+   "country": "CAN",
+   "pointsAverage": 2.2214
   },
   {
    "rank": 51,
-   "name": "Joaquin Niemann",
-   "country": "CHL",
-   "pointsAverage": 2.1627
+   "name": "Marco Penge",
+   "country": "ENG",
+   "pointsAverage": 2.2083
   },
   {
    "rank": 52,
-   "name": "Samuel Stevens",
-   "country": "USA",
-   "pointsAverage": 2.1623
+   "name": "Joaquin Niemann",
+   "country": "CHL",
+   "pointsAverage": 2.1446
   },
   {
    "rank": 53,
-   "name": "Daniel Berger",
+   "name": "Samuel Stevens",
    "country": "USA",
-   "pointsAverage": 2.1317
+   "pointsAverage": 2.1404
   },
   {
    "rank": 54,
-   "name": "Nicolas Echavarria",
-   "country": "COL",
-   "pointsAverage": 2.1075
+   "name": "Daniel Berger",
+   "country": "USA",
+   "pointsAverage": 2.1346
   },
   {
    "rank": 55,
-   "name": "Jordan Spieth",
+   "name": "Michael Kim",
    "country": "USA",
-   "pointsAverage": 2.0924
+   "pointsAverage": 2.1157
   },
   {
    "rank": 56,
-   "name": "Jason Day",
-   "country": "AUS",
-   "pointsAverage": 2.0595
+   "name": "Nicolas Echavarria",
+   "country": "COL",
+   "pointsAverage": 2.0667
   },
   {
    "rank": 57,
-   "name": "Michael Kim",
+   "name": "Jordan Spieth",
    "country": "USA",
-   "pointsAverage": 2.0524
+   "pointsAverage": 2.0604
   },
   {
    "rank": 58,
-   "name": "Pierceson Coody",
+   "name": "Brian Harman",
    "country": "USA",
-   "pointsAverage": 1.9742
+   "pointsAverage": 2.0339
   },
   {
    "rank": 59,
-   "name": "Eugenio Chacarra",
-   "country": "ESP",
-   "pointsAverage": 1.9577
+   "name": "Jason Day",
+   "country": "AUS",
+   "pointsAverage": 2.0206
   },
   {
    "rank": 60,
-   "name": "John Keefer",
+   "name": "Michael Brennan",
    "country": "USA",
-   "pointsAverage": 1.9397
+   "pointsAverage": 1.957
   },
   {
    "rank": 61,
-   "name": "Michael Brennan",
-   "country": "USA",
-   "pointsAverage": 1.9371
+   "name": "Eugenio Chacarra",
+   "country": "ESP",
+   "pointsAverage": 1.9425
   },
   {
    "rank": 62,
-   "name": "Ryo Hisatsune",
-   "country": "JPN",
-   "pointsAverage": 1.92
+   "name": "Pierceson Coody",
+   "country": "USA",
+   "pointsAverage": 1.9355
   },
   {
    "rank": 63,
-   "name": "Casey Jarvis",
-   "country": "ZAF",
-   "pointsAverage": 1.9001
+   "name": "John Keefer",
+   "country": "USA",
+   "pointsAverage": 1.9083
   },
   {
    "rank": 64,
-   "name": "Matt McCarty",
-   "country": "USA",
-   "pointsAverage": 1.8827
+   "name": "Casey Jarvis",
+   "country": "ZAF",
+   "pointsAverage": 1.8988
   },
   {
    "rank": 65,
-   "name": "Alex Fitzpatrick",
-   "country": "ENG",
-   "pointsAverage": 1.8747
+   "name": "Ryo Hisatsune",
+   "country": "JPN",
+   "pointsAverage": 1.8952
   },
   {
    "rank": 66,
-   "name": "Brian Harman",
-   "country": "USA",
-   "pointsAverage": 1.8718
+   "name": "Alex Fitzpatrick",
+   "country": "ENG",
+   "pointsAverage": 1.8622
   },
   {
    "rank": 67,
-   "name": "David Puig",
-   "country": "ESP",
-   "pointsAverage": 1.8281
+   "name": "Matt McCarty",
+   "country": "USA",
+   "pointsAverage": 1.8512
   },
   {
    "rank": 68,
    "name": "Michael Thorbjornsen",
    "country": "USA",
-   "pointsAverage": 1.8187
+   "pointsAverage": 1.8321
   },
   {
    "rank": 69,
-   "name": "Lucas Herbert",
-   "country": "AUS",
-   "pointsAverage": 1.8021
+   "name": "David Puig",
+   "country": "ESP",
+   "pointsAverage": 1.8012
   },
   {
    "rank": 70,
-   "name": "Nick Taylor",
-   "country": "CAN",
-   "pointsAverage": 1.7922
+   "name": "Eric Cole",
+   "country": "USA",
+   "pointsAverage": 1.7695
   },
   {
    "rank": 71,
-   "name": "Eric Cole",
+   "name": "Keith Mitchell",
    "country": "USA",
-   "pointsAverage": 1.7878
+   "pointsAverage": 1.7644
   },
   {
    "rank": 72,
-   "name": "Matt Wallace",
-   "country": "ENG",
-   "pointsAverage": 1.7754
+   "name": "Nick Taylor",
+   "country": "CAN",
+   "pointsAverage": 1.7606
   },
   {
    "rank": 73,
-   "name": "Keith Mitchell",
+   "name": "Jackson Koivun",
    "country": "USA",
-   "pointsAverage": 1.7621
+   "pointsAverage": 1.7544
   },
   {
    "rank": 74,
-   "name": "Andrew Novak",
-   "country": "USA",
-   "pointsAverage": 1.7461
+   "name": "Matt Wallace",
+   "country": "ENG",
+   "pointsAverage": 1.7524
   },
   {
    "rank": 75,
-   "name": "Max Homa",
+   "name": "Andrew Novak",
    "country": "USA",
-   "pointsAverage": 1.7179
+   "pointsAverage": 1.7106
   },
   {
    "rank": 76,
    "name": "Jordan Smith",
    "country": "ENG",
-   "pointsAverage": 1.705
+   "pointsAverage": 1.7045
   },
   {
    "rank": 77,
-   "name": "Sungjae Im",
-   "country": "KOR",
-   "pointsAverage": 1.7006
+   "name": "Rasmus Neergaard-Petersen",
+   "country": "DNK",
+   "pointsAverage": 1.6784
   },
   {
    "rank": 78,
-   "name": "Sami Valimaki",
-   "country": "FIN",
-   "pointsAverage": 1.6564
+   "name": "Max Homa",
+   "country": "USA",
+   "pointsAverage": 1.6663
   },
   {
    "rank": 79,
-   "name": "Rasmus Neergaard-Petersen",
-   "country": "DNK",
-   "pointsAverage": 1.6533
+   "name": "Sungjae Im",
+   "country": "KOR",
+   "pointsAverage": 1.6649
   },
   {
    "rank": 80,
-   "name": "Thomas Detry",
-   "country": "BEL",
-   "pointsAverage": 1.6248
+   "name": "Sami Valimaki",
+   "country": "FIN",
+   "pointsAverage": 1.6281
   },
   {
    "rank": 81,
-   "name": "Matti Schmid",
-   "country": "DEU",
-   "pointsAverage": 1.6141
+   "name": "Sahith Theegala",
+   "country": "USA",
+   "pointsAverage": 1.6114
   },
   {
    "rank": 82,
-   "name": "Sahith Theegala",
-   "country": "USA",
-   "pointsAverage": 1.6054
+   "name": "Thomas Detry",
+   "country": "BEL",
+   "pointsAverage": 1.5932
   },
   {
    "rank": 83,
-   "name": "Harry Hall",
-   "country": "ENG",
-   "pointsAverage": 1.6021
+   "name": "Max Greyserman",
+   "country": "USA",
+   "pointsAverage": 1.5844
   },
   {
    "rank": 84,
-   "name": "Steven Fisk",
-   "country": "USA",
-   "pointsAverage": 1.5945
+   "name": "Matti Schmid",
+   "country": "DEU",
+   "pointsAverage": 1.5837
   },
   {
    "rank": 85,
-   "name": "Max Greyserman",
+   "name": "Steven Fisk",
    "country": "USA",
-   "pointsAverage": 1.5888
+   "pointsAverage": 1.5783
   },
   {
    "rank": 86,
-   "name": "McClure Meissner",
-   "country": "USA",
-   "pointsAverage": 1.5812
+   "name": "Harry Hall",
+   "country": "ENG",
+   "pointsAverage": 1.575
   },
   {
    "rank": 87,
-   "name": "Aldrich Potgieter",
-   "country": "ZAF",
-   "pointsAverage": 1.5789
+   "name": "McClure Meissner",
+   "country": "USA",
+   "pointsAverage": 1.5627
   },
   {
    "rank": 88,
-   "name": "Jayden Schaper",
+   "name": "Aldrich Potgieter",
    "country": "ZAF",
-   "pointsAverage": 1.5395
+   "pointsAverage": 1.5531
   },
   {
    "rank": 89,
-   "name": "Taylor Pendrith",
-   "country": "CAN",
-   "pointsAverage": 1.496
+   "name": "Jayden Schaper",
+   "country": "ZAF",
+   "pointsAverage": 1.5151
   },
   {
    "rank": 90,
-   "name": "Lucas Glover",
+   "name": "Denny McCarthy",
    "country": "USA",
-   "pointsAverage": 1.4853
+   "pointsAverage": 1.5038
   },
   {
    "rank": 91,
-   "name": "Rasmus Hojgaard",
-   "country": "DNK",
-   "pointsAverage": 1.472
+   "name": "John Parry",
+   "country": "ENG",
+   "pointsAverage": 1.4742
   },
   {
    "rank": 92,
-   "name": "John Parry",
-   "country": "ENG",
-   "pointsAverage": 1.4614
+   "name": "Taylor Pendrith",
+   "country": "CAN",
+   "pointsAverage": 1.4676
   },
   {
    "rank": 93,
-   "name": "Shaun Norris",
-   "country": "ZAF",
-   "pointsAverage": 1.4399
+   "name": "Lucas Glover",
+   "country": "USA",
+   "pointsAverage": 1.4403
   },
   {
    "rank": 94,
-   "name": "Keita Nakajima",
-   "country": "JPN",
-   "pointsAverage": 1.4291
+   "name": "Shaun Norris",
+   "country": "ZAF",
+   "pointsAverage": 1.4193
   },
   {
    "rank": 95,
-   "name": "Patrick Rodgers",
-   "country": "USA",
-   "pointsAverage": 1.419
+   "name": "Rasmus Hojgaard",
+   "country": "DNK",
+   "pointsAverage": 1.4088
   },
   {
    "rank": 96,
    "name": "Andrew Putnam",
    "country": "USA",
-   "pointsAverage": 1.4149
+   "pointsAverage": 1.3949
   },
   {
    "rank": 97,
-   "name": "Blades Brown",
+   "name": "Patrick Rodgers",
    "country": "USA",
-   "pointsAverage": 1.3589
+   "pointsAverage": 1.3937
   },
   {
    "rank": 98,
-   "name": "Christiaan Bezuidenhout",
-   "country": "ZAF",
-   "pointsAverage": 1.3564
+   "name": "Blades Brown",
+   "country": "USA",
+   "pointsAverage": 1.3902
   },
   {
    "rank": 99,
-   "name": "Ricky Castillo",
-   "country": "USA",
-   "pointsAverage": 1.3546
+   "name": "Christiaan Bezuidenhout",
+   "country": "ZAF",
+   "pointsAverage": 1.3845
   },
   {
    "rank": 100,
-   "name": "Max McGreevy",
-   "country": "USA",
-   "pointsAverage": 1.3373
+   "name": "Keita Nakajima",
+   "country": "JPN",
+   "pointsAverage": 1.3813
   },
   {
    "rank": 101,
-   "name": "Stephan Jaeger",
-   "country": "DEU",
-   "pointsAverage": 1.3252
+   "name": "Emiliano Grillo",
+   "country": "ARG",
+   "pointsAverage": 1.358
   },
   {
    "rank": 102,
-   "name": "Sudarshan Yellamaraju",
-   "country": "CAN",
-   "pointsAverage": 1.3238
+   "name": "Ricky Castillo",
+   "country": "USA",
+   "pointsAverage": 1.3578
   },
   {
    "rank": 103,
-   "name": "Denny McCarthy",
-   "country": "USA",
-   "pointsAverage": 1.3007
+   "name": "Sudarshan Yellamaraju",
+   "country": "CAN",
+   "pointsAverage": 1.3075
   },
   {
    "rank": 104,
-   "name": "Jackson Suber",
+   "name": "Austin Smotherman",
    "country": "USA",
-   "pointsAverage": 1.2913
+   "pointsAverage": 1.3015
   },
   {
    "rank": 105,
-   "name": "Garrick Higgo",
-   "country": "ZAF",
-   "pointsAverage": 1.2864
+   "name": "Jackson Suber",
+   "country": "USA",
+   "pointsAverage": 1.2801
   },
   {
    "rank": 106,
-   "name": "Daniel Hillier",
-   "country": "NZL",
-   "pointsAverage": 1.2821
+   "name": "Stephan Jaeger",
+   "country": "DEU",
+   "pointsAverage": 1.2765
   },
   {
    "rank": 107,
-   "name": "Austin Smotherman",
+   "name": "Max McGreevy",
    "country": "USA",
-   "pointsAverage": 1.2818
+   "pointsAverage": 1.2734
   },
   {
    "rank": 108,
    "name": "Kota Kaneko",
    "country": "JPN",
-   "pointsAverage": 1.2787
+   "pointsAverage": 1.2685
   },
   {
    "rank": 109,
    "name": "Haotong Li",
    "country": "CHN",
-   "pointsAverage": 1.2774
+   "pointsAverage": 1.267
   },
   {
    "rank": 110,
-   "name": "Richard Hoey",
-   "country": "PHL",
-   "pointsAverage": 1.272
+   "name": "Garrick Higgo",
+   "country": "ZAF",
+   "pointsAverage": 1.263
   },
   {
    "rank": 111,
-   "name": "Brooks Koepka",
-   "country": "USA",
-   "pointsAverage": 1.2531
+   "name": "Daniel Hillier",
+   "country": "NZL",
+   "pointsAverage": 1.2623
   },
   {
    "rank": 112,
-   "name": "David Lipsky",
-   "country": "USA",
-   "pointsAverage": 1.2516
+   "name": "Richard Hoey",
+   "country": "PHL",
+   "pointsAverage": 1.2593
   },
   {
    "rank": 113,
-   "name": "Emiliano Grillo",
-   "country": "ARG",
-   "pointsAverage": 1.2345
+   "name": "Brooks Koepka",
+   "country": "USA",
+   "pointsAverage": 1.2392
   },
   {
    "rank": 114,
-   "name": "Tom Hoge",
+   "name": "Ben Kohles",
    "country": "USA",
-   "pointsAverage": 1.2152
+   "pointsAverage": 1.2386
   },
   {
    "rank": 115,
-   "name": "Angel Ayora",
-   "country": "ESP",
-   "pointsAverage": 1.2151
+   "name": "David Lipsky",
+   "country": "USA",
+   "pointsAverage": 1.229
   },
   {
    "rank": 116,
-   "name": "Oliver Lindell",
-   "country": "FIN",
-   "pointsAverage": 1.212
+   "name": "Angel Ayora",
+   "country": "ESP",
+   "pointsAverage": 1.1993
   },
   {
    "rank": 117,
-   "name": "Hennie Du Plessis",
-   "country": "ZAF",
-   "pointsAverage": 1.2036
+   "name": "Oliver Lindell",
+   "country": "FIN",
+   "pointsAverage": 1.1985
   },
   {
    "rank": 118,
-   "name": "Chris Kirk",
+   "name": "Tom Hoge",
    "country": "USA",
-   "pointsAverage": 1.2029
+   "pointsAverage": 1.1957
   },
   {
    "rank": 119,
-   "name": "Daniel Brown(Oct1994)",
-   "country": "ENG",
-   "pointsAverage": 1.1771
+   "name": "Hennie Du Plessis",
+   "country": "ZAF",
+   "pointsAverage": 1.1946
   },
   {
    "rank": 120,
-   "name": "Kevin Roy",
+   "name": "Chris Kirk",
    "country": "USA",
-   "pointsAverage": 1.1596
+   "pointsAverage": 1.1939
   },
   {
    "rank": 121,
-   "name": "Andy Sullivan",
-   "country": "ENG",
-   "pointsAverage": 1.1468
+   "name": "Kevin Roy",
+   "country": "USA",
+   "pointsAverage": 1.1773
   },
   {
    "rank": 122,
-   "name": "Tony Finau",
+   "name": "Lee Hodges",
    "country": "USA",
-   "pointsAverage": 1.1444
+   "pointsAverage": 1.1729
   },
   {
    "rank": 123,
-   "name": "Brandt Snedeker",
+   "name": "Chandler Blanchet",
    "country": "USA",
-   "pointsAverage": 1.1371
+   "pointsAverage": 1.1561
   },
   {
    "rank": 124,
-   "name": "Jose Luis Ballester",
-   "country": "ESP",
-   "pointsAverage": 1.1362
+   "name": "Daniel Brown(Oct1994)",
+   "country": "ENG",
+   "pointsAverage": 1.1546
   },
   {
    "rank": 125,
-   "name": "Lee Hodges",
+   "name": "Doc Redman",
    "country": "USA",
-   "pointsAverage": 1.1331
+   "pointsAverage": 1.1443
   },
   {
    "rank": 126,
-   "name": "Chandler Blanchet",
-   "country": "USA",
-   "pointsAverage": 1.1299
+   "name": "Cameron Smith",
+   "country": "AUS",
+   "pointsAverage": 1.1441
   },
   {
    "rank": 127,
-   "name": "Doc Redman",
-   "country": "USA",
-   "pointsAverage": 1.1293
+   "name": "Chun-an Yu",
+   "country": "TWN",
+   "pointsAverage": 1.134
   },
   {
    "rank": 128,
-   "name": "Ben Kohles",
-   "country": "USA",
-   "pointsAverage": 1.1288
+   "name": "Andy Sullivan",
+   "country": "ENG",
+   "pointsAverage": 1.1299
   },
   {
    "rank": 129,
-   "name": "William Mouw",
+   "name": "Brandt Snedeker",
    "country": "USA",
-   "pointsAverage": 1.1101
+   "pointsAverage": 1.1277
   },
   {
    "rank": 130,
-   "name": "Elvis Smylie",
-   "country": "AUS",
-   "pointsAverage": 1.1074
+   "name": "Tony Finau",
+   "country": "USA",
+   "pointsAverage": 1.1242
   },
   {
    "rank": 131,
-   "name": "Richard Sterne",
-   "country": "ZAF",
-   "pointsAverage": 1.0964
+   "name": "Jose Luis Ballester",
+   "country": "ESP",
+   "pointsAverage": 1.1237
   },
   {
    "rank": 132,
-   "name": "Chun-an Yu",
-   "country": "TWN",
-   "pointsAverage": 1.0917
+   "name": "Chandler Phillips",
+   "country": "USA",
+   "pointsAverage": 1.1026
   },
   {
    "rank": 133,
-   "name": "Adrien Saddier",
-   "country": "FRA",
-   "pointsAverage": 1.0821
+   "name": "William Mouw",
+   "country": "USA",
+   "pointsAverage": 1.0907
   },
   {
    "rank": 134,
-   "name": "Mikael Lindberg",
-   "country": "SWE",
-   "pointsAverage": 1.0738
+   "name": "Elvis Smylie",
+   "country": "AUS",
+   "pointsAverage": 1.0882
   },
   {
    "rank": 135,
-   "name": "Jacob Skov Olesen",
-   "country": "DNK",
-   "pointsAverage": 1.0684
+   "name": "Richard Sterne",
+   "country": "ZAF",
+   "pointsAverage": 1.0878
   },
   {
    "rank": 136,
-   "name": "Mark Hubbard",
+   "name": "Davis Thompson",
    "country": "USA",
-   "pointsAverage": 1.0659
+   "pointsAverage": 1.0823
   },
   {
    "rank": 137,
-   "name": "Tom McKibbin",
-   "country": "NIR",
-   "pointsAverage": 1.0603
+   "name": "Mark Hubbard",
+   "country": "USA",
+   "pointsAverage": 1.0814
   },
   {
    "rank": 138,
-   "name": "Calum Hill",
-   "country": "SCO",
-   "pointsAverage": 1.0293
+   "name": "Mikael Lindberg",
+   "country": "SWE",
+   "pointsAverage": 1.0653
   },
   {
    "rank": 139,
-   "name": "Nacho Elvira",
-   "country": "ESP",
-   "pointsAverage": 1.0227
+   "name": "Adrien Saddier",
+   "country": "FRA",
+   "pointsAverage": 1.061
   },
   {
    "rank": 140,
-   "name": "Brian Campbell",
-   "country": "USA",
-   "pointsAverage": 1.0226
+   "name": "Jacob Skov Olesen",
+   "country": "DNK",
+   "pointsAverage": 1.0563
   },
   {
    "rank": 141,
-   "name": "Mackenzie Hughes",
-   "country": "CAN",
-   "pointsAverage": 1.0119
+   "name": "Ross Steelman",
+   "country": "USA",
+   "pointsAverage": 1.0538
   },
   {
    "rank": 142,
-   "name": "Cameron Smith",
-   "country": "AUS",
-   "pointsAverage": 1.0012
+   "name": "Zac Blair",
+   "country": "USA",
+   "pointsAverage": 1.0263
   },
   {
    "rank": 143,
    "name": "Laurie Canter",
    "country": "ENG",
-   "pointsAverage": 0.9996
+   "pointsAverage": 1.0246
   },
   {
    "rank": 144,
-   "name": "JC Ritchie",
-   "country": "ZAF",
-   "pointsAverage": 0.9863
+   "name": "Tom McKibbin",
+   "country": "NIR",
+   "pointsAverage": 1.0166
   },
   {
    "rank": 145,
-   "name": "Travis Smyth",
-   "country": "AUS",
-   "pointsAverage": 0.9844
+   "name": "Calum Hill",
+   "country": "SCO",
+   "pointsAverage": 1.014
   },
   {
    "rank": 146,
-   "name": "Victor Perez",
-   "country": "FRA",
-   "pointsAverage": 0.9809
+   "name": "Mackenzie Hughes",
+   "country": "CAN",
+   "pointsAverage": 1.0135
   },
   {
    "rank": 147,
-   "name": "Marcus Armitage",
-   "country": "ENG",
-   "pointsAverage": 0.9741
+   "name": "Nacho Elvira",
+   "country": "ESP",
+   "pointsAverage": 1.0091
   },
   {
    "rank": 148,
-   "name": "Davis Thompson",
+   "name": "Brian Campbell",
    "country": "USA",
-   "pointsAverage": 0.974
+   "pointsAverage": 0.9994
   },
   {
    "rank": 149,
-   "name": "Taylor Moore",
-   "country": "USA",
-   "pointsAverage": 0.9739
+   "name": "JC Ritchie",
+   "country": "ZAF",
+   "pointsAverage": 0.973
   },
   {
    "rank": 150,
-   "name": "Thorbjorn Olesen",
-   "country": "DNK",
-   "pointsAverage": 0.9708
+   "name": "Ian Holt",
+   "country": "USA",
+   "pointsAverage": 0.9718
   },
   {
    "rank": 151,
-   "name": "Seonghyeon Kim",
-   "country": "KOR",
-   "pointsAverage": 0.9667
+   "name": "Michael Hollick",
+   "country": "ZAF",
+   "pointsAverage": 0.9687
   },
   {
    "rank": 152,
-   "name": "Ian Holt",
-   "country": "USA",
-   "pointsAverage": 0.963
+   "name": "Marcus Armitage",
+   "country": "ENG",
+   "pointsAverage": 0.9607
   },
   {
    "rank": 153,
-   "name": "Michael Hollick",
-   "country": "ZAF",
-   "pointsAverage": 0.9555
+   "name": "Taylor Moore",
+   "country": "USA",
+   "pointsAverage": 0.9563
   },
   {
    "rank": 154,
-   "name": "Dan Bradbury",
-   "country": "ENG",
-   "pointsAverage": 0.9481
+   "name": "Seonghyeon Kim",
+   "country": "KOR",
+   "pointsAverage": 0.9511
   },
   {
    "rank": 155,
-   "name": "Zac Blair",
+   "name": "Zachary Bauchou",
    "country": "USA",
-   "pointsAverage": 0.9468
+   "pointsAverage": 0.9496
   },
   {
    "rank": 156,
-   "name": "Cole Sherwood",
-   "country": "USA",
-   "pointsAverage": 0.9459
+   "name": "Victor Perez",
+   "country": "FRA",
+   "pointsAverage": 0.9469
   },
   {
    "rank": 157,
-   "name": "Bernd Wiesberger",
-   "country": "AUT",
-   "pointsAverage": 0.9429
+   "name": "Travis Smyth",
+   "country": "AUS",
+   "pointsAverage": 0.9464
   },
   {
    "rank": 158,
-   "name": "Zachary Bauchou",
-   "country": "USA",
-   "pointsAverage": 0.9404
+   "name": "Thorbjorn Olesen",
+   "country": "DNK",
+   "pointsAverage": 0.9446
   },
   {
    "rank": 159,
-   "name": "Scott Vincent",
-   "country": "ZWE",
-   "pointsAverage": 0.931
+   "name": "Cole Sherwood",
+   "country": "USA",
+   "pointsAverage": 0.9396
   },
   {
    "rank": 160,
-   "name": "Ross Steelman",
-   "country": "USA",
-   "pointsAverage": 0.9225
+   "name": "Bernd Wiesberger",
+   "country": "AUT",
+   "pointsAverage": 0.9351
   },
   {
    "rank": 161,
-   "name": "Takumi Kanaya",
-   "country": "JPN",
-   "pointsAverage": 0.9188
+   "name": "Dan Bradbury",
+   "country": "ENG",
+   "pointsAverage": 0.9311
   },
   {
    "rank": 162,
-   "name": "Doug Ghim",
-   "country": "USA",
-   "pointsAverage": 0.9151
+   "name": "Carlos Ortiz",
+   "country": "MEX",
+   "pointsAverage": 0.924
   },
   {
    "rank": 163,
-   "name": "Davis Bryant",
+   "name": "Beau Hossler",
    "country": "USA",
-   "pointsAverage": 0.9137
+   "pointsAverage": 0.909
   },
   {
    "rank": 164,
-   "name": "Beau Hossler",
+   "name": "Billy Horschel",
    "country": "USA",
-   "pointsAverage": 0.9113
+   "pointsAverage": 0.9082
   },
   {
    "rank": 165,
-   "name": "Joakim Lagergren",
-   "country": "SWE",
-   "pointsAverage": 0.9013
+   "name": "Davis Bryant",
+   "country": "USA",
+   "pointsAverage": 0.9052
   },
   {
    "rank": 166,
-   "name": "Jesper Svensson",
-   "country": "SWE",
-   "pointsAverage": 0.8945
+   "name": "Takumi Kanaya",
+   "country": "JPN",
+   "pointsAverage": 0.9032
   },
   {
    "rank": 167,
    "name": "Davis Lamb",
    "country": "USA",
-   "pointsAverage": 0.8873
+   "pointsAverage": 0.9022
   },
   {
    "rank": 168,
-   "name": "Chandler Phillips",
-   "country": "USA",
-   "pointsAverage": 0.8853
+   "name": "Jesper Svensson",
+   "country": "SWE",
+   "pointsAverage": 0.8987
   },
   {
    "rank": 169,
-   "name": "Thriston Lawrence",
-   "country": "ZAF",
-   "pointsAverage": 0.8843
+   "name": "Doug Ghim",
+   "country": "USA",
+   "pointsAverage": 0.8986
   },
   {
    "rank": 170,
-   "name": "Sergio Garcia",
-   "country": "ESP",
-   "pointsAverage": 0.8793
+   "name": "Scott Vincent",
+   "country": "ZWE",
+   "pointsAverage": 0.8961
   },
   {
    "rank": 171,
-   "name": "Martin Couvra",
-   "country": "FRA",
-   "pointsAverage": 0.8791
+   "name": "Joakim Lagergren",
+   "country": "SWE",
+   "pointsAverage": 0.8885
   },
   {
    "rank": 172,
-   "name": "Carlos Ortiz",
-   "country": "MEX",
-   "pointsAverage": 0.8722
+   "name": "Dylan Menante",
+   "country": "USA",
+   "pointsAverage": 0.8824
   },
   {
    "rank": 173,
-   "name": "Kazuki Higa",
-   "country": "JPN",
-   "pointsAverage": 0.8719
+   "name": "Sergio Garcia",
+   "country": "ESP",
+   "pointsAverage": 0.8737
   },
   {
    "rank": 174,
-   "name": "Adrien Dumont de Chassart",
-   "country": "BEL",
-   "pointsAverage": 0.8712
+   "name": "Thriston Lawrence",
+   "country": "ZAF",
+   "pointsAverage": 0.8689
   },
   {
    "rank": 175,
-   "name": "Jhonattan Vegas",
-   "country": "VEN",
-   "pointsAverage": 0.8641
+   "name": "Martin Couvra",
+   "country": "FRA",
+   "pointsAverage": 0.863
   },
   {
    "rank": 176,
-   "name": "Billy Horschel",
-   "country": "USA",
-   "pointsAverage": 0.8586
+   "name": "Kazuki Higa",
+   "country": "JPN",
+   "pointsAverage": 0.8571
   },
   {
    "rank": 177,
-   "name": "Davis Riley",
-   "country": "USA",
-   "pointsAverage": 0.8531
+   "name": "Adrien Dumont de Chassart",
+   "country": "BEL",
+   "pointsAverage": 0.8566
   },
   {
    "rank": 178,
-   "name": "Jeremy Gandon",
-   "country": "FRA",
-   "pointsAverage": 0.8372
+   "name": "Jhonattan Vegas",
+   "country": "VEN",
+   "pointsAverage": 0.8542
   },
   {
    "rank": 179,
-   "name": "Jorge Campillo",
-   "country": "ESP",
-   "pointsAverage": 0.8357
+   "name": "Jeremy Gandon",
+   "country": "FRA",
+   "pointsAverage": 0.8359
   },
   {
    "rank": 180,
-   "name": "Matt Kuchar",
+   "name": "Davis Riley",
    "country": "USA",
-   "pointsAverage": 0.8313
+   "pointsAverage": 0.8349
   },
   {
    "rank": 181,
    "name": "Vincent Whaley",
    "country": "USA",
-   "pointsAverage": 0.8249
+   "pointsAverage": 0.8346
   },
   {
    "rank": 182,
-   "name": "Chad Ramey",
-   "country": "USA",
-   "pointsAverage": 0.8196
+   "name": "A.J. Ewart",
+   "country": "CAN",
+   "pointsAverage": 0.8297
   },
   {
    "rank": 183,
-   "name": "A.J. Ewart",
-   "country": "CAN",
-   "pointsAverage": 0.8179
+   "name": "Jorge Campillo",
+   "country": "ESP",
+   "pointsAverage": 0.8245
   },
   {
    "rank": 184,
-   "name": "Adam Schenk",
-   "country": "USA",
-   "pointsAverage": 0.8081
+   "name": "Seamus Power",
+   "country": "IRL",
+   "pointsAverage": 0.8149
   },
   {
    "rank": 185,
-   "name": "Joe Highsmith",
+   "name": "Matt Kuchar",
    "country": "USA",
-   "pointsAverage": 0.8078
+   "pointsAverage": 0.8132
   },
   {
    "rank": 186,
-   "name": "Peter Uihlein",
+   "name": "Chad Ramey",
    "country": "USA",
-   "pointsAverage": 0.8051
+   "pointsAverage": 0.806
   },
   {
    "rank": 187,
    "name": "Austin Eckroat",
    "country": "USA",
-   "pointsAverage": 0.805
+   "pointsAverage": 0.7992
   },
   {
    "rank": 188,
    "name": "Carson Young",
    "country": "USA",
-   "pointsAverage": 0.8002
+   "pointsAverage": 0.7989
   },
   {
    "rank": 189,
-   "name": "Dean Burmester",
-   "country": "ZAF",
-   "pointsAverage": 0.7867
+   "name": "Marty Dou Zecheng",
+   "country": "CHN",
+   "pointsAverage": 0.7949
   },
   {
    "rank": 190,
-   "name": "Erik van Rooyen",
-   "country": "ZAF",
-   "pointsAverage": 0.7846
+   "name": "Adam Schenk",
+   "country": "USA",
+   "pointsAverage": 0.7938
   },
   {
    "rank": 191,
-   "name": "Karl Vilips",
-   "country": "AUS",
-   "pointsAverage": 0.7751
+   "name": "Abraham Ancer",
+   "country": "MEX",
+   "pointsAverage": 0.7914
   },
   {
    "rank": 192,
-   "name": "Todd Clements",
-   "country": "ENG",
-   "pointsAverage": 0.7658
+   "name": "Peter Uihlein",
+   "country": "USA",
+   "pointsAverage": 0.7874
   },
   {
    "rank": 193,
-   "name": "Kazuma Kobori",
-   "country": "NZL",
-   "pointsAverage": 0.7654
+   "name": "Joe Highsmith",
+   "country": "USA",
+   "pointsAverage": 0.7811
   },
   {
    "rank": 194,
-   "name": "Julien Guerrier",
-   "country": "FRA",
-   "pointsAverage": 0.7574
+   "name": "Dean Burmester",
+   "country": "ZAF",
+   "pointsAverage": 0.7757
   },
   {
    "rank": 195,
-   "name": "Ewen Ferguson",
-   "country": "SCO",
-   "pointsAverage": 0.752
+   "name": "Erik van Rooyen",
+   "country": "ZAF",
+   "pointsAverage": 0.7693
   },
   {
    "rank": 196,
-   "name": "Marty Dou Zecheng",
-   "country": "CHN",
-   "pointsAverage": 0.7513
+   "name": "Karl Vilips",
+   "country": "AUS",
+   "pointsAverage": 0.7566
   },
   {
    "rank": 197,
-   "name": "Drew Nesbitt",
-   "country": "CAN",
-   "pointsAverage": 0.7448
+   "name": "Todd Clements",
+   "country": "ENG",
+   "pointsAverage": 0.7562
   },
   {
    "rank": 198,
-   "name": "Richard T. Lee",
-   "country": "CAN",
-   "pointsAverage": 0.7422
+   "name": "Kazuma Kobori",
+   "country": "NZL",
+   "pointsAverage": 0.7547
   },
   {
    "rank": 199,
-   "name": "Jay Card III",
-   "country": "USA",
-   "pointsAverage": 0.7401
+   "name": "Drew Nesbitt",
+   "country": "CAN",
+   "pointsAverage": 0.7468
   },
   {
    "rank": 200,
-   "name": "Alistair Docherty",
-   "country": "USA",
-   "pointsAverage": 0.7365
+   "name": "Julien Guerrier",
+   "country": "FRA",
+   "pointsAverage": 0.7416
   },
   {
    "rank": 201,
-   "name": "Byeong Hun An",
-   "country": "KOR",
-   "pointsAverage": 0.7348
+   "name": "Ewen Ferguson",
+   "country": "SCO",
+   "pointsAverage": 0.7407
   },
   {
    "rank": 202,
-   "name": "Stefano Mazzoli",
-   "country": "ITA",
-   "pointsAverage": 0.7273
+   "name": "Hunter Eichhorn",
+   "country": "USA",
+   "pointsAverage": 0.7305
   },
   {
    "rank": 203,
-   "name": "Seamus Power",
-   "country": "IRL",
-   "pointsAverage": 0.7254
+   "name": "Jay Card III",
+   "country": "USA",
+   "pointsAverage": 0.7295
   },
   {
    "rank": 204,
    "name": "Neal Shipley",
    "country": "USA",
-   "pointsAverage": 0.7207
+   "pointsAverage": 0.7284
   },
   {
    "rank": 205,
-   "name": "Hunter Eichhorn",
+   "name": "Alistair Docherty",
    "country": "USA",
-   "pointsAverage": 0.716
+   "pointsAverage": 0.7251
   },
   {
    "rank": 206,
-   "name": "Jackson Koivun",
+   "name": "Joel Dahmen",
    "country": "USA",
-   "pointsAverage": 0.7093
+   "pointsAverage": 0.7229
   },
   {
    "rank": 207,
-   "name": "Alejandro del Rey",
-   "country": "ESP",
-   "pointsAverage": 0.7072
+   "name": "Tommy Morrison",
+   "country": "USA",
+   "pointsAverage": 0.7224
   },
   {
    "rank": 208,
-   "name": "Doyeob Mun",
-   "country": "KOR",
-   "pointsAverage": 0.7063
+   "name": "Stefano Mazzoli",
+   "country": "ITA",
+   "pointsAverage": 0.7203
   },
   {
    "rank": 209,
-   "name": "Joel Dahmen",
-   "country": "USA",
-   "pointsAverage": 0.7044
+   "name": "Richard T. Lee",
+   "country": "CAN",
+   "pointsAverage": 0.7118
   },
   {
    "rank": 210,
-   "name": "Joost Luiten",
-   "country": "NLD",
-   "pointsAverage": 0.7037
+   "name": "Patrick Fishburn",
+   "country": "USA",
+   "pointsAverage": 0.7077
   },
   {
    "rank": 211,
-   "name": "Frederik Schott",
-   "country": "DEU",
-   "pointsAverage": 0.7026
+   "name": "Emilio Gonzalez",
+   "country": "MEX",
+   "pointsAverage": 0.7039
   },
   {
    "rank": 212,
-   "name": "Emilio Gonzalez",
-   "country": "MEX",
-   "pointsAverage": 0.7025
+   "name": "Byeong Hun An",
+   "country": "KOR",
+   "pointsAverage": 0.6984
   },
   {
    "rank": 213,
-   "name": "Anthony Kim",
-   "country": "USA",
-   "pointsAverage": 0.7016
+   "name": "Alejandro del Rey",
+   "country": "ESP",
+   "pointsAverage": 0.6969
   },
   {
    "rank": 214,
-   "name": "Abraham Ancer",
-   "country": "MEX",
-   "pointsAverage": 0.688
+   "name": "Anthony Kim",
+   "country": "USA",
+   "pointsAverage": 0.694
   },
   {
    "rank": 215,
-   "name": "Grant Forrest",
-   "country": "SCO",
-   "pointsAverage": 0.6847
+   "name": "Frederik Schott",
+   "country": "DEU",
+   "pointsAverage": 0.692
   },
   {
    "rank": 216,
-   "name": "Cameron John",
-   "country": "AUS",
-   "pointsAverage": 0.6798
+   "name": "Joost Luiten",
+   "country": "NLD",
+   "pointsAverage": 0.6919
   },
   {
    "rank": 217,
-   "name": "Dustin Johnson",
-   "country": "USA",
-   "pointsAverage": 0.6794
+   "name": "Doyeob Mun",
+   "country": "KOR",
+   "pointsAverage": 0.6839
   },
   {
    "rank": 218,
-   "name": "Dylan Menante",
+   "name": "Dustin Johnson",
    "country": "USA",
-   "pointsAverage": 0.679
+   "pointsAverage": 0.6759
   },
   {
    "rank": 219,
-   "name": "Ben Silverman",
-   "country": "CAN",
-   "pointsAverage": 0.6785
+   "name": "Cameron John",
+   "country": "AUS",
+   "pointsAverage": 0.6719
   },
   {
    "rank": 220,
-   "name": "Ding Wenyi",
-   "country": "CHN",
-   "pointsAverage": 0.6766
+   "name": "Grant Forrest",
+   "country": "SCO",
+   "pointsAverage": 0.6708
   },
   {
    "rank": 221,
-   "name": "Francesco Molinari",
-   "country": "ITA",
-   "pointsAverage": 0.6755
-  },
-  {
-   "rank": 222,
-   "name": "MJ Daffue",
-   "country": "ZAF",
-   "pointsAverage": 0.6725
-  },
-  {
-   "rank": 223,
-   "name": "John Pak",
-   "country": "USA",
-   "pointsAverage": 0.6699
-  },
-  {
-   "rank": 224,
-   "name": "Antoine Rozner",
-   "country": "FRA",
+   "name": "Ben Silverman",
+   "country": "CAN",
    "pointsAverage": 0.6691
   },
   {
+   "rank": 222,
+   "name": "Francesco Molinari",
+   "country": "ITA",
+   "pointsAverage": 0.6683
+  },
+  {
+   "rank": 223,
+   "name": "Ding Wenyi",
+   "country": "CHN",
+   "pointsAverage": 0.6667
+  },
+  {
+   "rank": 224,
+   "name": "MJ Daffue",
+   "country": "ZAF",
+   "pointsAverage": 0.6662
+  },
+  {
    "rank": 225,
-   "name": "Ugo Coussaud",
-   "country": "FRA",
-   "pointsAverage": 0.6647
+   "name": "Cooper Dossey",
+   "country": "USA",
+   "pointsAverage": 0.6649
   },
   {
    "rank": 226,
    "name": "Lanto Griffin",
    "country": "USA",
-   "pointsAverage": 0.6633
+   "pointsAverage": 0.664
   },
   {
    "rank": 227,
-   "name": "Darius Van Driel",
-   "country": "NLD",
-   "pointsAverage": 0.6619
+   "name": "John Pak",
+   "country": "USA",
+   "pointsAverage": 0.661
   },
   {
    "rank": 228,
    "name": "Yubin Jang",
    "country": "KOR",
-   "pointsAverage": 0.6617
+   "pointsAverage": 0.6564
   },
   {
    "rank": 229,
-   "name": "Oihan Guillamoundeguy",
-   "country": "FRA",
-   "pointsAverage": 0.6591
+   "name": "Sam Ryder",
+   "country": "USA",
+   "pointsAverage": 0.6554
   },
   {
    "rank": 230,
-   "name": "Patrick Fishburn",
-   "country": "USA",
-   "pointsAverage": 0.6579
+   "name": "Antoine Rozner",
+   "country": "FRA",
+   "pointsAverage": 0.6543
   },
   {
    "rank": 231,
-   "name": "Francesco Laporta",
-   "country": "ITA",
-   "pointsAverage": 0.6546
+   "name": "Ugo Coussaud",
+   "country": "FRA",
+   "pointsAverage": 0.654
   },
   {
    "rank": 232,
-   "name": "Sam Ryder",
-   "country": "USA",
-   "pointsAverage": 0.6539
+   "name": "Darius Van Driel",
+   "country": "NLD",
+   "pointsAverage": 0.6534
   },
   {
    "rank": 233,
-   "name": "Cooper Dossey",
-   "country": "USA",
-   "pointsAverage": 0.6501
+   "name": "Oihan Guillamoundeguy",
+   "country": "FRA",
+   "pointsAverage": 0.6525
   },
   {
    "rank": 234,
-   "name": "Maximilian Steinlechner",
-   "country": "AUT",
-   "pointsAverage": 0.6492
+   "name": "Francesco Laporta",
+   "country": "ITA",
+   "pointsAverage": 0.6416
   },
   {
    "rank": 235,
-   "name": "Nathan Kimsey",
-   "country": "ENG",
-   "pointsAverage": 0.6458
+   "name": "Maximilian Steinlechner",
+   "country": "AUT",
+   "pointsAverage": 0.6406
   },
   {
-   "rank": 236,
-   "name": "Marc Leishman",
-   "country": "AUS",
-   "pointsAverage": 0.6411
+   "rank": 235,
+   "name": "Michael Johnson",
+   "country": "USA",
+   "pointsAverage": 0.6406
   },
   {
    "rank": 237,
-   "name": "Ricardo Gouveia",
-   "country": "PRT",
-   "pointsAverage": 0.6369
+   "name": "Ian Gilligan",
+   "country": "USA",
+   "pointsAverage": 0.6401
   },
   {
    "rank": 238,
-   "name": "Rafa Cabrera Bello",
-   "country": "ESP",
-   "pointsAverage": 0.6353
+   "name": "Nathan Kimsey",
+   "country": "ENG",
+   "pointsAverage": 0.6379
   },
   {
    "rank": 239,
-   "name": "Alvaro Ortiz Becerra",
-   "country": "MEX",
-   "pointsAverage": 0.6318
+   "name": "Marc Leishman",
+   "country": "AUS",
+   "pointsAverage": 0.631
   },
   {
    "rank": 240,
-   "name": "Trace Crowe(Oct1996)",
-   "country": "USA",
-   "pointsAverage": 0.6284
+   "name": "Ricardo Gouveia",
+   "country": "PRT",
+   "pointsAverage": 0.6301
   },
   {
    "rank": 241,
-   "name": "Zhou Yanhan",
-   "country": "CHN",
-   "pointsAverage": 0.6269
+   "name": "Trace Crowe(Oct1996)",
+   "country": "USA",
+   "pointsAverage": 0.6289
   },
   {
    "rank": 242,
-   "name": "Taylor Montgomery",
-   "country": "USA",
-   "pointsAverage": 0.6231
+   "name": "Rafa Cabrera Bello",
+   "country": "ESP",
+   "pointsAverage": 0.6277
   },
   {
    "rank": 243,
-   "name": "Branden Grace",
-   "country": "ZAF",
-   "pointsAverage": 0.623
+   "name": "Alvaro Ortiz Becerra",
+   "country": "MEX",
+   "pointsAverage": 0.6251
   },
   {
    "rank": 244,
-   "name": "Taichi Kho",
-   "country": "HKG",
-   "pointsAverage": 0.6219
+   "name": "Thomas Ponder",
+   "country": "USA",
+   "pointsAverage": 0.6211
   },
   {
    "rank": 245,
-   "name": "Daniel Da Costa Rodrigues",
-   "country": "PRT",
-   "pointsAverage": 0.6154
+   "name": "Davis Chatfield",
+   "country": "USA",
+   "pointsAverage": 0.6195
   },
   {
    "rank": 246,
-   "name": "Michael Johnson",
-   "country": "USA",
-   "pointsAverage": 0.6123
+   "name": "Zhou Yanhan",
+   "country": "CHN",
+   "pointsAverage": 0.6185
   },
   {
    "rank": 247,
-   "name": "Jacques Kruyswijk",
-   "country": "ZAF",
-   "pointsAverage": 0.6081
+   "name": "Taichi Kho",
+   "country": "HKG",
+   "pointsAverage": 0.6161
   },
   {
    "rank": 248,
-   "name": "Daniel van Tonder",
+   "name": "Branden Grace",
    "country": "ZAF",
-   "pointsAverage": 0.6042
+   "pointsAverage": 0.6133
   },
   {
    "rank": 249,
-   "name": "Logan McAllister",
-   "country": "USA",
-   "pointsAverage": 0.5976
+   "name": "Daniel Da Costa Rodrigues",
+   "country": "PRT",
+   "pointsAverage": 0.6126
   },
   {
    "rank": 250,
-   "name": "Guido Migliozzi",
-   "country": "ITA",
-   "pointsAverage": 0.5968
+   "name": "Hank Lebioda",
+   "country": "USA",
+   "pointsAverage": 0.6073
   },
   {
    "rank": 251,
-   "name": "Nicolai Von Dellingshausen",
-   "country": "DEU",
-   "pointsAverage": 0.5906
+   "name": "Taylor Montgomery",
+   "country": "USA",
+   "pointsAverage": 0.6054
   },
   {
    "rank": 252,
-   "name": "Ian Gilligan",
-   "country": "USA",
-   "pointsAverage": 0.587
+   "name": "Jacques Kruyswijk",
+   "country": "ZAF",
+   "pointsAverage": 0.5949
   },
   {
    "rank": 253,
-   "name": "Brice Garnett",
+   "name": "Caleb Surratt",
    "country": "USA",
-   "pointsAverage": 0.5861
+   "pointsAverage": 0.5932
   },
   {
    "rank": 254,
-   "name": "Ren Yonezawa",
-   "country": "JPN",
-   "pointsAverage": 0.5855
+   "name": "Daniel van Tonder",
+   "country": "ZAF",
+   "pointsAverage": 0.592
   },
   {
    "rank": 255,
-   "name": "Chan Kim",
+   "name": "Logan McAllister",
    "country": "USA",
-   "pointsAverage": 0.5815
+   "pointsAverage": 0.5901
   },
   {
    "rank": 256,
-   "name": "Manuel Elvira",
-   "country": "ESP",
-   "pointsAverage": 0.5797
+   "name": "Guido Migliozzi",
+   "country": "ITA",
+   "pointsAverage": 0.5887
   },
   {
    "rank": 257,
-   "name": "Hank Lebioda",
-   "country": "USA",
-   "pointsAverage": 0.5745
+   "name": "Pontus Nyholm",
+   "country": "SWE",
+   "pointsAverage": 0.5845
   },
   {
    "rank": 258,
-   "name": "Paul Peterson",
-   "country": "USA",
-   "pointsAverage": 0.573
+   "name": "Tatsunori Shogenji",
+   "country": "JPN",
+   "pointsAverage": 0.5813
   },
   {
    "rank": 259,
-   "name": "Pontus Nyholm",
-   "country": "SWE",
-   "pointsAverage": 0.5661
+   "name": "Nicolai Von Dellingshausen",
+   "country": "DEU",
+   "pointsAverage": 0.5802
   },
   {
    "rank": 260,
-   "name": "Kristoffer Ventura",
-   "country": "NOR",
-   "pointsAverage": 0.5658
+   "name": "Brice Garnett",
+   "country": "USA",
+   "pointsAverage": 0.5798
   },
   {
    "rank": 261,
-   "name": "Taehoon Ok",
-   "country": "KOR",
-   "pointsAverage": 0.5633
+   "name": "Ren Yonezawa",
+   "country": "JPN",
+   "pointsAverage": 0.5769
   },
   {
    "rank": 262,
-   "name": "Thomas Ponder",
-   "country": "USA",
-   "pointsAverage": 0.5614
+   "name": "Kristoffer Ventura",
+   "country": "NOR",
+   "pointsAverage": 0.5747
   },
   {
    "rank": 263,
-   "name": "Richard Mansell",
-   "country": "ENG",
-   "pointsAverage": 0.5612
+   "name": "Manuel Elvira",
+   "country": "ESP",
+   "pointsAverage": 0.5721
   },
   {
    "rank": 264,
-   "name": "Yurav Premlall",
-   "country": "ZAF",
-   "pointsAverage": 0.5605
+   "name": "Chan Kim",
+   "country": "USA",
+   "pointsAverage": 0.571
   },
   {
    "rank": 265,
-   "name": "David Law",
-   "country": "SCO",
-   "pointsAverage": 0.5593
+   "name": "Paul Peterson",
+   "country": "USA",
+   "pointsAverage": 0.5612
   },
   {
    "rank": 266,
-   "name": "Frederic LaCroix",
-   "country": "FRA",
-   "pointsAverage": 0.5588
+   "name": "Yurav Premlall",
+   "country": "ZAF",
+   "pointsAverage": 0.5568
   },
   {
    "rank": 267,
-   "name": "Davis Chatfield",
+   "name": "Taylor Dickson",
    "country": "USA",
-   "pointsAverage": 0.5572
+   "pointsAverage": 0.5567
   },
   {
    "rank": 268,
-   "name": "David Skinns",
-   "country": "ENG",
-   "pointsAverage": 0.553
+   "name": "Taehoon Ok",
+   "country": "KOR",
+   "pointsAverage": 0.5527
   },
   {
    "rank": 269,
-   "name": "Adrian Otaegui",
-   "country": "ARE",
-   "pointsAverage": 0.5495
+   "name": "Caleb VanArragon",
+   "country": "USA",
+   "pointsAverage": 0.552
   },
   {
    "rank": 270,
-   "name": "Danny Walker",
-   "country": "USA",
-   "pointsAverage": 0.544
+   "name": "David Law",
+   "country": "SCO",
+   "pointsAverage": 0.5493
   },
   {
    "rank": 271,
-   "name": "Jeffrey Kang",
-   "country": "USA",
-   "pointsAverage": 0.543
+   "name": "Richard Mansell",
+   "country": "ENG",
+   "pointsAverage": 0.548
   },
   {
    "rank": 272,
-   "name": "Joe Dean",
-   "country": "ENG",
-   "pointsAverage": 0.5387
+   "name": "Frederic LaCroix",
+   "country": "FRA",
+   "pointsAverage": 0.5463
   },
   {
    "rank": 273,
-   "name": "Gregorio De Leo",
-   "country": "ITA",
-   "pointsAverage": 0.5351
+   "name": "Jeffrey Kang",
+   "country": "USA",
+   "pointsAverage": 0.5455
   },
   {
    "rank": 274,
-   "name": "Marcel Schneider",
-   "country": "DEU",
-   "pointsAverage": 0.5313
+   "name": "David Skinns",
+   "country": "ENG",
+   "pointsAverage": 0.5444
   },
   {
    "rank": 275,
-   "name": "Caleb VanArragon",
-   "country": "USA",
-   "pointsAverage": 0.5303
+   "name": "Adrian Otaegui",
+   "country": "ARE",
+   "pointsAverage": 0.5412
   },
   {
    "rank": 276,
-   "name": "Tatsunori Shogenji",
-   "country": "JPN",
-   "pointsAverage": 0.5298
+   "name": "Gregorio De Leo",
+   "country": "ITA",
+   "pointsAverage": 0.5404
   },
   {
    "rank": 277,
-   "name": "Taylor Dickson",
+   "name": "Danny Walker",
    "country": "USA",
-   "pointsAverage": 0.527
+   "pointsAverage": 0.5315
   },
   {
    "rank": 278,
-   "name": "Renato Paratore",
-   "country": "ITA",
-   "pointsAverage": 0.5258
+   "name": "Joe Dean",
+   "country": "ENG",
+   "pointsAverage": 0.5312
   },
   {
    "rank": 279,
-   "name": "Brandon Robinson-Thompson",
-   "country": "ENG",
-   "pointsAverage": 0.5256
+   "name": "Julien-Alexandre Sale",
+   "country": "FRA",
+   "pointsAverage": 0.5252
   },
   {
    "rank": 280,
-   "name": "Christo Lamprecht",
-   "country": "ZAF",
-   "pointsAverage": 0.5244
+   "name": "Marcel Schneider",
+   "country": "DEU",
+   "pointsAverage": 0.5228
   },
   {
    "rank": 281,
-   "name": "Adam Hadwin",
-   "country": "CAN",
-   "pointsAverage": 0.5223
+   "name": "Jorge Fernandez-Valdes",
+   "country": "ARG",
+   "pointsAverage": 0.5178
   },
   {
    "rank": 282,
    "name": "Pablo Ereno Perez",
    "country": "ESP",
-   "pointsAverage": 0.5196
-  },
-  {
-   "rank": 283,
-   "name": "Matthieu Pavon",
-   "country": "FRA",
-   "pointsAverage": 0.519
-  },
-  {
-   "rank": 284,
-   "name": "Thomas Pieters",
-   "country": "BEL",
-   "pointsAverage": 0.518
-  },
-  {
-   "rank": 285,
-   "name": "Julien-Alexandre Sale",
-   "country": "FRA",
    "pointsAverage": 0.5177
   },
   {
+   "rank": 283,
+   "name": "Renato Paratore",
+   "country": "ITA",
+   "pointsAverage": 0.5171
+  },
+  {
+   "rank": 284,
+   "name": "Sandy Scott",
+   "country": "SCO",
+   "pointsAverage": 0.5165
+  },
+  {
+   "rank": 285,
+   "name": "Brandon Robinson-Thompson",
+   "country": "ENG",
+   "pointsAverage": 0.5164
+  },
+  {
    "rank": 286,
-   "name": "Justin Lower",
-   "country": "USA",
-   "pointsAverage": 0.5172
+   "name": "Adam Hadwin",
+   "country": "CAN",
+   "pointsAverage": 0.514
   },
   {
    "rank": 287,
-   "name": "Jorge Fernandez-Valdes",
-   "country": "ARG",
-   "pointsAverage": 0.515
+   "name": "Christo Lamprecht",
+   "country": "ZAF",
+   "pointsAverage": 0.513
   },
   {
    "rank": 288,
-   "name": "Chris Wood",
-   "country": "ENG",
-   "pointsAverage": 0.5134
+   "name": "Thomas Pieters",
+   "country": "BEL",
+   "pointsAverage": 0.5107
   },
   {
    "rank": 289,
-   "name": "Sandy Scott",
-   "country": "SCO",
-   "pointsAverage": 0.5125
+   "name": "Chris Wood",
+   "country": "ENG",
+   "pointsAverage": 0.5104
   },
   {
    "rank": 290,
-   "name": "Ian Snyman",
-   "country": "ZAF",
-   "pointsAverage": 0.51
+   "name": "Matthieu Pavon",
+   "country": "FRA",
+   "pointsAverage": 0.5101
   },
   {
    "rank": 291,
-   "name": "Hayden Springer",
-   "country": "USA",
-   "pointsAverage": 0.5052
+   "name": "Thomas Rosenmueller",
+   "country": "DEU",
+   "pointsAverage": 0.5064
   },
   {
    "rank": 292,
-   "name": "Niklas Norgaard",
-   "country": "DNK",
-   "pointsAverage": 0.5024
+   "name": "Ian Snyman",
+   "country": "ZAF",
+   "pointsAverage": 0.5051
   },
   {
    "rank": 293,
-   "name": "Jeff Winther",
-   "country": "DNK",
-   "pointsAverage": 0.5022
+   "name": "John VanDerLaan",
+   "country": "USA",
+   "pointsAverage": 0.503
   },
   {
    "rank": 294,
-   "name": "Thomas Rosenmueller",
-   "country": "DEU",
-   "pointsAverage": 0.5012
+   "name": "Justin Lower",
+   "country": "USA",
+   "pointsAverage": 0.5022
   },
   {
    "rank": 295,
-   "name": "James Nicholas",
+   "name": "Noah Goodwin",
    "country": "USA",
-   "pointsAverage": 0.4999
+   "pointsAverage": 0.5012
   },
   {
    "rank": 296,
-   "name": "Luke Clanton",
-   "country": "USA",
-   "pointsAverage": 0.4993
+   "name": "Ryo Ishikawa",
+   "country": "JPN",
+   "pointsAverage": 0.4994
   },
   {
    "rank": 297,
-   "name": "Cameron Davis",
-   "country": "AUS",
-   "pointsAverage": 0.4981
+   "name": "Ben Carr",
+   "country": "USA",
+   "pointsAverage": 0.4947
   },
   {
    "rank": 298,
-   "name": "Mitchell Meissner",
+   "name": "Hayden Springer",
    "country": "USA",
-   "pointsAverage": 0.4973
+   "pointsAverage": 0.4945
   },
   {
    "rank": 299,
-   "name": "Johannes Veerman",
-   "country": "USA",
-   "pointsAverage": 0.4972
+   "name": "Jeff Winther",
+   "country": "DNK",
+   "pointsAverage": 0.4936
   },
   {
    "rank": 300,
-   "name": "Junghwan Lee",
-   "country": "KOR",
-   "pointsAverage": 0.4944
+   "name": "James Nicholas",
+   "country": "USA",
+   "pointsAverage": 0.4932
   },
   {
    "rank": 301,
    "name": "Lars Van Der Vight",
    "country": "NLD",
-   "pointsAverage": 0.494
+   "pointsAverage": 0.4921
   },
   {
    "rank": 302,
-   "name": "Caleb Surratt",
-   "country": "USA",
-   "pointsAverage": 0.4934
+   "name": "Niklas Norgaard",
+   "country": "DNK",
+   "pointsAverage": 0.4918
   },
   {
    "rank": 303,
-   "name": "Isaiah Salinda",
+   "name": "Mitchell Meissner",
    "country": "USA",
-   "pointsAverage": 0.4897
+   "pointsAverage": 0.4881
   },
   {
    "rank": 304,
-   "name": "Ben Carr",
-   "country": "USA",
-   "pointsAverage": 0.4885
+   "name": "Junghwan Lee",
+   "country": "KOR",
+   "pointsAverage": 0.4861
   },
   {
    "rank": 305,
-   "name": "Yusaku Hosono",
-   "country": "JPN",
-   "pointsAverage": 0.4853
+   "name": "Luke Clanton",
+   "country": "USA",
+   "pointsAverage": 0.4854
   },
   {
    "rank": 306,
-   "name": "Minhyuk Song",
-   "country": "KOR",
-   "pointsAverage": 0.4839
+   "name": "Johannes Veerman",
+   "country": "USA",
+   "pointsAverage": 0.4847
   },
   {
    "rank": 307,
-   "name": "John VanDerLaan",
-   "country": "USA",
-   "pointsAverage": 0.4818
+   "name": "Cameron Davis",
+   "country": "AUS",
+   "pointsAverage": 0.4836
   },
   {
    "rank": 308,
-   "name": "Charlie Lindh",
-   "country": "SWE",
-   "pointsAverage": 0.4768
+   "name": "Yusaku Hosono",
+   "country": "JPN",
+   "pointsAverage": 0.4805
   },
   {
    "rank": 309,
-   "name": "Kensei Hirata",
-   "country": "JPN",
-   "pointsAverage": 0.4746
+   "name": "Minhyuk Song",
+   "country": "KOR",
+   "pointsAverage": 0.4797
   },
   {
    "rank": 310,
-   "name": "David Ford",
+   "name": "Joseph Bramlett",
    "country": "USA",
-   "pointsAverage": 0.4736
+   "pointsAverage": 0.4782
   },
   {
    "rank": 311,
-   "name": "Ryo Ishikawa",
-   "country": "JPN",
-   "pointsAverage": 0.4728
+   "name": "Isaiah Salinda",
+   "country": "USA",
+   "pointsAverage": 0.4773
   },
   {
-   "rank": 311,
-   "name": "Zack Fischer",
-   "country": "USA",
-   "pointsAverage": 0.4728
+   "rank": 312,
+   "name": "Charlie Lindh",
+   "country": "SWE",
+   "pointsAverage": 0.4733
   },
   {
    "rank": 313,
-   "name": "Noah Goodwin",
+   "name": "Zack Fischer",
    "country": "USA",
-   "pointsAverage": 0.4719
+   "pointsAverage": 0.47
   },
   {
    "rank": 314,
-   "name": "Matthew Jordan",
-   "country": "ENG",
-   "pointsAverage": 0.4712
+   "name": "David Ford",
+   "country": "USA",
+   "pointsAverage": 0.4671
   },
   {
    "rank": 315,
    "name": "Joel Girrbach",
    "country": "CHE",
-   "pointsAverage": 0.4711
+   "pointsAverage": 0.4645
   },
   {
    "rank": 316,
-   "name": "Joseph Bramlett",
-   "country": "USA",
-   "pointsAverage": 0.471
+   "name": "Kensei Hirata",
+   "country": "JPN",
+   "pointsAverage": 0.4644
   },
   {
    "rank": 317,
-   "name": "Trent Phillips",
+   "name": "Davis Shore",
    "country": "USA",
-   "pointsAverage": 0.4705
+   "pointsAverage": 0.4638
   },
   {
    "rank": 318,
-   "name": "Ryosuke Kinoshita",
-   "country": "JPN",
-   "pointsAverage": 0.4681
+   "name": "Trent Phillips",
+   "country": "USA",
+   "pointsAverage": 0.4632
   },
   {
    "rank": 319,
-   "name": "Jeremy Paul",
-   "country": "DEU",
-   "pointsAverage": 0.4662
+   "name": "Ryosuke Kinoshita",
+   "country": "JPN",
+   "pointsAverage": 0.4601
   },
   {
    "rank": 320,
-   "name": "Mikumu Horikawa",
-   "country": "JPN",
-   "pointsAverage": 0.4661
+   "name": "Julian Suri",
+   "country": "USA",
+   "pointsAverage": 0.4599
   },
   {
    "rank": 321,
-   "name": "Wu Ashun",
-   "country": "CHN",
-   "pointsAverage": 0.4659
+   "name": "Matthew Jordan",
+   "country": "ENG",
+   "pointsAverage": 0.4597
   },
   {
    "rank": 322,
-   "name": "Harry Higgs",
-   "country": "USA",
-   "pointsAverage": 0.4653
+   "name": "Jeremy Paul",
+   "country": "DEU",
+   "pointsAverage": 0.459
   },
   {
    "rank": 323,
-   "name": "Nicolo Galletti",
-   "country": "USA",
-   "pointsAverage": 0.463
+   "name": "Mikumu Horikawa",
+   "country": "JPN",
+   "pointsAverage": 0.4585
   },
   {
    "rank": 324,
-   "name": "Sebastian Soderberg",
-   "country": "SWE",
-   "pointsAverage": 0.4606
+   "name": "Wu Ashun",
+   "country": "CHN",
+   "pointsAverage": 0.4582
   },
   {
    "rank": 325,
-   "name": "Romain Langasque",
-   "country": "FRA",
-   "pointsAverage": 0.4596
+   "name": "Harry Higgs",
+   "country": "USA",
+   "pointsAverage": 0.4568
   },
   {
    "rank": 326,
-   "name": "Kiradech Aphibarnrat",
-   "country": "THA",
-   "pointsAverage": 0.4521
-  },
-  {
-   "rank": 327,
    "name": "Hugo Townsend",
    "country": "SWE",
-   "pointsAverage": 0.4507
+   "pointsAverage": 0.4537
   },
   {
    "rank": 327,
-   "name": "Tom Vaillant",
+   "name": "Sebastian Soderberg",
+   "country": "SWE",
+   "pointsAverage": 0.4536
+  },
+  {
+   "rank": 328,
+   "name": "Romain Langasque",
    "country": "FRA",
-   "pointsAverage": 0.4507
+   "pointsAverage": 0.4513
   },
   {
    "rank": 329,
-   "name": "Julian Suri",
+   "name": "Nicolo Galletti",
    "country": "USA",
-   "pointsAverage": 0.4433
+   "pointsAverage": 0.4464
   },
   {
    "rank": 330,
-   "name": "Taiga Semikawa",
-   "country": "JPN",
-   "pointsAverage": 0.4416
+   "name": "Kiradech Aphibarnrat",
+   "country": "THA",
+   "pointsAverage": 0.4462
   },
   {
    "rank": 331,
-   "name": "Tomohiro Ishizaka",
-   "country": "JPN",
-   "pointsAverage": 0.4411
+   "name": "Tom Vaillant",
+   "country": "FRA",
+   "pointsAverage": 0.4434
   },
   {
    "rank": 332,
-   "name": "Seungtaek Lee",
-   "country": "KOR",
-   "pointsAverage": 0.4346
+   "name": "Jimmy Stanger",
+   "country": "USA",
+   "pointsAverage": 0.4422
   },
   {
    "rank": 333,
-   "name": "Yosuke Asaji",
+   "name": "Tomohiro Ishizaka",
    "country": "JPN",
-   "pointsAverage": 0.433
+   "pointsAverage": 0.4352
   },
   {
    "rank": 334,
-   "name": "Zach Johnson",
-   "country": "USA",
-   "pointsAverage": 0.4322
+   "name": "Yuta Sugiura",
+   "country": "JPN",
+   "pointsAverage": 0.4343
   },
   {
    "rank": 335,
-   "name": "Yuta Sugiura",
+   "name": "Taiga Semikawa",
    "country": "JPN",
-   "pointsAverage": 0.4321
+   "pointsAverage": 0.4336
   },
   {
    "rank": 336,
-   "name": "Trevor Cone",
-   "country": "USA",
-   "pointsAverage": 0.4302
+   "name": "Yosuke Asaji",
+   "country": "JPN",
+   "pointsAverage": 0.425
   },
   {
    "rank": 337,
-   "name": "John Catlin",
+   "name": "Zach Johnson",
    "country": "USA",
-   "pointsAverage": 0.4242
+   "pointsAverage": 0.424
   },
   {
    "rank": 338,
-   "name": "Tapio Pulkkanen",
-   "country": "FIN",
-   "pointsAverage": 0.4237
+   "name": "Barend Botha",
+   "country": "ZAF",
+   "pointsAverage": 0.4236
   },
   {
    "rank": 339,
-   "name": "Danny Willett",
-   "country": "ENG",
+   "name": "Seungtaek Lee",
+   "country": "KOR",
    "pointsAverage": 0.4233
   },
   {
    "rank": 340,
-   "name": "Barend Botha",
-   "country": "ZAF",
-   "pointsAverage": 0.4229
+   "name": "Trevor Cone",
+   "country": "USA",
+   "pointsAverage": 0.4225
   },
   {
    "rank": 341,
-   "name": "Bronson Burgoon",
-   "country": "USA",
-   "pointsAverage": 0.4212
+   "name": "Hamish Brown",
+   "country": "DNK",
+   "pointsAverage": 0.4192
   },
   {
    "rank": 342,
-   "name": "Jimmy Stanger",
+   "name": "John Catlin",
    "country": "USA",
-   "pointsAverage": 0.42
+   "pointsAverage": 0.4176
   },
   {
    "rank": 343,
-   "name": "Gordon Sargent",
-   "country": "USA",
-   "pointsAverage": 0.4189
+   "name": "Danny Willett",
+   "country": "ENG",
+   "pointsAverage": 0.4175
   },
   {
    "rank": 344,
-   "name": "Jordan Gumberg",
+   "name": "Austin Hitt",
    "country": "USA",
-   "pointsAverage": 0.4188
+   "pointsAverage": 0.4169
   },
   {
    "rank": 345,
-   "name": "Kyle Westmoreland",
+   "name": "Gordon Sargent",
    "country": "USA",
-   "pointsAverage": 0.4182
+   "pointsAverage": 0.4168
   },
   {
    "rank": 346,
-   "name": "Hamish Brown",
-   "country": "DNK",
-   "pointsAverage": 0.4174
+   "name": "Tapio Pulkkanen",
+   "country": "FIN",
+   "pointsAverage": 0.4156
   },
   {
    "rank": 347,
-   "name": "Tomoyo Ikemura",
-   "country": "JPN",
-   "pointsAverage": 0.4155
+   "name": "Bronson Burgoon",
+   "country": "USA",
+   "pointsAverage": 0.4154
   },
   {
    "rank": 348,
-   "name": "Andrea Pavan",
-   "country": "ITA",
-   "pointsAverage": 0.4147
+   "name": "Jordan Gumberg",
+   "country": "USA",
+   "pointsAverage": 0.4129
   },
   {
    "rank": 349,
-   "name": "Seungyul Noh",
-   "country": "KOR",
-   "pointsAverage": 0.4123
+   "name": "Kyle Westmoreland",
+   "country": "USA",
+   "pointsAverage": 0.4117
   },
   {
    "rank": 350,
-   "name": "Matteo Manassero",
-   "country": "ITA",
-   "pointsAverage": 0.4122
+   "name": "Talor Gooch",
+   "country": "USA",
+   "pointsAverage": 0.4099
   },
   {
    "rank": 351,
-   "name": "Younghan Song",
-   "country": "KOR",
-   "pointsAverage": 0.4114
+   "name": "Wang Wei Hsuan",
+   "country": "TWN",
+   "pointsAverage": 0.4094
   },
   {
    "rank": 352,
-   "name": "Talor Gooch",
+   "name": "William Gordon",
    "country": "USA",
-   "pointsAverage": 0.4108
+   "pointsAverage": 0.4091
   },
   {
    "rank": 353,
-   "name": "Angel Hidalgo Portillo",
-   "country": "ESP",
-   "pointsAverage": 0.4085
+   "name": "Tomoyo Ikemura",
+   "country": "JPN",
+   "pointsAverage": 0.4084
   },
   {
    "rank": 354,
-   "name": "Davis Shore",
-   "country": "USA",
+   "name": "Danthai Boonma",
+   "country": "THA",
    "pointsAverage": 0.4083
   },
   {
-   "rank": 354,
-   "name": "Greyson Sigg",
-   "country": "USA",
-   "pointsAverage": 0.4083
+   "rank": 355,
+   "name": "Andrea Pavan",
+   "country": "ITA",
+   "pointsAverage": 0.4058
   },
   {
    "rank": 356,
-   "name": "Kieran Vincent",
-   "country": "ZWE",
-   "pointsAverage": 0.4068
+   "name": "Seungyul Noh",
+   "country": "KOR",
+   "pointsAverage": 0.4047
   },
   {
    "rank": 357,
-   "name": "Ben Schmidt",
-   "country": "ENG",
-   "pointsAverage": 0.4067
+   "name": "Younghan Song",
+   "country": "KOR",
+   "pointsAverage": 0.4046
   },
   {
    "rank": 358,
-   "name": "Danthai Boonma",
-   "country": "THA",
-   "pointsAverage": 0.4056
+   "name": "Angel Hidalgo Portillo",
+   "country": "ESP",
+   "pointsAverage": 0.403
   },
   {
    "rank": 359,
-   "name": "Eddie Pepperell",
-   "country": "ENG",
-   "pointsAverage": 0.4039
+   "name": "Kieran Vincent",
+   "country": "ZWE",
+   "pointsAverage": 0.4001
   },
   {
    "rank": 360,
-   "name": "William Gordon",
-   "country": "USA",
-   "pointsAverage": 0.4034
+   "name": "Ben Schmidt",
+   "country": "ENG",
+   "pointsAverage": 0.3998
   },
   {
    "rank": 361,
-   "name": "Jazz Janewattananond",
-   "country": "THA",
-   "pointsAverage": 0.4033
+   "name": "Matteo Manassero",
+   "country": "ITA",
+   "pointsAverage": 0.3997
   },
   {
    "rank": 362,
-   "name": "Nick Dunlap",
-   "country": "USA",
-   "pointsAverage": 0.4012
+   "name": "Eddie Pepperell",
+   "country": "ENG",
+   "pointsAverage": 0.3983
   },
   {
    "rank": 363,
-   "name": "Paul Waring",
-   "country": "ENG",
-   "pointsAverage": 0.4009
+   "name": "Jazz Janewattananond",
+   "country": "THA",
+   "pointsAverage": 0.3975
   },
   {
    "rank": 364,
-   "name": "Benjamin Taylor",
-   "country": "ENG",
-   "pointsAverage": 0.3973
+   "name": "Greyson Sigg",
+   "country": "USA",
+   "pointsAverage": 0.3964
   },
   {
    "rank": 365,
-   "name": "Shugo Imahira",
-   "country": "JPN",
-   "pointsAverage": 0.3961
+   "name": "Cole Hammer",
+   "country": "USA",
+   "pointsAverage": 0.3962
   },
   {
    "rank": 366,
-   "name": "Marcus Kinhult",
-   "country": "SWE",
-   "pointsAverage": 0.3935
+   "name": "Robby Shelton IV",
+   "country": "USA",
+   "pointsAverage": 0.3956
   },
   {
    "rank": 367,
-   "name": "Suteepat Prateeptienchai",
-   "country": "THA",
-   "pointsAverage": 0.392
+   "name": "Benjamin Taylor",
+   "country": "ENG",
+   "pointsAverage": 0.3917
   },
   {
    "rank": 368,
-   "name": "Wang Wei Hsuan",
-   "country": "TWN",
-   "pointsAverage": 0.3916
+   "name": "Nick Dunlap",
+   "country": "USA",
+   "pointsAverage": 0.3906
   },
   {
    "rank": 369,
-   "name": "Sadom Kaewkanjana",
-   "country": "THA",
-   "pointsAverage": 0.3899
+   "name": "Marcus Kinhult",
+   "country": "SWE",
+   "pointsAverage": 0.3873
   },
   {
-   "rank": 370,
-   "name": "Naoyuki Kataoka",
-   "country": "JPN",
-   "pointsAverage": 0.3896
+   "rank": 369,
+   "name": "Paul Waring",
+   "country": "ENG",
+   "pointsAverage": 0.3873
   },
   {
    "rank": 371,
-   "name": "Robby Shelton IV",
-   "country": "USA",
-   "pointsAverage": 0.3893
+   "name": "Shugo Imahira",
+   "country": "JPN",
+   "pointsAverage": 0.386
   },
   {
    "rank": 372,
-   "name": "Riki Kawamoto",
-   "country": "JPN",
-   "pointsAverage": 0.389
+   "name": "Suteepat Prateeptienchai",
+   "country": "THA",
+   "pointsAverage": 0.3858
   },
   {
    "rank": 373,
-   "name": "Cameron Champ",
-   "country": "USA",
-   "pointsAverage": 0.3889
+   "name": "Adam Wallin",
+   "country": "SWE",
+   "pointsAverage": 0.3851
   },
   {
    "rank": 374,
-   "name": "Hiroshi Iwata",
+   "name": "Naoyuki Kataoka",
    "country": "JPN",
-   "pointsAverage": 0.3846
+   "pointsAverage": 0.3834
   },
   {
    "rank": 375,
-   "name": "Oliver Bekker",
-   "country": "ZAF",
-   "pointsAverage": 0.3845
+   "name": "Riki Kawamoto",
+   "country": "JPN",
+   "pointsAverage": 0.3817
   },
   {
    "rank": 376,
-   "name": "Jeunghun Wang",
-   "country": "KOR",
-   "pointsAverage": 0.3842
-  },
-  {
-   "rank": 377,
-   "name": "Miguel Tabuena",
-   "country": "PHL",
-   "pointsAverage": 0.3831
-  },
-  {
-   "rank": 378,
-   "name": "Will Enefer",
-   "country": "ENG",
-   "pointsAverage": 0.3816
-  },
-  {
-   "rank": 379,
-   "name": "Adam Wallin",
-   "country": "SWE",
+   "name": "Sadom Kaewkanjana",
+   "country": "THA",
    "pointsAverage": 0.3814
   },
   {
-   "rank": 380,
-   "name": "Cole Hammer",
+   "rank": 377,
+   "name": "Cameron Champ",
    "country": "USA",
-   "pointsAverage": 0.3795
+   "pointsAverage": 0.3807
+  },
+  {
+   "rank": 378,
+   "name": "Jeunghun Wang",
+   "country": "KOR",
+   "pointsAverage": 0.3794
+  },
+  {
+   "rank": 379,
+   "name": "Hiroshi Iwata",
+   "country": "JPN",
+   "pointsAverage": 0.3789
+  },
+  {
+   "rank": 379,
+   "name": "Oliver Bekker",
+   "country": "ZAF",
+   "pointsAverage": 0.3789
   },
   {
    "rank": 381,
    "name": "Justin Suh",
    "country": "USA",
-   "pointsAverage": 0.3789
+   "pointsAverage": 0.3753
   },
   {
    "rank": 382,
-   "name": "Jason Scrivener",
-   "country": "AUS",
-   "pointsAverage": 0.3784
+   "name": "Patrick Flavin",
+   "country": "USA",
+   "pointsAverage": 0.3745
   },
   {
    "rank": 383,
-   "name": "Austin Hitt",
-   "country": "USA",
-   "pointsAverage": 0.3763
+   "name": "Will Enefer",
+   "country": "ENG",
+   "pointsAverage": 0.3734
   },
   {
    "rank": 384,
-   "name": "Satoshi Kodaira",
-   "country": "JPN",
-   "pointsAverage": 0.3759
+   "name": "William Cannon",
+   "country": "USA",
+   "pointsAverage": 0.3726
   },
   {
    "rank": 385,
-   "name": "Dylan Wu",
-   "country": "USA",
-   "pointsAverage": 0.3756
+   "name": "Satoshi Kodaira",
+   "country": "JPN",
+   "pointsAverage": 0.371
   },
   {
    "rank": 386,
-   "name": "Carson Bacha",
-   "country": "USA",
-   "pointsAverage": 0.3744
+   "name": "Yoshinori Fujimoto",
+   "country": "JPN",
+   "pointsAverage": 0.37
   },
   {
    "rank": 387,
-   "name": "Patrick Flavin",
-   "country": "USA",
-   "pointsAverage": 0.3738
+   "name": "Jason Scrivener",
+   "country": "AUS",
+   "pointsAverage": 0.3698
   },
   {
    "rank": 388,
-   "name": "Alejandro Tosti",
-   "country": "ARG",
-   "pointsAverage": 0.3729
+   "name": "Dylan Wu",
+   "country": "USA",
+   "pointsAverage": 0.3692
   },
   {
    "rank": 389,
-   "name": "Connor Syme",
-   "country": "SCO",
-   "pointsAverage": 0.3725
+   "name": "Carson Bacha",
+   "country": "USA",
+   "pointsAverage": 0.3687
   },
   {
    "rank": 390,
-   "name": "Yoshinori Fujimoto",
-   "country": "JPN",
-   "pointsAverage": 0.3718
+   "name": "Pavit Tangkamolprasert",
+   "country": "THA",
+   "pointsAverage": 0.3686
   },
   {
    "rank": 391,
-   "name": "Yuto Katsuragawa",
-   "country": "JPN",
-   "pointsAverage": 0.3697
+   "name": "Etienne Papineau",
+   "country": "CAN",
+   "pointsAverage": 0.3678
   },
   {
    "rank": 392,
-   "name": "Matthew Southgate",
-   "country": "ENG",
-   "pointsAverage": 0.3672
+   "name": "Troy Merritt",
+   "country": "USA",
+   "pointsAverage": 0.3661
   },
   {
-   "rank": 392,
-   "name": "Pavit Tangkamolprasert",
-   "country": "THA",
-   "pointsAverage": 0.3672
+   "rank": 393,
+   "name": "Miguel Tabuena",
+   "country": "PHL",
+   "pointsAverage": 0.3654
   },
   {
    "rank": 394,
-   "name": "Aguri Iwasaki",
+   "name": "Yuto Katsuragawa",
    "country": "JPN",
-   "pointsAverage": 0.3669
+   "pointsAverage": 0.3637
   },
   {
    "rank": 395,
-   "name": "Benjamin James",
-   "country": "USA",
-   "pointsAverage": 0.363
+   "name": "Connor Syme",
+   "country": "SCO",
+   "pointsAverage": 0.3635
   },
   {
    "rank": 396,
-   "name": "Sanghee Lee",
-   "country": "KOR",
-   "pointsAverage": 0.3625
+   "name": "Alejandro Tosti",
+   "country": "ARG",
+   "pointsAverage": 0.3634
   },
   {
    "rank": 397,
-   "name": "Rocco Paolo Repetto Taylor",
-   "country": "ESP",
-   "pointsAverage": 0.3616
+   "name": "Kevin Streelman",
+   "country": "USA",
+   "pointsAverage": 0.3624
   },
   {
-   "rank": 398,
-   "name": "Sam Bairstow",
-   "country": "ENG",
-   "pointsAverage": 0.3608
+   "rank": 397,
+   "name": "Benjamin James",
+   "country": "USA",
+   "pointsAverage": 0.3624
   },
   {
    "rank": 399,
-   "name": "William Cannon",
-   "country": "USA",
-   "pointsAverage": 0.3604
+   "name": "Aguri Iwasaki",
+   "country": "JPN",
+   "pointsAverage": 0.3618
   },
   {
    "rank": 400,
-   "name": "Nick Voke",
-   "country": "NZL",
-   "pointsAverage": 0.3598
+   "name": "Sanghee Lee",
+   "country": "KOR",
+   "pointsAverage": 0.3585
   },
   {
    "rank": 401,
-   "name": "Daniel Young",
-   "country": "SCO",
-   "pointsAverage": 0.3589
+   "name": "Kevin Dougherty",
+   "country": "USA",
+   "pointsAverage": 0.3576
   },
   {
-   "rank": 402,
-   "name": "Frankie Capan",
-   "country": "USA",
-   "pointsAverage": 0.358
+   "rank": 401,
+   "name": "Matthew Southgate",
+   "country": "ENG",
+   "pointsAverage": 0.3576
   },
   {
    "rank": 403,
-   "name": "Austen Truslow",
+   "name": "Corey Pereira",
    "country": "USA",
-   "pointsAverage": 0.3572
+   "pointsAverage": 0.3558
   },
   {
    "rank": 404,
-   "name": "Seungbin Choi",
-   "country": "KOR",
-   "pointsAverage": 0.3553
+   "name": "Rocco Paolo Repetto Taylor",
+   "country": "ESP",
+   "pointsAverage": 0.3555
   },
   {
    "rank": 405,
-   "name": "Kevin Dougherty",
+   "name": "Frankie Capan",
    "country": "USA",
-   "pointsAverage": 0.3548
+   "pointsAverage": 0.3546
   },
   {
    "rank": 406,
-   "name": "Ryo Katsumata",
-   "country": "JPN",
-   "pointsAverage": 0.3522
+   "name": "Nick Voke",
+   "country": "NZL",
+   "pointsAverage": 0.3531
   },
   {
    "rank": 407,
-   "name": "Patton Kizzire",
-   "country": "USA",
-   "pointsAverage": 0.3508
+   "name": "Samuel Simpson",
+   "country": "ZAF",
+   "pointsAverage": 0.3529
   },
   {
-   "rank": 407,
-   "name": "Matthew Anderson",
-   "country": "CAN",
-   "pointsAverage": 0.3508
+   "rank": 408,
+   "name": "Sam Bairstow",
+   "country": "ENG",
+   "pointsAverage": 0.3524
   },
   {
    "rank": 409,
-   "name": "Tyler Duncan(Jul1989)",
-   "country": "USA",
-   "pointsAverage": 0.3501
+   "name": "Daniel Young",
+   "country": "SCO",
+   "pointsAverage": 0.3522
   },
   {
    "rank": 410,
-   "name": "Samuel Simpson",
-   "country": "ZAF",
-   "pointsAverage": 0.3499
+   "name": "Austen Truslow",
+   "country": "USA",
+   "pointsAverage": 0.352
   },
   {
    "rank": 411,
-   "name": "Rattanon Wannasrichan",
-   "country": "THA",
-   "pointsAverage": 0.3492
+   "name": "Matthew Anderson",
+   "country": "CAN",
+   "pointsAverage": 0.3516
   },
   {
    "rank": 412,
-   "name": "James Morrison",
-   "country": "ENG",
-   "pointsAverage": 0.3488
+   "name": "Seungbin Choi",
+   "country": "KOR",
+   "pointsAverage": 0.3505
   },
   {
    "rank": 413,
-   "name": "Corey Pereira",
-   "country": "USA",
-   "pointsAverage": 0.3487
+   "name": "Ryuichi Oiwa",
+   "country": "JPN",
+   "pointsAverage": 0.3499
   },
   {
    "rank": 414,
-   "name": "Ryuichi Oiwa",
-   "country": "JPN",
-   "pointsAverage": 0.3486
+   "name": "Nick Gabrelcik",
+   "country": "USA",
+   "pointsAverage": 0.3491
   },
   {
    "rank": 415,
-   "name": "Bubba Watson",
-   "country": "USA",
-   "pointsAverage": 0.3482
+   "name": "Ryo Katsumata",
+   "country": "JPN",
+   "pointsAverage": 0.3472
   },
   {
    "rank": 416,
-   "name": "David Ravetto",
-   "country": "FRA",
-   "pointsAverage": 0.3478
+   "name": "Tyler Duncan(Jul1989)",
+   "country": "USA",
+   "pointsAverage": 0.3457
   },
   {
    "rank": 417,
-   "name": "John Marshall Butler",
+   "name": "Bubba Watson",
    "country": "USA",
-   "pointsAverage": 0.3473
+   "pointsAverage": 0.3454
   },
   {
    "rank": 418,
-   "name": "Richie Ramsay",
-   "country": "SCO",
-   "pointsAverage": 0.3455
+   "name": "Jack Lundin",
+   "country": "USA",
+   "pointsAverage": 0.3451
   },
   {
    "rank": 419,
-   "name": "Roger Sloan",
-   "country": "CAN",
-   "pointsAverage": 0.3436
+   "name": "Harold Varner III",
+   "country": "USA",
+   "pointsAverage": 0.345
   },
   {
    "rank": 420,
-   "name": "Filippo Celli",
-   "country": "ITA",
-   "pointsAverage": 0.3432
+   "name": "James Morrison",
+   "country": "ENG",
+   "pointsAverage": 0.3438
   },
   {
    "rank": 421,
-   "name": "Taihei Sato",
-   "country": "JPN",
-   "pointsAverage": 0.3419
+   "name": "John Marshall Butler",
+   "country": "USA",
+   "pointsAverage": 0.3433
   },
   {
    "rank": 422,
-   "name": "Nick Gabrelcik",
-   "country": "USA",
-   "pointsAverage": 0.3411
+   "name": "David Ravetto",
+   "country": "FRA",
+   "pointsAverage": 0.3432
   },
   {
    "rank": 423,
-   "name": "Troy Merritt",
-   "country": "USA",
-   "pointsAverage": 0.3402
+   "name": "Rattanon Wannasrichan",
+   "country": "THA",
+   "pointsAverage": 0.3419
   },
   {
    "rank": 424,
-   "name": "Jeongwoo Ham",
-   "country": "KOR",
-   "pointsAverage": 0.3399
-  },
-  {
-   "rank": 425,
-   "name": "Quade Cummins",
-   "country": "USA",
+   "name": "Richie Ramsay",
+   "country": "SCO",
    "pointsAverage": 0.3386
   },
   {
+   "rank": 425,
+   "name": "Fabian Gomez",
+   "country": "ARG",
+   "pointsAverage": 0.3382
+  },
+  {
    "rank": 426,
-   "name": "Russell Knox",
-   "country": "SCO",
-   "pointsAverage": 0.3384
+   "name": "Roger Sloan",
+   "country": "CAN",
+   "pointsAverage": 0.3379
   },
   {
    "rank": 427,
-   "name": "Louis Oosthuizen",
-   "country": "ZAF",
-   "pointsAverage": 0.336
+   "name": "Filippo Celli",
+   "country": "ITA",
+   "pointsAverage": 0.3378
   },
   {
    "rank": 428,
-   "name": "Austin Bautista",
-   "country": "AUS",
-   "pointsAverage": 0.3335
+   "name": "Filip Mruzek",
+   "country": "CZE",
+   "pointsAverage": 0.3373
   },
   {
-   "rank": 429,
-   "name": "Sarit Suwannarut",
-   "country": "THA",
-   "pointsAverage": 0.3332
+   "rank": 428,
+   "name": "Patton Kizzire",
+   "country": "USA",
+   "pointsAverage": 0.3373
   },
   {
    "rank": 430,
-   "name": "Tommy Morrison",
-   "country": "USA",
-   "pointsAverage": 0.333
+   "name": "Taihei Sato",
+   "country": "JPN",
+   "pointsAverage": 0.3369
   },
   {
    "rank": 431,
-   "name": "Dylan Frittelli",
-   "country": "ZAF",
-   "pointsAverage": 0.3314
+   "name": "Jeongwoo Ham",
+   "country": "KOR",
+   "pointsAverage": 0.3341
   },
   {
    "rank": 432,
-   "name": "Fabian Gomez",
-   "country": "ARG",
-   "pointsAverage": 0.3312
+   "name": "Russell Knox",
+   "country": "SCO",
+   "pointsAverage": 0.3313
   },
   {
    "rank": 433,
-   "name": "Filip Mruzek",
-   "country": "CZE",
-   "pointsAverage": 0.3311
+   "name": "Myles Creighton",
+   "country": "CAN",
+   "pointsAverage": 0.3306
   },
   {
    "rank": 434,
-   "name": "Myles Creighton",
-   "country": "CAN",
-   "pointsAverage": 0.3301
+   "name": "Louis Oosthuizen",
+   "country": "ZAF",
+   "pointsAverage": 0.3302
   },
   {
    "rank": 435,
-   "name": "Mason Andersen",
-   "country": "USA",
-   "pointsAverage": 0.3295
+   "name": "Andreas Halvorsen",
+   "country": "NOR",
+   "pointsAverage": 0.3296
   },
   {
    "rank": 436,
-   "name": "John Gough",
-   "country": "ENG",
-   "pointsAverage": 0.3293
+   "name": "Quade Cummins",
+   "country": "USA",
+   "pointsAverage": 0.3291
   },
   {
    "rank": 437,
-   "name": "Andreas Halvorsen",
-   "country": "NOR",
-   "pointsAverage": 0.3277
+   "name": "Sarit Suwannarut",
+   "country": "THA",
+   "pointsAverage": 0.3288
   },
   {
    "rank": 438,
-   "name": "Sebastian Garcia Rodriguez",
-   "country": "ESP",
-   "pointsAverage": 0.3275
+   "name": "Austin Bautista",
+   "country": "AUS",
+   "pointsAverage": 0.3286
   },
   {
    "rank": 439,
-   "name": "Will Chandler",
-   "country": "USA",
-   "pointsAverage": 0.3268
+   "name": "Dylan Frittelli",
+   "country": "ZAF",
+   "pointsAverage": 0.3261
   },
   {
    "rank": 440,
-   "name": "Brett White",
+   "name": "Mason Andersen",
    "country": "USA",
-   "pointsAverage": 0.3246
+   "pointsAverage": 0.3252
   },
   {
    "rank": 441,
-   "name": "Brandon Stone",
-   "country": "ZAF",
-   "pointsAverage": 0.3234
+   "name": "Anton Albers",
+   "country": "DEU",
+   "pointsAverage": 0.3239
   },
   {
    "rank": 442,
-   "name": "Scott Jamieson",
-   "country": "SCO",
-   "pointsAverage": 0.3224
+   "name": "Sebastian Garcia Rodriguez",
+   "country": "ESP",
+   "pointsAverage": 0.3227
   },
   {
    "rank": 443,
-   "name": "Jeong Weon Ko",
-   "country": "FRA",
-   "pointsAverage": 0.322
+   "name": "Stuart MacDonald",
+   "country": "CAN",
+   "pointsAverage": 0.3222
   },
   {
    "rank": 444,
-   "name": "Zander Lombard",
-   "country": "ZAF",
-   "pointsAverage": 0.3216
-  },
-  {
-   "rank": 445,
-   "name": "Ryan Van Velzen",
-   "country": "ZAF",
-   "pointsAverage": 0.3213
-  },
-  {
-   "rank": 446,
    "name": "Donghyun Moon",
    "country": "KOR",
-   "pointsAverage": 0.3205
-  },
-  {
-   "rank": 447,
-   "name": "Takashi Ogiso",
-   "country": "JPN",
    "pointsAverage": 0.3199
   },
   {
-   "rank": 448,
-   "name": "Kevin Streelman",
+   "rank": 445,
+   "name": "John Gough",
+   "country": "ENG",
+   "pointsAverage": 0.3197
+  },
+  {
+   "rank": 446,
+   "name": "Ryan Van Velzen",
+   "country": "ZAF",
+   "pointsAverage": 0.3191
+  },
+  {
+   "rank": 447,
+   "name": "Brett White",
    "country": "USA",
-   "pointsAverage": 0.3168
+   "pointsAverage": 0.319
+  },
+  {
+   "rank": 448,
+   "name": "Zander Lombard",
+   "country": "ZAF",
+   "pointsAverage": 0.3178
   },
   {
    "rank": 449,
-   "name": "Peter Kuest",
+   "name": "Will Chandler",
    "country": "USA",
-   "pointsAverage": 0.3147
+   "pointsAverage": 0.3175
   },
   {
    "rank": 450,
-   "name": "Will Zalatoris",
-   "country": "USA",
-   "pointsAverage": 0.3138
+   "name": "Jeong Weon Ko",
+   "country": "FRA",
+   "pointsAverage": 0.3174
   },
   {
    "rank": 451,
-   "name": "Henrik Norlander",
-   "country": "SWE",
-   "pointsAverage": 0.3129
+   "name": "Peter Kuest",
+   "country": "USA",
+   "pointsAverage": 0.3167
   },
   {
    "rank": 452,
-   "name": "Rick Lamb",
-   "country": "USA",
-   "pointsAverage": 0.3117
+   "name": "Scott Jamieson",
+   "country": "SCO",
+   "pointsAverage": 0.3166
   },
   {
    "rank": 453,
-   "name": "Marcel Siem",
-   "country": "DEU",
-   "pointsAverage": 0.31
+   "name": "Brandon Stone",
+   "country": "ZAF",
+   "pointsAverage": 0.3164
   },
   {
    "rank": 454,
-   "name": "Shad Tuten",
-   "country": "USA",
-   "pointsAverage": 0.3089
+   "name": "Takashi Ogiso",
+   "country": "JPN",
+   "pointsAverage": 0.3138
   },
   {
    "rank": 455,
-   "name": "Jens Dantorp",
+   "name": "Patrick Welch",
+   "country": "USA",
+   "pointsAverage": 0.3134
+  },
+  {
+   "rank": 456,
+   "name": "Henrik Norlander",
    "country": "SWE",
-   "pointsAverage": 0.3088
-  },
-  {
-   "rank": 455,
-   "name": "Derek Hitchner",
-   "country": "USA",
-   "pointsAverage": 0.3088
+   "pointsAverage": 0.3094
   },
   {
    "rank": 457,
    "name": "Josh Teater",
    "country": "USA",
-   "pointsAverage": 0.3066
+   "pointsAverage": 0.3069
   },
   {
    "rank": 458,
-   "name": "Bryce Lewis",
+   "name": "Rick Lamb",
    "country": "USA",
-   "pointsAverage": 0.3059
+   "pointsAverage": 0.305
   },
   {
    "rank": 459,
-   "name": "Justin Hastings",
-   "country": "CYM",
-   "pointsAverage": 0.3058
+   "name": "Marcel Siem",
+   "country": "DEU",
+   "pointsAverage": 0.3039
   },
   {
    "rank": 460,
-   "name": "Wade Ormsby",
-   "country": "AUS",
-   "pointsAverage": 0.3048
+   "name": "Will Zalatoris",
+   "country": "USA",
+   "pointsAverage": 0.3037
   },
   {
    "rank": 461,
-   "name": "Bryson Nimmer",
+   "name": "Derek Hitchner",
    "country": "USA",
-   "pointsAverage": 0.3029
+   "pointsAverage": 0.3036
   },
   {
    "rank": 462,
-   "name": "Drew Doyle",
-   "country": "USA",
-   "pointsAverage": 0.3017
+   "name": "Jens Dantorp",
+   "country": "SWE",
+   "pointsAverage": 0.3035
   },
   {
-   "rank": 462,
-   "name": "Taiki Yoshida",
-   "country": "JPN",
-   "pointsAverage": 0.3017
+   "rank": 463,
+   "name": "Shad Tuten",
+   "country": "USA",
+   "pointsAverage": 0.303
   },
   {
    "rank": 464,
-   "name": "Aaron Wise",
+   "name": "Charles Howell III",
    "country": "USA",
-   "pointsAverage": 0.3013
+   "pointsAverage": 0.3025
   },
   {
    "rank": 465,
-   "name": "Poom Saksansin",
-   "country": "THA",
-   "pointsAverage": 0.2984
+   "name": "Justin Hastings",
+   "country": "CYM",
+   "pointsAverage": 0.301
   },
   {
    "rank": 466,
-   "name": "Hayden Buckley",
+   "name": "Aaron Wise",
    "country": "USA",
-   "pointsAverage": 0.2966
+   "pointsAverage": 0.3008
   },
   {
    "rank": 467,
-   "name": "Adam Svensson",
-   "country": "CAN",
-   "pointsAverage": 0.2964
+   "name": "Bryce Lewis",
+   "country": "USA",
+   "pointsAverage": 0.3007
   },
   {
    "rank": 468,
-   "name": "Patrick Welch",
+   "name": "Drew Doyle",
    "country": "USA",
-   "pointsAverage": 0.2928
+   "pointsAverage": 0.3004
   },
   {
    "rank": 469,
-   "name": "Chan Choi",
-   "country": "KOR",
-   "pointsAverage": 0.291
+   "name": "Jackson Buchanan",
+   "country": "USA",
+   "pointsAverage": 0.3
   },
   {
    "rank": 470,
-   "name": "Baekjun Kim",
-   "country": "KOR",
-   "pointsAverage": 0.2903
+   "name": "Poom Saksansin",
+   "country": "THA",
+   "pointsAverage": 0.2996
   },
   {
    "rank": 471,
-   "name": "Stuart MacDonald",
-   "country": "CAN",
-   "pointsAverage": 0.29
+   "name": "Wade Ormsby",
+   "country": "AUS",
+   "pointsAverage": 0.2992
   },
   {
    "rank": 472,
-   "name": "Matthew Wolff",
+   "name": "Bryson Nimmer",
    "country": "USA",
-   "pointsAverage": 0.2898
+   "pointsAverage": 0.2964
   },
   {
    "rank": 473,
-   "name": "Blaine Hale, Jr.",
-   "country": "USA",
-   "pointsAverage": 0.2893
+   "name": "Taiki Yoshida",
+   "country": "JPN",
+   "pointsAverage": 0.2963
   },
   {
    "rank": 474,
-   "name": "Darren Fichardt",
-   "country": "ZAF",
-   "pointsAverage": 0.2892
+   "name": "Hayden Buckley",
+   "country": "USA",
+   "pointsAverage": 0.2931
   },
   {
    "rank": 475,
-   "name": "Norman Xiong",
-   "country": "USA",
-   "pointsAverage": 0.2891
+   "name": "Camilo Villegas",
+   "country": "COL",
+   "pointsAverage": 0.2925
   },
   {
    "rank": 476,
-   "name": "Euan Walker",
-   "country": "SCO",
-   "pointsAverage": 0.2888
+   "name": "Adam Svensson",
+   "country": "CAN",
+   "pointsAverage": 0.2887
   },
   {
    "rank": 477,
-   "name": "MJ Viljoen",
-   "country": "ZAF",
-   "pointsAverage": 0.2877
+   "name": "Chan Choi",
+   "country": "KOR",
+   "pointsAverage": 0.2881
   },
   {
    "rank": 478,
-   "name": "Jonathan Broomhead",
-   "country": "ZAF",
-   "pointsAverage": 0.2853
-  },
-  {
-   "rank": 479,
-   "name": "Camilo Villegas",
-   "country": "COL",
-   "pointsAverage": 0.2847
+   "name": "Matthew Wolff",
+   "country": "USA",
+   "pointsAverage": 0.2863
   },
   {
    "rank": 479,
    "name": "Deon Germishuys",
    "country": "ZAF",
-   "pointsAverage": 0.2847
+   "pointsAverage": 0.2852
+  },
+  {
+   "rank": 480,
+   "name": "Baekjun Kim",
+   "country": "KOR",
+   "pointsAverage": 0.2849
   },
   {
    "rank": 481,
-   "name": "Theo Humphrey",
+   "name": "Jonathan Broomhead",
+   "country": "ZAF",
+   "pointsAverage": 0.2844
+  },
+  {
+   "rank": 482,
+   "name": "Alexander Levy",
+   "country": "FRA",
+   "pointsAverage": 0.2843
+  },
+  {
+   "rank": 483,
+   "name": "Norman Xiong",
    "country": "USA",
    "pointsAverage": 0.284
   },
   {
-   "rank": 482,
-   "name": "Takanori Konishi",
-   "country": "JPN",
+   "rank": 483,
+   "name": "Blaine Hale, Jr.",
+   "country": "USA",
+   "pointsAverage": 0.284
+  },
+  {
+   "rank": 485,
+   "name": "Euan Walker",
+   "country": "SCO",
    "pointsAverage": 0.2839
   },
   {
-   "rank": 483,
-   "name": "Alexander Levy",
-   "country": "FRA",
-   "pointsAverage": 0.2825
-  },
-  {
-   "rank": 484,
-   "name": "Louis Albertse",
-   "country": "ZAF",
-   "pointsAverage": 0.2816
-  },
-  {
-   "rank": 484,
-   "name": "Yusuke Sakamoto",
-   "country": "JPN",
-   "pointsAverage": 0.2816
-  },
-  {
    "rank": 486,
-   "name": "Jack Senior",
-   "country": "ENG",
-   "pointsAverage": 0.2812
+   "name": "Joey Savoie",
+   "country": "CAN",
+   "pointsAverage": 0.2831
   },
   {
    "rank": 487,
-   "name": "Hanmil Jung",
-   "country": "KOR",
-   "pointsAverage": 0.2805
+   "name": "MJ Viljoen",
+   "country": "ZAF",
+   "pointsAverage": 0.2828
   },
   {
-   "rank": 488,
-   "name": "Ben Martin",
-   "country": "USA",
-   "pointsAverage": 0.2801
+   "rank": 487,
+   "name": "Yusuke Sakamoto",
+   "country": "JPN",
+   "pointsAverage": 0.2828
   },
   {
    "rank": 489,
-   "name": "Joey Savoie",
-   "country": "CAN",
-   "pointsAverage": 0.2799
+   "name": "Darren Fichardt",
+   "country": "ZAF",
+   "pointsAverage": 0.2827
   },
   {
    "rank": 490,
-   "name": "Dawson Armstrong",
+   "name": "Connor Howe",
    "country": "USA",
-   "pointsAverage": 0.2789
+   "pointsAverage": 0.281
   },
   {
    "rank": 491,
-   "name": "Rikuya Hoshino",
-   "country": "JPN",
-   "pointsAverage": 0.278
+   "name": "Theo Humphrey",
+   "country": "USA",
+   "pointsAverage": 0.2806
   },
   {
    "rank": 492,
-   "name": "Luke List",
+   "name": "Hunter Wolcott",
    "country": "USA",
-   "pointsAverage": 0.277
+   "pointsAverage": 0.2804
   },
   {
    "rank": 493,
-   "name": "Wooyoung Cho",
-   "country": "KOR",
-   "pointsAverage": 0.2765
+   "name": "Takanori Konishi",
+   "country": "JPN",
+   "pointsAverage": 0.28
   },
   {
    "rank": 494,
-   "name": "Taisei Shimizu",
-   "country": "JPN",
-   "pointsAverage": 0.2758
+   "name": "Hanmil Jung",
+   "country": "KOR",
+   "pointsAverage": 0.279
   },
   {
    "rank": 495,
-   "name": "Sean Crocker",
-   "country": "USA",
-   "pointsAverage": 0.2755
+   "name": "Louis Albertse",
+   "country": "ZAF",
+   "pointsAverage": 0.2788
   },
   {
    "rank": 496,
-   "name": "Patrick Newcomb",
+   "name": "Dawson Armstrong",
    "country": "USA",
-   "pointsAverage": 0.2751
+   "pointsAverage": 0.2782
   },
   {
    "rank": 497,
-   "name": "Hunter Wolcott",
-   "country": "USA",
-   "pointsAverage": 0.275
+   "name": "Jack Senior",
+   "country": "ENG",
+   "pointsAverage": 0.2762
   },
   {
    "rank": 498,
-   "name": "Maxwell Moldovan",
-   "country": "USA",
-   "pointsAverage": 0.2748
+   "name": "Mateo Fernandez de Oliveira",
+   "country": "ARG",
+   "pointsAverage": 0.2747
   },
   {
    "rank": 499,
-   "name": "Ivan Cantero Gutierrez",
-   "country": "ESP",
-   "pointsAverage": 0.2746
+   "name": "Suguru Shimoke",
+   "country": "JPN",
+   "pointsAverage": 0.2724
   },
   {
    "rank": 500,
-   "name": "Mateo Fernandez de Oliveira",
-   "country": "ARG",
-   "pointsAverage": 0.273
+   "name": "Luke List",
+   "country": "USA",
+   "pointsAverage": 0.2722
   }
  ]
 }
