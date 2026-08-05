@@ -199,13 +199,17 @@ function normalizeEvent(ev, tour) {
   }
   if (evState === 'post') currentRound = roundsTotal
 
-  // ESPN publishes the actual cut rule (e.g. top 70 + ties at The Open)
+  // ESPN publishes the actual cut rule (e.g. top 70 + ties at The Open), but
+  // often sends cutCount: 0 before the event starts — that means "not
+  // populated yet", not "no cut", so fall back to the tour standard rather
+  // than letting a zero silently disable the cut in the simulation.
   const cutRound = ev.tournament?.cutRound ?? 0
-  const cutCount = ev.tournament?.cutCount ?? 65
+  const rawCutCount = ev.tournament?.cutCount ?? 0
   const hasCut =
-    cutRound > 0 && cutCount > 0
+    cutRound > 0
       ? true
       : tour !== 'liv' && roundsTotal >= 4 && competitors.length > 90
+  const cutCount = rawCutCount > 0 ? rawCutCount : 65
 
   const players = competitors.map((c) => {
     const st = c.status ?? {}
