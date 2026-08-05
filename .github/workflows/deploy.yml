@@ -41,6 +41,7 @@ jobs:
         run: |
           npm run update-rankings
           npm run build-ratings lpga 1
+          npm run build-ratings liv 2
           if ! git diff --quiet src/data/; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

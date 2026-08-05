@@ -17,6 +17,7 @@
 
 import owgr from '../data/owgr.json'
 import lpgaRatings from '../data/lpga-ratings.json'
+import livRatings from '../data/liv-ratings.json'
 
 const SKILL_INTERCEPT = 0.2
 const SKILL_SLOPE = 1.0
@@ -52,26 +53,34 @@ function buildIndex(players) {
 }
 
 const owgrIndex = buildIndex(owgr.players)
-const lpgaIndex = buildIndex(lpgaRatings.players)
+const RESULTS_INDEX = {
+  lpga: { index: buildIndex(lpgaRatings.players), meta: lpgaRatings, label: 'LPGA results' },
+  liv: { index: buildIndex(livRatings.players), meta: livRatings, label: 'LIV results' },
+}
 
 export function pointsToSkill(pointsAverage) {
   const raw = SKILL_INTERCEPT + SKILL_SLOPE * Math.log(Math.max(pointsAverage, 0.05))
   return Math.min(3.4, Math.max(-1.6, raw))
 }
 
-// Tours whose players are rated from results rather than OWGR.
-const RESULTS_RATED = new Set(['lpga'])
-
 export function ratingSourceFor(tour) {
-  return RESULTS_RATED.has(tour)
-    ? { label: 'LPGA results', fetchedAt: lpgaRatings.fetchedAt, rankLabel: 'Rtg' }
+  const rr = RESULTS_INDEX[tour]
+  return rr
+    ? { label: rr.label, fetchedAt: rr.meta.fetchedAt, rankLabel: 'Rtg' }
     : { label: 'OWGR', fetchedAt: owgr.fetchedAt, rankLabel: 'OWGR' }
 }
 
 // Returns { skill, owgrRank, matched } for an ESPN display name.
+//
+// Note on scale: a results-derived rating is relative to that tour's own field
+// average, which is what the simulator needs for an event on that tour. It is
+// NOT comparable across tours — a LIV rating of +1.8 is "vs a LIV field", not
+// vs a PGA field. That is why majors, where LIV players meet ranked fields,
+// still fall back to OWGR and carry the LIV badge instead.
 export function ratePlayer(name, tour = 'pga') {
-  if (RESULTS_RATED.has(tour)) {
-    const hit = lpgaIndex.byName.get(normalizeName(name)) ?? lpgaIndex.byLoose.get(looseKey(name))
+  const rr = RESULTS_INDEX[tour]
+  if (rr) {
+    const hit = rr.index.byName.get(normalizeName(name)) ?? rr.index.byLoose.get(looseKey(name))
     if (!hit) return { skill: UNRANKED_SKILL, owgrRank: null, matched: false }
     return { skill: hit.skill, owgrRank: hit.rank, matched: true }
   }
@@ -81,4 +90,3 @@ export function ratePlayer(name, tour = 'pga') {
 }
 
 export const ratingsFetchedAt = owgr.fetchedAt
-export const lpgaRatingsFetchedAt = lpgaRatings.fetchedAt

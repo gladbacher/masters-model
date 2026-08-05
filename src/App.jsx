@@ -497,7 +497,12 @@ function Notes() {
           so in-form players rate low until a form blend is added. (The women's ratings do
           not have this problem, since they are fitted from recent results.)
         </li>
-        <li>LIV players (flagged) are underrated — OWGR barely counts LIV results.</li>
+        <li>
+          On PGA/major leaderboards, LIV players (flagged) are underrated because OWGR barely
+          counts LIV results. LIV's own events use ratings fitted from LIV results instead,
+          so that gap does not apply there — but those ratings are relative to a LIV field
+          and are not comparable across tours.
+        </li>
         <li>
           Course renovations are handled only where someone has recorded them; an unrecorded
           redesign will silently use ESPN's stale card.
