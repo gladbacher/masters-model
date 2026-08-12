@@ -8,7 +8,8 @@
 
 import { fetchCalendar, fetchEvents } from './espn'
 
-const CACHE_KEY = 'greenbook.form.v1'
+// v2: finishes carry the event's winner for the hover tooltip
+const CACHE_KEY = 'greenbook.form.v2'
 const CACHE_TTL = 12 * 3_600_000 // 12h — new results land at most weekly
 const EVENTS_TO_SCAN = 16 // enough that a regular player has 10 starts
 const CONCURRENCY = 4
@@ -80,10 +81,18 @@ export async function fetchRecentForm(tour, limit = 10) {
       }))
       const mean = perRound.reduce((s, x) => s + x.pr, 0) / perRound.length
 
+      // winner: whoever ESPN lists at position 1, else the lowest total
+      const finishers = played.filter((p) => p.status === 'active')
+      const winner =
+        finishers.find((p) => String(p.position).replace(/^T/, '') === '1')?.name ??
+        [...finishers].sort((a, b) => a.totalRel - b.totalRel)[0]?.name ??
+        null
+
       perEvent.push({
         order: e.order,
         label: e.label,
-        date: e.startDate,
+        date: e.endDate ?? e.startDate,
+        winner,
         rows: perRound.map(({ p, pr }) => ({
           key: normName(p.name),
           pos: p.status === 'cut' ? 'MC' : p.position,
@@ -100,7 +109,13 @@ export async function fetchRecentForm(tour, limit = 10) {
     for (const r of ev.rows) {
       byPlayer[r.key] ??= []
       if (byPlayer[r.key].length < limit) {
-        byPlayer[r.key].push({ event: ev.label, date: ev.date, pos: r.pos, sg: r.sg })
+        byPlayer[r.key].push({
+          event: ev.label,
+          date: ev.date,
+          winner: ev.winner,
+          pos: r.pos,
+          sg: r.sg,
+        })
       }
     }
   }
@@ -121,9 +136,11 @@ export async function fetchRecentForm(tour, limit = 10) {
     }
   }
 
-  // Never cache an empty result: a transient network failure would otherwise
-  // poison the form column for the whole TTL.
-  if (Object.keys(data).length > 0) {
+  // Only cache a reasonably complete result. A network blip mid-scan yields a
+  // partial map (say one event's worth), and caching that would pin a
+  // misleadingly short form history in place for the whole TTL.
+  const enoughEvents = perEvent.length >= Math.min(6, past.length)
+  if (Object.keys(data).length > 0 && enoughEvents) {
     cache[tour] = { ts: Date.now(), data }
     try {
       localStorage.setItem(CACHE_KEY, JSON.stringify(cache))

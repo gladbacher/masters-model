@@ -14,8 +14,22 @@ function FormStrip({ finishes }) {
       {finishes.map((f, i) => {
         const n = parseInt(String(f.pos).replace(/^T/, ''), 10)
         const cls = f.pos === 'MC' ? 'mc' : n === 1 ? 'win' : n <= 10 ? 'top10' : n <= 25 ? 'top25' : ''
+        const tip = [
+          f.event,
+          f.date
+            ? new Date(f.date).toLocaleDateString(undefined, {
+                day: 'numeric',
+                month: 'short',
+                year: 'numeric',
+              })
+            : null,
+          f.winner ? `Won by ${f.winner}` : null,
+          `Finished ${f.pos === 'MC' ? 'missed cut' : f.pos}`,
+        ]
+          .filter(Boolean)
+          .join('\n')
         return (
-          <span key={i} className={`fchip ${cls}`} title={`${f.event}${f.date ? ` — ${new Date(f.date).toLocaleDateString()}` : ''}`}>
+          <span key={i} className={`fchip ${cls}`} title={tip}>
             {f.pos}
           </span>
         )
