@@ -5,6 +5,8 @@ import { simulateEvent, roundDifficultySummary } from './model/simulate'
 import { geocodeCourse, fetchForecast, weatherAdjustment } from './api/weather'
 import { fetchEventHistory, historySkillBump, normName } from './api/history'
 import { fetchOutrightOdds, findPrice } from './api/oddsapi'
+import { fetchRecentForm } from './api/form'
+import Shortlist from './components/Shortlist'
 import ModelTable from './components/ModelTable'
 import ValueFinder from './components/ValueFinder'
 import BetTracker from './components/BetTracker'
@@ -35,6 +37,7 @@ function App() {
   const [now, setNow] = useState(() => Date.now())
   const [weather, setWeather] = useState(null)
   const [history, setHistory] = useState(null)
+  const [form, setForm] = useState(null)
   const [odds, setOdds] = useState(null)
   const [oddsBusy, setOddsBusy] = useState(false)
   const [oddsError, setOddsError] = useState(null)
@@ -150,6 +153,18 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [event?.id])
 
+  // last-10 finishes for everyone on this tour (cached; ~16 events scanned)
+  useEffect(() => {
+    let alive = true
+    setForm(null)
+    fetchRecentForm(tour, 10)
+      .then((f) => alive && setForm(f))
+      .catch(() => {})
+    return () => {
+      alive = false
+    }
+  }, [tour])
+
   // odds reset when the event changes
   useEffect(() => {
     setOdds(null)
@@ -194,6 +209,7 @@ function App() {
         ...ratings[i],
         hist: hists[i],
         histBump: bumps[i],
+        form: form?.get(normName(p.name)) ?? null,
         ...results[i],
         marketOdds: price?.best ?? null,
         marketBook: price?.bestBook ?? null,
@@ -209,7 +225,7 @@ function App() {
       cutProjection,
       difficulties: roundDifficultySummary(event, roundAdjust),
     }
-  }, [event, history, roundAdjust, odds, livSet])
+  }, [event, history, roundAdjust, odds, livSet, form])
 
   const upcoming = useMemo(() => {
     const today = new Date().toISOString().slice(0, 10)
@@ -335,6 +351,9 @@ function App() {
         <button className={tab === 'model' ? 'active' : ''} onClick={() => setTab('model')}>
           Model
         </button>
+        <button className={tab === 'shortlist' ? 'active' : ''} onClick={() => setTab('shortlist')}>
+          Shortlist
+        </button>
         <button className={tab === '3balls' ? 'active' : ''} onClick={() => setTab('3balls')}>
           3-balls
         </button>
@@ -371,6 +390,14 @@ function App() {
           oddsError={oddsError}
           onLoadOdds={loadOdds}
           ratingSource={ratingSource}
+        />
+      )}
+      {event && tab === 'shortlist' && (
+        <Shortlist
+          event={event}
+          tour={tour}
+          rows={model?.rows ?? null}
+          wind={weather?.days?.length ? Math.max(...weather.days.map((d) => d.windAvg)) : null}
         />
       )}
       {event && model && tab === '3balls' && (

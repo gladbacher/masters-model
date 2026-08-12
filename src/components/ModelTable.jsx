@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { fairOdds, formatOdds, formatPct } from '../model/betting'
 import { getOddsKey, setOddsKey } from '../api/oddsapi'
+import { FormStrip } from './Shortlist'
 
 function fmtRel(rel) {
   if (rel === 0) return 'E'
@@ -44,6 +45,8 @@ export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onL
     { key: 'thru', label: 'Thru', get: (r) => r.thru, show: !pre },
     { key: 'owgr', label: ratingSource?.rankLabel ?? 'OWGR', get: (r) => r.owgrRank ?? 9999 },
     { key: 'hist', label: 'Hist', get: (r) => r.histBump },
+    { key: 'form', label: 'Form', get: (r) => r.form?.avgSg ?? -99 },
+    { key: 'last10', label: 'Last 10', get: (r) => r.form?.avgSg ?? -99, left: true },
     { key: 'win', label: 'Win', get: (r) => r.win },
     { key: 'fair', label: 'Fair', get: (r) => r.win },
     { key: 'odds', label: 'Best', get: (r) => r.marketOdds ?? 0, show: !!odds },
@@ -177,6 +180,17 @@ export default function ModelTable({ event, rows, odds, oddsBusy, oddsError, onL
                   title={r.hist ? r.hist.finishes.join('\n') : 'No appearances in last editions'}
                 >
                   {r.hist ? `${r.histBump >= 0 ? '+' : ''}${r.histBump.toFixed(1)} (${r.hist.appearances})` : '—'}
+                </td>
+                <td
+                  className={
+                    r.form?.avgSg == null ? 'dim' : r.form.avgSg > 0.4 ? 'strong' : r.form.avgSg < -0.2 ? 'under' : 'dim'
+                  }
+                  title={r.form ? `${r.form.starts} starts, ${r.form.cuts} missed cuts, ${r.form.top10s} top-10s` : undefined}
+                >
+                  {r.form?.avgSg != null ? `${r.form.avgSg >= 0 ? '+' : ''}${r.form.avgSg.toFixed(2)}` : '—'}
+                </td>
+                <td className="left">
+                  <FormStrip finishes={r.form?.finishes ?? []} />
                 </td>
                 <td className="strong">{r.win >= 0.0005 ? formatPct(r.win) : '—'}</td>
                 <td className="dim">{r.win >= 0.0005 ? formatOdds(fairOdds(r.win)) : '—'}</td>

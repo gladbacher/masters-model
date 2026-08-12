@@ -5,7 +5,9 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist']),
+  // 'dist' is build output; the root-level files are unrelated scratch drafts
+  // left over from an earlier experiment, not part of the app.
+  globalIgnores(['dist', '_zip-snapshots', 'masters_prediction_engine.jsx']),
   {
     files: ['**/*.{js,jsx}'],
     extends: [
