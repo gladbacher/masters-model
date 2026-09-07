@@ -1,329 +1,329 @@
 {
  "tour": "liv",
- "fetchedAt": "2026-08-31T18:44:06.033Z",
+ "fetchedAt": "2026-09-07T17:12:11.023Z",
  "method": "results-derived",
  "players": [
   {
    "name": "Jon Rahm",
-   "skill": 1.667,
+   "skill": 1.661,
    "rounds": 126,
    "rank": 1
   },
   {
    "name": "Bryson DeChambeau",
-   "skill": 1.312,
+   "skill": 1.307,
    "rounds": 127,
    "rank": 2
   },
   {
    "name": "Joaquín Niemann",
-   "skill": 1.087,
+   "skill": 1.082,
    "rounds": 128,
    "rank": 3
   },
   {
    "name": "Tyrrell Hatton",
-   "skill": 0.759,
+   "skill": 0.754,
    "rounds": 124,
    "rank": 4
   },
   {
    "name": "Scott Vincent",
-   "skill": 0.745,
+   "skill": 0.74,
    "rounds": 88,
    "rank": 5
   },
   {
    "name": "Thomas Detry",
-   "skill": 0.727,
+   "skill": 0.722,
    "rounds": 48,
    "rank": 6
   },
   {
    "name": "Lucas Herbert",
-   "skill": 0.646,
+   "skill": 0.642,
    "rounds": 128,
    "rank": 7
   },
   {
    "name": "David Puig",
-   "skill": 0.543,
+   "skill": 0.539,
    "rounds": 125,
    "rank": 8
   },
   {
    "name": "Cameron Smith",
-   "skill": 0.464,
+   "skill": 0.46,
    "rounds": 126,
    "rank": 9
   },
   {
    "name": "Abraham Ancer",
-   "skill": 0.455,
+   "skill": 0.451,
    "rounds": 128,
    "rank": 10
   },
   {
    "name": "Dean Burmester",
-   "skill": 0.449,
+   "skill": 0.445,
    "rounds": 128,
    "rank": 11
   },
   {
-   "name": "Patrick Reed",
-   "skill": 0.391,
-   "rounds": 80,
+   "name": "Branden Grace",
+   "skill": 0.386,
+   "rounds": 125,
    "rank": 12
   },
   {
-   "name": "Branden Grace",
-   "skill": 0.39,
-   "rounds": 125,
+   "name": "Patrick Reed",
+   "skill": 0.385,
+   "rounds": 80,
    "rank": 13
   },
   {
    "name": "Marc Leishman",
-   "skill": 0.384,
+   "skill": 0.38,
    "rounds": 126,
    "rank": 14
   },
   {
    "name": "Sergio García",
-   "skill": 0.38,
+   "skill": 0.376,
    "rounds": 128,
    "rank": 15
   },
   {
    "name": "Tom McKibbin",
-   "skill": 0.298,
+   "skill": 0.294,
    "rounds": 88,
    "rank": 16
   },
   {
    "name": "Richard T. Lee",
-   "skill": 0.246,
+   "skill": 0.241,
    "rounds": 47,
    "rank": 17
   },
   {
    "name": "Charles Howell III",
-   "skill": 0.227,
+   "skill": 0.223,
    "rounds": 116,
    "rank": 18
   },
   {
    "name": "Thomas Pieters",
-   "skill": 0.206,
+   "skill": 0.203,
    "rounds": 128,
    "rank": 19
   },
   {
    "name": "Harold Varner III",
-   "skill": 0.183,
+   "skill": 0.18,
    "rounds": 128,
    "rank": 20
   },
   {
    "name": "Byeong Hun An",
-   "skill": 0.136,
+   "skill": 0.132,
    "rounds": 48,
    "rank": 21
   },
   {
    "name": "Carlos Ortiz",
-   "skill": 0.116,
+   "skill": 0.113,
    "rounds": 128,
    "rank": 22
   },
   {
    "name": "Paul Casey",
-   "skill": 0.046,
+   "skill": 0.043,
    "rounds": 120,
    "rank": 23
   },
   {
    "name": "Dustin Johnson",
-   "skill": 0.03,
+   "skill": 0.026,
    "rounds": 128,
    "rank": 24
   },
   {
    "name": "Sebastián Muñoz",
-   "skill": 0.024,
+   "skill": 0.021,
    "rounds": 128,
    "rank": 25
   },
   {
    "name": "Victor Perez",
-   "skill": 0.017,
+   "skill": 0.013,
    "rounds": 44,
    "rank": 26
   },
   {
    "name": "Laurie Canter",
-   "skill": 0.012,
+   "skill": 0.009,
    "rounds": 54,
    "rank": 27
   },
   {
    "name": "Talor Gooch",
-   "skill": 0.008,
+   "skill": 0.005,
    "rounds": 128,
    "rank": 28
   },
   {
    "name": "Josele Ballester",
-   "skill": -0.105,
+   "skill": -0.108,
    "rounds": 67,
    "rank": 29
   },
   {
    "name": "Caleb Surratt",
-   "skill": -0.144,
+   "skill": -0.147,
    "rounds": 128,
    "rank": 30
   },
   {
    "name": "Louis Oosthuizen",
-   "skill": -0.184,
+   "skill": -0.187,
    "rounds": 117,
    "rank": 31
   },
   {
    "name": "Young-han Song",
-   "skill": -0.268,
+   "skill": -0.271,
    "rounds": 51,
    "rank": 32
   },
   {
    "name": "Charl Schwartzel",
-   "skill": -0.268,
+   "skill": -0.271,
    "rounds": 128,
    "rank": 33
   },
   {
    "name": "Bubba Watson",
-   "skill": -0.384,
+   "skill": -0.387,
    "rounds": 128,
    "rank": 34
   },
   {
    "name": "Brooks Koepka",
-   "skill": -0.405,
+   "skill": -0.407,
    "rounds": 78,
    "rank": 35
   },
   {
    "name": "Brendan Steele",
-   "skill": -0.415,
+   "skill": -0.418,
    "rounds": 128,
    "rank": 36
   },
   {
    "name": "Richard Bland",
-   "skill": -0.441,
+   "skill": -0.444,
    "rounds": 128,
    "rank": 37
   },
   {
    "name": "Peter Uihlein",
-   "skill": -0.48,
+   "skill": -0.483,
    "rounds": 128,
    "rank": 38
   },
   {
    "name": "Elvis Smylie",
-   "skill": -0.509,
+   "skill": -0.512,
    "rounds": 36,
    "rank": 39
   },
   {
    "name": "Lee Westwood",
-   "skill": -0.527,
+   "skill": -0.53,
    "rounds": 120,
    "rank": 40
   },
   {
    "name": "Anirban Lahiri",
-   "skill": -0.592,
+   "skill": -0.594,
    "rounds": 128,
    "rank": 41
   },
   {
    "name": "Eugenio Chacarra",
-   "skill": -0.597,
+   "skill": -0.598,
    "rounds": 40,
    "rank": 42
   },
   {
    "name": "Jinichiro Kozuma",
-   "skill": -0.616,
+   "skill": -0.617,
    "rounds": 64,
    "rank": 43
   },
   {
    "name": "Martin Vorster",
-   "skill": -0.617,
+   "skill": -0.618,
    "rounds": 8,
    "rank": 44
   },
   {
    "name": "Adrian Meronk",
-   "skill": -0.626,
+   "skill": -0.628,
    "rounds": 128,
    "rank": 45
   },
   {
    "name": "Ian Poulter",
-   "skill": -0.646,
+   "skill": -0.648,
    "rounds": 128,
    "rank": 46
   },
   {
    "name": "Cameron Tringale",
-   "skill": -0.716,
+   "skill": -0.718,
    "rounds": 128,
    "rank": 47
   },
   {
    "name": "Phil Mickelson",
-   "skill": -0.79,
+   "skill": -0.791,
    "rounds": 81,
    "rank": 48
   },
   {
    "name": "Matthew Wolff",
-   "skill": -0.897,
+   "skill": -0.899,
    "rounds": 118,
    "rank": 49
   },
   {
    "name": "Henrik Stenson",
-   "skill": -0.903,
+   "skill": -0.904,
    "rounds": 80,
    "rank": 50
   },
   {
    "name": "Kalle Samooja",
-   "skill": -0.906,
+   "skill": -0.904,
    "rounds": 40,
    "rank": 51
   },
   {
    "name": "Yosuke Asaji",
-   "skill": -0.929,
+   "skill": -0.931,
    "rounds": 48,
    "rank": 52
   },
   {
    "name": "Ben Schmidt",
-   "skill": -0.937,
+   "skill": -0.935,
    "rounds": 8,
    "rank": 53
   },
   {
    "name": "John Catlin",
-   "skill": -0.989,
+   "skill": -0.987,
    "rounds": 26,
    "rank": 54
   },
@@ -335,7 +335,7 @@
   },
   {
    "name": "Kieran Vincent",
-   "skill": -1.01,
+   "skill": -1.007,
    "rounds": 40,
    "rank": 56
   },
@@ -347,25 +347,25 @@
   },
   {
    "name": "Anthony Kim",
-   "skill": -1.049,
+   "skill": -1.051,
    "rounds": 120,
    "rank": 58
   },
   {
    "name": "Pat Perez",
-   "skill": -1.081,
+   "skill": -1.077,
    "rounds": 40,
    "rank": 59
   },
   {
    "name": "Danny Lee",
-   "skill": -1.094,
+   "skill": -1.095,
    "rounds": 126,
    "rank": 60
   },
   {
    "name": "Wade Ormsby",
-   "skill": -1.107,
+   "skill": -1.105,
    "rounds": 18,
    "rank": 61
   },
@@ -377,73 +377,73 @@
   },
   {
    "name": "Andy Ogletree",
-   "skill": -1.123,
+   "skill": -1.122,
    "rounds": 80,
    "rank": 63
   },
   {
    "name": "Martin Kaymer",
-   "skill": -1.147,
+   "skill": -1.148,
    "rounds": 124,
    "rank": 64
   },
   {
    "name": "Jason Kokrak",
-   "skill": -1.193,
+   "skill": -1.195,
    "rounds": 128,
    "rank": 65
   },
   {
    "name": "Luis Masaveu",
-   "skill": -1.206,
+   "skill": -1.207,
    "rounds": 75,
    "rank": 66
   },
   {
    "name": "Michael La Sasso",
-   "skill": -1.21,
+   "skill": -1.211,
    "rounds": 48,
    "rank": 67
   },
   {
    "name": "Björn Hellgren",
-   "skill": -1.291,
+   "skill": -1.292,
    "rounds": 48,
    "rank": 68
   },
   {
    "name": "Ben Campbell",
-   "skill": -1.333,
+   "skill": -1.334,
    "rounds": 81,
    "rank": 69
   },
   {
-   "name": "Doyeob Mun",
-   "skill": -1.361,
-   "rounds": 20,
+   "name": "Chieh-Po Lee",
+   "skill": -1.359,
+   "rounds": 39,
    "rank": 70
   },
   {
-   "name": "Chieh-Po Lee",
-   "skill": -1.362,
-   "rounds": 39,
+   "name": "Doyeob Mun",
+   "skill": -1.36,
+   "rounds": 20,
    "rank": 71
   },
   {
    "name": "Graeme McDowell",
-   "skill": -1.436,
+   "skill": -1.437,
    "rounds": 125,
    "rank": 72
   },
   {
    "name": "Yubin Jang",
-   "skill": -1.467,
+   "skill": -1.463,
    "rounds": 39,
    "rank": 73
   },
   {
    "name": "Mito Pereira",
-   "skill": -1.581,
+   "skill": -1.578,
    "rounds": 80,
    "rank": 74
   },
