@@ -1,1848 +1,1848 @@
 {
  "tour": "lpga",
- "fetchedAt": "2026-11-09T21:54:34.436Z",
+ "fetchedAt": "2026-11-16T21:37:02.170Z",
  "method": "results-derived",
  "players": [
   {
    "name": "Nelly Korda",
-   "skill": 2.336,
-   "rounds": 124,
+   "skill": 2.367,
+   "rounds": 128,
    "rank": 1
   },
   {
    "name": "Jeeno Thitikul",
-   "skill": 2.264,
+   "skill": 2.26,
    "rounds": 139,
    "rank": 2
   },
   {
    "name": "Miyu Yamashita",
-   "skill": 2.126,
+   "skill": 2.122,
    "rounds": 170,
    "rank": 3
   },
   {
-   "name": "Ruoning Yin",
-   "skill": 1.85,
-   "rounds": 121,
+   "name": "Haeran Ryu",
+   "skill": 1.933,
+   "rounds": 143,
    "rank": 4
   },
   {
-   "name": "Hyo Joo Kim",
-   "skill": 1.837,
+   "name": "Ruoning Yin",
+   "skill": 1.846,
    "rounds": 121,
    "rank": 5
   },
   {
-   "name": "Haeran Ryu",
-   "skill": 1.833,
-   "rounds": 139,
+   "name": "Hye-Jin Choi",
+   "skill": 1.834,
+   "rounds": 171,
    "rank": 6
   },
   {
-   "name": "Hye-Jin Choi",
-   "skill": 1.741,
-   "rounds": 167,
+   "name": "Hyo Joo Kim",
+   "skill": 1.833,
+   "rounds": 121,
    "rank": 7
   },
   {
-   "name": "Sei Young Kim",
-   "skill": 1.601,
-   "rounds": 131,
+   "name": "Charley Hull",
+   "skill": 1.503,
+   "rounds": 108,
    "rank": 8
   },
   {
-   "name": "Charley Hull",
-   "skill": 1.515,
-   "rounds": 104,
+   "name": "Nasa Hataoka",
+   "skill": 1.494,
+   "rounds": 144,
    "rank": 9
   },
   {
-   "name": "Nasa Hataoka",
-   "skill": 1.498,
-   "rounds": 144,
+   "name": "A Lim Kim",
+   "skill": 1.482,
+   "rounds": 156,
    "rank": 10
   },
   {
-   "name": "A Lim Kim",
-   "skill": 1.462,
-   "rounds": 152,
+   "name": "Sei Young Kim",
+   "skill": 1.478,
+   "rounds": 135,
    "rank": 11
   },
   {
-   "name": "Lottie Woad",
-   "skill": 1.323,
-   "rounds": 112,
+   "name": "Gaby López",
+   "skill": 1.412,
+   "rounds": 138,
    "rank": 12
   },
   {
-   "name": "Gaby López",
-   "skill": 1.311,
-   "rounds": 134,
+   "name": "Lottie Woad",
+   "skill": 1.382,
+   "rounds": 116,
    "rank": 13
   },
   {
    "name": "Aki Iwai",
-   "skill": 1.249,
-   "rounds": 171,
+   "skill": 1.306,
+   "rounds": 175,
    "rank": 14
   },
   {
    "name": "Ina Yoon",
-   "skill": 1.221,
-   "rounds": 139,
+   "skill": 1.283,
+   "rounds": 143,
    "rank": 15
   },
   {
    "name": "Lydia Ko",
-   "skill": 1.194,
+   "skill": 1.191,
    "rounds": 112,
    "rank": 16
   },
   {
-   "name": "Auston Kim",
-   "skill": 1.18,
-   "rounds": 128,
+   "name": "Somi Lee",
+   "skill": 1.14,
+   "rounds": 157,
    "rank": 17
   },
   {
-   "name": "Somi Lee",
-   "skill": 1.18,
-   "rounds": 156,
+   "name": "Auston Kim",
+   "skill": 1.13,
+   "rounds": 132,
    "rank": 18
   },
   {
-   "name": "Brooke Henderson",
-   "skill": 1.159,
-   "rounds": 133,
+   "name": "Yuna Araki",
+   "skill": 1.099,
+   "rounds": 12,
    "rank": 19
   },
   {
-   "name": "Lauren Coughlin",
-   "skill": 1.135,
-   "rounds": 129,
+   "name": "Brooke Henderson",
+   "skill": 1.096,
+   "rounds": 134,
    "rank": 20
   },
   {
    "name": "Jin Hee Im",
-   "skill": 1.129,
-   "rounds": 172,
+   "skill": 1.095,
+   "rounds": 176,
    "rank": 21
   },
   {
-   "name": "Yuna Araki",
-   "skill": 1.11,
-   "rounds": 12,
+   "name": "Lauren Coughlin",
+   "skill": 1.061,
+   "rounds": 133,
    "rank": 22
   },
   {
-   "name": "Alison Lee",
-   "skill": 1.015,
-   "rounds": 44,
+   "name": "Shiho Kuwaki",
+   "skill": 1.006,
+   "rounds": 30,
    "rank": 23
   },
   {
-   "name": "Shiho Kuwaki",
-   "skill": 1.013,
-   "rounds": 30,
+   "name": "Hannah Green",
+   "skill": 0.975,
+   "rounds": 122,
    "rank": 24
   },
   {
-   "name": "Jennifer Kupcho",
-   "skill": 1.006,
-   "rounds": 137,
+   "name": "Erika Hara",
+   "skill": 0.96,
+   "rounds": 82,
    "rank": 25
   },
   {
-   "name": "Allisen Corpuz",
-   "skill": 1.001,
-   "rounds": 146,
+   "name": "Esther Henseleit",
+   "skill": 0.952,
+   "rounds": 148,
    "rank": 26
   },
   {
-   "name": "Hannah Green",
-   "skill": 0.977,
-   "rounds": 122,
+   "name": "Alison Lee",
+   "skill": 0.947,
+   "rounds": 48,
    "rank": 27
   },
   {
-   "name": "Esther Henseleit",
+   "name": "Allisen Corpuz",
    "skill": 0.942,
-   "rounds": 144,
+   "rounds": 150,
    "rank": 28
   },
   {
-   "name": "Erika Hara",
-   "skill": 0.934,
-   "rounds": 78,
+   "name": "Carlota Ciganda",
+   "skill": 0.909,
+   "rounds": 122,
    "rank": 29
   },
   {
-   "name": "Rio Takeda",
-   "skill": 0.91,
-   "rounds": 184,
+   "name": "Pajaree Anannarukarn",
+   "skill": 0.896,
+   "rounds": 171,
    "rank": 30
   },
   {
-   "name": "Chizzy Iwai",
-   "skill": 0.903,
-   "rounds": 167,
+   "name": "Jennifer Kupcho",
+   "skill": 0.895,
+   "rounds": 138,
    "rank": 31
   },
   {
-   "name": "Pajaree Anannarukarn",
-   "skill": 0.899,
-   "rounds": 171,
+   "name": "Ariya Jutanugarn",
+   "skill": 0.879,
+   "rounds": 103,
    "rank": 32
   },
   {
-   "name": "Ariya Jutanugarn",
-   "skill": 0.882,
-   "rounds": 103,
+   "name": "Rio Takeda",
+   "skill": 0.854,
+   "rounds": 188,
    "rank": 33
   },
   {
-   "name": "Mao Saigo",
-   "skill": 0.874,
-   "rounds": 132,
+   "name": "Patty Tavatanakit",
+   "skill": 0.846,
+   "rounds": 125,
    "rank": 34
   },
   {
-   "name": "Patty Tavatanakit",
-   "skill": 0.871,
-   "rounds": 124,
+   "name": "Mao Saigo",
+   "skill": 0.845,
+   "rounds": 136,
    "rank": 35
   },
   {
-   "name": "Carlota Ciganda",
-   "skill": 0.83,
-   "rounds": 118,
+   "name": "Chizzy Iwai",
+   "skill": 0.824,
+   "rounds": 171,
    "rank": 36
   },
   {
-   "name": "Shuri Sakuma",
-   "skill": 0.821,
-   "rounds": 19,
+   "name": "Yuri Yoshida",
+   "skill": 0.817,
+   "rounds": 157,
    "rank": 37
   },
   {
-   "name": "Celine Boutier",
-   "skill": 0.803,
-   "rounds": 157,
+   "name": "Shuri Sakuma",
+   "skill": 0.813,
+   "rounds": 19,
    "rank": 38
   },
   {
    "name": "Andrea Lee",
-   "skill": 0.761,
-   "rounds": 143,
+   "skill": 0.791,
+   "rounds": 147,
    "rank": 39
   },
   {
-   "name": "Rose Zhang",
-   "skill": 0.738,
-   "rounds": 95,
+   "name": "Celine Boutier",
+   "skill": 0.782,
+   "rounds": 161,
    "rank": 40
   },
   {
-   "name": "Ayaka Furue",
-   "skill": 0.735,
-   "rounds": 154,
+   "name": "Rose Zhang",
+   "skill": 0.762,
+   "rounds": 99,
    "rank": 41
   },
   {
-   "name": "Amy Yang",
-   "skill": 0.727,
-   "rounds": 121,
+   "name": "Minami Katsu",
+   "skill": 0.736,
+   "rounds": 182,
    "rank": 42
   },
   {
-   "name": "Minami Katsu",
-   "skill": 0.72,
-   "rounds": 178,
+   "name": "Lindy Duncan",
+   "skill": 0.73,
+   "rounds": 159,
    "rank": 43
   },
   {
-   "name": "Yan Liu",
-   "skill": 0.712,
-   "rounds": 138,
+   "name": "Amy Yang",
+   "skill": 0.724,
+   "rounds": 121,
    "rank": 44
   },
   {
-   "name": "Youmin Hwang",
-   "skill": 0.71,
-   "rounds": 91,
+   "name": "Nanna Koerstz Madsen",
+   "skill": 0.723,
+   "rounds": 139,
    "rank": 45
   },
   {
-   "name": "Yuri Yoshida",
-   "skill": 0.678,
-   "rounds": 153,
+   "name": "Yan Liu",
+   "skill": 0.72,
+   "rounds": 142,
    "rank": 46
   },
   {
-   "name": "Aphrodite Deng",
-   "skill": 0.671,
-   "rounds": 21,
+   "name": "Youmin Hwang",
+   "skill": 0.706,
+   "rounds": 91,
    "rank": 47
   },
   {
-   "name": "Grace Kim",
-   "skill": 0.652,
-   "rounds": 142,
+   "name": "Ayaka Furue",
+   "skill": 0.693,
+   "rounds": 158,
    "rank": 48
   },
   {
-   "name": "Nanna Koerstz Madsen",
-   "skill": 0.641,
-   "rounds": 135,
+   "name": "Grace Kim",
+   "skill": 0.675,
+   "rounds": 146,
    "rank": 49
   },
   {
-   "name": "In Gee Chun",
-   "skill": 0.592,
-   "rounds": 108,
+   "name": "Aphrodite Deng",
+   "skill": 0.663,
+   "rounds": 21,
    "rank": 50
   },
   {
    "name": "Karis Davidson",
-   "skill": 0.59,
-   "rounds": 127,
+   "skill": 0.593,
+   "rounds": 131,
    "rank": 51
   },
   {
-   "name": "Asterisk Talley",
-   "skill": 0.577,
-   "rounds": 24,
+   "name": "In Gee Chun",
+   "skill": 0.59,
+   "rounds": 108,
    "rank": 52
   },
   {
    "name": "Arpichaya Yubol",
-   "skill": 0.575,
+   "skill": 0.572,
    "rounds": 133,
    "rank": 53
   },
   {
-   "name": "Lindy Duncan",
-   "skill": 0.558,
-   "rounds": 155,
+   "name": "Asterisk Talley",
+   "skill": 0.571,
+   "rounds": 24,
    "rank": 54
   },
   {
    "name": "Minsol Kim",
-   "skill": 0.542,
+   "skill": 0.535,
    "rounds": 9,
    "rank": 55
   },
   {
    "name": "Maja Stark",
-   "skill": 0.531,
+   "skill": 0.529,
    "rounds": 116,
    "rank": 56
   },
   {
-   "name": "Sophia Schubert",
-   "skill": 0.512,
-   "rounds": 54,
+   "name": "Yealimi Noh",
+   "skill": 0.506,
+   "rounds": 124,
    "rank": 57
   },
   {
-   "name": "Yealimi Noh",
-   "skill": 0.508,
-   "rounds": 124,
+   "name": "Diksha Dagar",
+   "skill": 0.483,
+   "rounds": 15,
    "rank": 58
   },
   {
-   "name": "Diksha Dagar",
-   "skill": 0.491,
-   "rounds": 15,
+   "name": "Sora Kamiya",
+   "skill": 0.483,
+   "rounds": 16,
    "rank": 59
   },
   {
-   "name": "Sora Kamiya",
-   "skill": 0.489,
-   "rounds": 16,
+   "name": "Sophia Schubert",
+   "skill": 0.479,
+   "rounds": 58,
    "rank": 60
   },
   {
    "name": "Kana Nagai",
-   "skill": 0.487,
+   "skill": 0.478,
    "rounds": 8,
    "rank": 61
   },
   {
-   "name": "Cassie Porter",
-   "skill": 0.475,
-   "rounds": 139,
+   "name": "Sarah Schmelzel",
+   "skill": 0.468,
+   "rounds": 81,
    "rank": 62
   },
   {
-   "name": "Jodi Ewart Shadoff",
-   "skill": 0.475,
-   "rounds": 102,
+   "name": "Hyunjo Yoo",
+   "skill": 0.451,
+   "rounds": 17,
    "rank": 63
   },
   {
-   "name": "Sarah Schmelzel",
-   "skill": 0.472,
-   "rounds": 81,
+   "name": "Nataliya Guseva",
+   "skill": 0.441,
+   "rounds": 170,
    "rank": 64
   },
   {
-   "name": "Hyunjo Yoo",
-   "skill": 0.458,
-   "rounds": 17,
+   "name": "Jenny Bae",
+   "skill": 0.429,
+   "rounds": 148,
    "rank": 65
   },
   {
-   "name": "Narin An",
-   "skill": 0.457,
-   "rounds": 112,
+   "name": "Cassie Porter",
+   "skill": 0.419,
+   "rounds": 143,
    "rank": 66
   },
   {
-   "name": "Nataliya Guseva",
-   "skill": 0.455,
-   "rounds": 169,
+   "name": "Achiraya Sriwong",
+   "skill": 0.408,
+   "rounds": 8,
    "rank": 67
   },
   {
-   "name": "Lucy Li",
-   "skill": 0.418,
-   "rounds": 146,
+   "name": "Narin An",
+   "skill": 0.405,
+   "rounds": 113,
    "rank": 68
   },
   {
-   "name": "Achiraya Sriwong",
-   "skill": 0.414,
-   "rounds": 8,
+   "name": "Julia López Ramirez",
+   "skill": 0.39,
+   "rounds": 147,
    "rank": 69
   },
   {
-   "name": "Jenny Bae",
-   "skill": 0.406,
-   "rounds": 144,
+   "name": "Lucy Li",
+   "skill": 0.389,
+   "rounds": 147,
    "rank": 70
   },
   {
-   "name": "Megan Khang",
-   "skill": 0.385,
-   "rounds": 115,
+   "name": "Chanettee Wannasaen",
+   "skill": 0.372,
+   "rounds": 145,
    "rank": 71
   },
   {
-   "name": "Chanettee Wannasaen",
-   "skill": 0.374,
-   "rounds": 145,
+   "name": "Megan Khang",
+   "skill": 0.368,
+   "rounds": 119,
    "rank": 72
   },
   {
-   "name": "Dongeun Lee",
-   "skill": 0.356,
-   "rounds": 38,
+   "name": "Nastasia Nadaud",
+   "skill": 0.351,
+   "rounds": 67,
    "rank": 73
   },
   {
-   "name": "Nastasia Nadaud",
-   "skill": 0.354,
-   "rounds": 67,
+   "name": "Linn Grant",
+   "skill": 0.339,
+   "rounds": 120,
    "rank": 74
   },
   {
-   "name": "Linn Grant",
-   "skill": 0.353,
-   "rounds": 116,
+   "name": "Maria José Marin",
+   "skill": 0.339,
+   "rounds": 24,
    "rank": 75
   },
   {
-   "name": "Maria José Marin",
-   "skill": 0.347,
-   "rounds": 24,
+   "name": "Jodi Ewart Shadoff",
+   "skill": 0.33,
+   "rounds": 106,
    "rank": 76
   },
   {
-   "name": "Yujie Liu",
-   "skill": 0.329,
-   "rounds": 16,
+   "name": "Dongeun Lee",
+   "skill": 0.328,
+   "rounds": 42,
    "rank": 77
   },
   {
-   "name": "Ying Xu",
-   "skill": 0.329,
-   "rounds": 8,
+   "name": "Yujie Liu",
+   "skill": 0.324,
+   "rounds": 16,
    "rank": 78
   },
   {
-   "name": "Anna Huang",
-   "skill": 0.313,
-   "rounds": 31,
+   "name": "Ying Xu",
+   "skill": 0.32,
+   "rounds": 8,
    "rank": 79
   },
   {
-   "name": "Casandra Alexander",
-   "skill": 0.309,
-   "rounds": 27,
+   "name": "Anna Huang",
+   "skill": 0.31,
+   "rounds": 31,
    "rank": 80
   },
   {
-   "name": "Chia Yen Wu",
-   "skill": 0.29,
-   "rounds": 11,
+   "name": "Casandra Alexander",
+   "skill": 0.303,
+   "rounds": 27,
    "rank": 81
   },
   {
-   "name": "Minji Kang",
-   "skill": 0.257,
-   "rounds": 77,
+   "name": "Chia Yen Wu",
+   "skill": 0.284,
+   "rounds": 11,
    "rank": 82
   },
   {
-   "name": "Shannon Tan",
-   "skill": 0.246,
-   "rounds": 38,
+   "name": "Leona Maguire",
+   "skill": 0.281,
+   "rounds": 147,
    "rank": 83
   },
   {
-   "name": "Pia Babnik",
-   "skill": 0.24,
-   "rounds": 14,
+   "name": "Minji Kang",
+   "skill": 0.264,
+   "rounds": 81,
    "rank": 84
   },
   {
-   "name": "Michelle Zhang",
-   "skill": 0.238,
-   "rounds": 27,
+   "name": "Shannon Tan",
+   "skill": 0.242,
+   "rounds": 38,
    "rank": 85
   },
   {
-   "name": "Julia López Ramirez",
-   "skill": 0.237,
-   "rounds": 143,
+   "name": "Pia Babnik",
+   "skill": 0.234,
+   "rounds": 14,
    "rank": 86
   },
   {
-   "name": "Soo Bin Joo",
-   "skill": 0.224,
-   "rounds": 126,
+   "name": "Jin Young Ko",
+   "skill": 0.21,
+   "rounds": 125,
    "rank": 87
   },
   {
-   "name": "Jenny Shin",
-   "skill": 0.22,
-   "rounds": 131,
+   "name": "Soo Bin Joo",
+   "skill": 0.183,
+   "rounds": 127,
    "rank": 88
   },
   {
-   "name": "Leona Maguire",
-   "skill": 0.217,
-   "rounds": 143,
+   "name": "Anna Nordqvist",
+   "skill": 0.183,
+   "rounds": 102,
    "rank": 89
   },
   {
-   "name": "Anna Nordqvist",
-   "skill": 0.186,
-   "rounds": 102,
+   "name": "Ruixin Liu",
+   "skill": 0.182,
+   "rounds": 78,
    "rank": 90
   },
   {
-   "name": "Ruixin Liu",
-   "skill": 0.184,
-   "rounds": 78,
+   "name": "Jenny Shin",
+   "skill": 0.177,
+   "rounds": 132,
    "rank": 91
   },
   {
    "name": "Farah O'Keefe",
-   "skill": 0.179,
+   "skill": 0.173,
    "rounds": 17,
    "rank": 92
   },
   {
-   "name": "Robyn Choi",
-   "skill": 0.177,
-   "rounds": 148,
+   "name": "Fuka Suga",
+   "skill": 0.169,
+   "rounds": 9,
    "rank": 93
   },
   {
-   "name": "Fuka Suga",
-   "skill": 0.175,
-   "rounds": 9,
+   "name": "Mitsuki Kobayashi",
+   "skill": 0.144,
+   "rounds": 7,
    "rank": 94
   },
   {
-   "name": "Pauline Roussin-Bouchard",
-   "skill": 0.159,
-   "rounds": 123,
+   "name": "Paula Martin Sampedro",
+   "skill": 0.143,
+   "rounds": 17,
    "rank": 95
   },
   {
-   "name": "Brooke Matthews",
-   "skill": 0.158,
-   "rounds": 122,
+   "name": "Shina Kanazawa",
+   "skill": 0.137,
+   "rounds": 7,
    "rank": 96
   },
   {
-   "name": "Manon De Roey",
-   "skill": 0.15,
-   "rounds": 143,
+   "name": "Minjee Lee",
+   "skill": 0.136,
+   "rounds": 123,
    "rank": 97
   },
   {
-   "name": "Mitsuki Kobayashi",
-   "skill": 0.15,
-   "rounds": 7,
+   "name": "Pauline Roussin-Bouchard",
+   "skill": 0.13,
+   "rounds": 127,
    "rank": 98
   },
   {
-   "name": "Paula Martin Sampedro",
-   "skill": 0.149,
-   "rounds": 17,
+   "name": "Mi Hyang Lee",
+   "skill": 0.127,
+   "rounds": 146,
    "rank": 99
   },
   {
-   "name": "Shina Kanazawa",
-   "skill": 0.143,
-   "rounds": 7,
+   "name": "Yui Kawamoto",
+   "skill": 0.123,
+   "rounds": 14,
    "rank": 100
   },
   {
-   "name": "Minjee Lee",
-   "skill": 0.137,
-   "rounds": 123,
+   "name": "Robyn Choi",
+   "skill": 0.121,
+   "rounds": 149,
    "rank": 101
   },
   {
-   "name": "Mi Hyang Lee",
-   "skill": 0.128,
-   "rounds": 146,
+   "name": "Kano Nakamura",
+   "skill": 0.119,
+   "rounds": 7,
    "rank": 102
   },
   {
-   "name": "Yui Kawamoto",
-   "skill": 0.127,
-   "rounds": 14,
+   "name": "Aditi Ashok",
+   "skill": 0.118,
+   "rounds": 120,
    "rank": 103
   },
   {
-   "name": "Kano Nakamura",
-   "skill": 0.125,
-   "rounds": 7,
+   "name": "Jiyai Shin",
+   "skill": 0.115,
+   "rounds": 15,
    "rank": 104
   },
   {
-   "name": "Jin Young Ko",
-   "skill": 0.12,
-   "rounds": 121,
+   "name": "Manon De Roey",
+   "skill": 0.113,
+   "rounds": 147,
    "rank": 105
   },
   {
-   "name": "Aditi Ashok",
-   "skill": 0.119,
-   "rounds": 120,
+   "name": "Brooke Matthews",
+   "skill": 0.11,
+   "rounds": 123,
    "rank": 106
   },
   {
-   "name": "Jiyai Shin",
-   "skill": 0.119,
-   "rounds": 15,
+   "name": "Yuli Shi",
+   "skill": 0.097,
+   "rounds": 6,
    "rank": 107
   },
   {
-   "name": "Yuli Shi",
-   "skill": 0.102,
-   "rounds": 6,
+   "name": "Yuna Nishimura",
+   "skill": 0.086,
+   "rounds": 90,
    "rank": 108
   },
   {
    "name": "Sayaka Takahashi",
-   "skill": 0.091,
+   "skill": 0.086,
    "rounds": 11,
    "rank": 109
   },
   {
-   "name": "Angel Yin",
-   "skill": 0.072,
-   "rounds": 121,
+   "name": "Nicole Broch Estrup",
+   "skill": 0.061,
+   "rounds": 23,
    "rank": 110
   },
   {
-   "name": "Sakura Koiwai",
-   "skill": 0.045,
-   "rounds": 12,
+   "name": "Dewi Weber",
+   "skill": 0.049,
+   "rounds": 133,
    "rank": 111
   },
   {
-   "name": "Peiyun Chien",
-   "skill": 0.035,
-   "rounds": 85,
+   "name": "Sakura Koiwai",
+   "skill": 0.042,
+   "rounds": 12,
    "rank": 112
   },
   {
-   "name": "Yunseo Yang",
-   "skill": 0.035,
-   "rounds": 12,
+   "name": "Peiyun Chien",
+   "skill": 0.032,
+   "rounds": 85,
    "rank": 113
   },
   {
-   "name": "Ana Belac",
-   "skill": 0.013,
-   "rounds": 84,
+   "name": "Yunseo Yang",
+   "skill": 0.029,
+   "rounds": 12,
    "rank": 114
   },
   {
    "name": "Weiwei Zhang",
-   "skill": 0.01,
-   "rounds": 115,
+   "skill": 0.018,
+   "rounds": 119,
    "rank": 115
   },
   {
-   "name": "Laney Frye",
-   "skill": 0.005,
-   "rounds": 34,
+   "name": "Angel Yin",
+   "skill": 0.012,
+   "rounds": 122,
    "rank": 116
   },
   {
-   "name": "Lexi Thompson",
-   "skill": 0.005,
-   "rounds": 54,
+   "name": "Michelle Zhang",
+   "skill": 0.012,
+   "rounds": 31,
    "rank": 117
   },
   {
-   "name": "Suvichaya Vinijchaitham",
-   "skill": 0.001,
-   "rounds": 45,
+   "name": "Lexi Thompson",
+   "skill": 0.002,
+   "rounds": 54,
    "rank": 118
   },
   {
-   "name": "Amelia Garvey",
-   "skill": -0.007,
-   "rounds": 14,
+   "name": "Carolina Melgrati",
+   "skill": -0.002,
+   "rounds": 41,
    "rank": 119
   },
   {
-   "name": "Jiwon Jeon",
-   "skill": -0.012,
-   "rounds": 81,
+   "name": "Pornanong Phatlum",
+   "skill": -0.011,
+   "rounds": 84,
    "rank": 120
   },
   {
-   "name": "Dewi Weber",
-   "skill": -0.024,
-   "rounds": 129,
+   "name": "Amelia Garvey",
+   "skill": -0.011,
+   "rounds": 14,
    "rank": 121
   },
   {
-   "name": "Yuna Nishimura",
-   "skill": -0.029,
-   "rounds": 86,
+   "name": "Ana Belac",
+   "skill": -0.021,
+   "rounds": 85,
    "rank": 122
   },
   {
-   "name": "Gemma Dryburgh",
-   "skill": -0.036,
-   "rounds": 123,
+   "name": "Laney Frye",
+   "skill": -0.022,
+   "rounds": 35,
    "rank": 123
   },
   {
-   "name": "Sara Kouskova",
-   "skill": -0.039,
-   "rounds": 18,
+   "name": "Jing Yan",
+   "skill": -0.034,
+   "rounds": 99,
    "rank": 124
   },
   {
-   "name": "Yuka Yasuda",
-   "skill": -0.046,
-   "rounds": 7,
+   "name": "Sara Kouskova",
+   "skill": -0.043,
+   "rounds": 18,
    "rank": 125
   },
   {
-   "name": "Shiyuan Zhou",
-   "skill": -0.058,
-   "rounds": 13,
+   "name": "Gemma Dryburgh",
+   "skill": -0.048,
+   "rounds": 124,
    "rank": 126
   },
   {
-   "name": "Lizette Salas",
-   "skill": -0.06,
-   "rounds": 23,
+   "name": "Yuka Yasuda",
+   "skill": -0.05,
+   "rounds": 7,
    "rank": 127
   },
   {
-   "name": "Ashleigh Buhai",
-   "skill": -0.063,
-   "rounds": 101,
+   "name": "Jiwon Jeon",
+   "skill": -0.052,
+   "rounds": 82,
    "rank": 128
   },
   {
-   "name": "Gina Kim",
-   "skill": -0.067,
-   "rounds": 50,
+   "name": "Shiyuan Zhou",
+   "skill": -0.061,
+   "rounds": 13,
    "rank": 129
   },
   {
-   "name": "Kristen Gillman",
-   "skill": -0.074,
-   "rounds": 74,
+   "name": "Ashleigh Buhai",
+   "skill": -0.068,
+   "rounds": 105,
    "rank": 130
   },
   {
-   "name": "Eri Okayama",
-   "skill": -0.08,
-   "rounds": 8,
+   "name": "Kristen Gillman",
+   "skill": -0.077,
+   "rounds": 74,
    "rank": 131
   },
   {
-   "name": "Ryann O'Toole",
-   "skill": -0.094,
-   "rounds": 84,
+   "name": "Suvichaya Vinijchaitham",
+   "skill": -0.081,
+   "rounds": 49,
    "rank": 132
   },
   {
-   "name": "Aihi Takano",
-   "skill": -0.108,
-   "rounds": 7,
+   "name": "Eri Okayama",
+   "skill": -0.084,
+   "rounds": 8,
    "rank": 133
   },
   {
-   "name": "Jing Yan",
-   "skill": -0.111,
-   "rounds": 95,
+   "name": "Yana Wilson",
+   "skill": -0.086,
+   "rounds": 69,
    "rank": 134
   },
   {
-   "name": "Amanda Doherty",
-   "skill": -0.117,
-   "rounds": 81,
+   "name": "Ryann O'Toole",
+   "skill": -0.096,
+   "rounds": 84,
    "rank": 135
   },
   {
-   "name": "Kajsa Arwefjäll",
-   "skill": -0.121,
-   "rounds": 17,
+   "name": "Amanda Doherty",
+   "skill": -0.099,
+   "rounds": 85,
    "rank": 136
   },
   {
-   "name": "Xiyu Janet Lin",
-   "skill": -0.124,
-   "rounds": 6,
+   "name": "Aihi Takano",
+   "skill": -0.112,
+   "rounds": 7,
    "rank": 137
   },
   {
-   "name": "Wei-Ling Hsu",
+   "name": "Kajsa Arwefjäll",
    "skill": -0.125,
-   "rounds": 136,
+   "rounds": 17,
    "rank": 138
   },
   {
-   "name": "Mimi Rhodes",
-   "skill": -0.125,
-   "rounds": 59,
+   "name": "Xiyu Janet Lin",
+   "skill": -0.129,
+   "rounds": 6,
    "rank": 139
   },
   {
    "name": "Mirabel Ting",
-   "skill": -0.126,
+   "skill": -0.13,
    "rounds": 13,
    "rank": 140
   },
   {
    "name": "Kiara Romero",
-   "skill": -0.131,
+   "skill": -0.134,
    "rounds": 33,
    "rank": 141
   },
   {
    "name": "Chiara Tamburlini",
-   "skill": -0.138,
-   "rounds": 65,
+   "skill": -0.152,
+   "rounds": 66,
    "rank": 142
   },
   {
-   "name": "Pornanong Phatlum",
-   "skill": -0.141,
-   "rounds": 80,
+   "name": "Gina Kim",
+   "skill": -0.155,
+   "rounds": 51,
    "rank": 143
   },
   {
-   "name": "Yana Wilson",
-   "skill": -0.142,
-   "rounds": 65,
+   "name": "Chella Choi",
+   "skill": -0.155,
+   "rounds": 51,
    "rank": 144
   },
   {
-   "name": "Carolina Melgrati",
-   "skill": -0.147,
-   "rounds": 37,
+   "name": "Wei-Ling Hsu",
+   "skill": -0.159,
+   "rounds": 137,
    "rank": 145
   },
   {
-   "name": "Chella Choi",
-   "skill": -0.151,
-   "rounds": 51,
+   "name": "MinYoung Lee",
+   "skill": -0.168,
+   "rounds": 7,
    "rank": 146
   },
   {
-   "name": "MinYoung Lee",
-   "skill": -0.164,
-   "rounds": 7,
+   "name": "Cara Gainer",
+   "skill": -0.171,
+   "rounds": 17,
    "rank": 147
   },
   {
-   "name": "Cara Gainer",
-   "skill": -0.167,
-   "rounds": 17,
+   "name": "Bianca Pagdanganan",
+   "skill": -0.172,
+   "rounds": 52,
    "rank": 148
   },
   {
-   "name": "Bianca Pagdanganan",
-   "skill": -0.169,
-   "rounds": 52,
+   "name": "Yu Liu",
+   "skill": -0.2,
+   "rounds": 112,
    "rank": 149
   },
   {
-   "name": "Mary Liu",
-   "skill": -0.17,
-   "rounds": 120,
+   "name": "Carla Tejedo Mulet",
+   "skill": -0.201,
+   "rounds": 58,
    "rank": 150
   },
   {
-   "name": "Yu Liu",
-   "skill": -0.205,
-   "rounds": 108,
+   "name": "Elizabeth Szokol",
+   "skill": -0.215,
+   "rounds": 47,
    "rank": 151
   },
   {
-   "name": "Carla Tejedo Mulet",
-   "skill": -0.211,
-   "rounds": 57,
+   "name": "Saki Baba",
+   "skill": -0.233,
+   "rounds": 112,
    "rank": 152
   },
   {
-   "name": "Elizabeth Szokol",
-   "skill": -0.213,
-   "rounds": 47,
+   "name": "Jasmine Suwannapura",
+   "skill": -0.268,
+   "rounds": 97,
    "rank": 153
   },
   {
-   "name": "Nicole Broch Estrup",
-   "skill": -0.217,
-   "rounds": 19,
+   "name": "Melanie Green",
+   "skill": -0.27,
+   "rounds": 69,
    "rank": 154
   },
   {
-   "name": "Jessica Porvasnik",
-   "skill": -0.218,
-   "rounds": 65,
+   "name": "Mary Liu",
+   "skill": -0.272,
+   "rounds": 124,
    "rank": 155
   },
   {
-   "name": "Perrine Delacour",
-   "skill": -0.232,
-   "rounds": 98,
+   "name": "Lisa Pettersson",
+   "skill": -0.277,
+   "rounds": 12,
    "rank": 156
   },
   {
-   "name": "Morgane Metraux",
-   "skill": -0.245,
-   "rounds": 73,
+   "name": "Erica Shepherd",
+   "skill": -0.309,
+   "rounds": 10,
    "rank": 157
   },
   {
-   "name": "Jasmine Suwannapura",
-   "skill": -0.266,
-   "rounds": 97,
+   "name": "Jessica Porvasnik",
+   "skill": -0.309,
+   "rounds": 66,
    "rank": 158
   },
   {
-   "name": "Lisa Pettersson",
-   "skill": -0.275,
-   "rounds": 12,
+   "name": "Miranda Wang",
+   "skill": -0.311,
+   "rounds": 83,
    "rank": 159
   },
   {
-   "name": "Erica Shepherd",
-   "skill": -0.308,
-   "rounds": 10,
+   "name": "Frida Kinhult",
+   "skill": -0.311,
+   "rounds": 93,
    "rank": 160
   },
   {
-   "name": "Miranda Wang",
-   "skill": -0.31,
-   "rounds": 83,
+   "name": "Lizette Salas",
+   "skill": -0.311,
+   "rounds": 24,
    "rank": 161
   },
   {
    "name": "Amari Avery",
-   "skill": -0.313,
+   "skill": -0.314,
    "rounds": 9,
    "rank": 162
   },
   {
    "name": "Alice Hewson",
-   "skill": -0.314,
+   "skill": -0.316,
    "rounds": 20,
    "rank": 163
   },
   {
-   "name": "Emily Kristine Pedersen",
-   "skill": -0.337,
-   "rounds": 84,
+   "name": "Perrine Delacour",
+   "skill": -0.321,
+   "rounds": 102,
    "rank": 164
   },
   {
-   "name": "Olivia Cowan",
-   "skill": -0.344,
-   "rounds": 69,
+   "name": "Emily Kristine Pedersen",
+   "skill": -0.34,
+   "rounds": 84,
    "rank": 165
   },
   {
-   "name": "Azahara Munoz",
-   "skill": -0.356,
-   "rounds": 57,
+   "name": "Olivia Cowan",
+   "skill": -0.347,
+   "rounds": 73,
    "rank": 166
   },
   {
-   "name": "Saki Baba",
-   "skill": -0.358,
-   "rounds": 108,
+   "name": "Azahara Munoz",
+   "skill": -0.36,
+   "rounds": 57,
    "rank": 167
+  },
+  {
+   "name": "Morgane Metraux",
+   "skill": -0.361,
+   "rounds": 74,
+   "rank": 168
   },
   {
    "name": "Da Yeon Lee",
    "skill": -0.375,
    "rounds": 8,
-   "rank": 168
-  },
-  {
-   "name": "Xiaowen Yin",
-   "skill": -0.384,
-   "rounds": 43,
    "rank": 169
   },
   {
-   "name": "Sofia Garcia",
-   "skill": -0.391,
+   "name": "Xiaowen Yin",
+   "skill": -0.386,
    "rounds": 43,
    "rank": 170
   },
   {
-   "name": "Mariel Galdiano",
-   "skill": -0.398,
-   "rounds": 42,
+   "name": "Sofia Garcia",
+   "skill": -0.396,
+   "rounds": 43,
    "rank": 171
+  },
+  {
+   "name": "Mariel Galdiano",
+   "skill": -0.402,
+   "rounds": 42,
+   "rank": 172
   },
   {
    "name": "Albane Valenzuela",
    "skill": -0.404,
    "rounds": 71,
-   "rank": 172
-  },
-  {
-   "name": "Maude-Aimee LeBlanc",
-   "skill": -0.405,
-   "rounds": 53,
    "rank": 173
   },
   {
    "name": "Madelene Sagstrom",
-   "skill": -0.421,
+   "skill": -0.422,
    "rounds": 72,
    "rank": 174
   },
   {
    "name": "Paula Reto",
-   "skill": -0.425,
+   "skill": -0.428,
    "rounds": 118,
    "rank": 175
   },
   {
-   "name": "Jeongeun Lee5",
-   "skill": -0.43,
-   "rounds": 158,
+   "name": "Isabella Fierro",
+   "skill": -0.435,
+   "rounds": 23,
    "rank": 176
   },
   {
-   "name": "Isabella Fierro",
-   "skill": -0.431,
-   "rounds": 23,
+   "name": "Jeongeun Lee5",
+   "skill": -0.442,
+   "rounds": 162,
    "rank": 177
   },
   {
-   "name": "Melanie Green",
-   "skill": -0.442,
-   "rounds": 65,
+   "name": "Rin Yoshida",
+   "skill": -0.454,
+   "rounds": 8,
    "rank": 178
   },
   {
-   "name": "Rin Yoshida",
-   "skill": -0.455,
-   "rounds": 8,
+   "name": "Mimi Rhodes",
+   "skill": -0.456,
+   "rounds": 63,
    "rank": 179
   },
   {
    "name": "Caroline Masson",
-   "skill": -0.455,
+   "skill": -0.456,
    "rounds": 47,
    "rank": 180
   },
   {
    "name": "Serena Aoki",
-   "skill": -0.457,
+   "skill": -0.458,
    "rounds": 7,
    "rank": 181
   },
   {
    "name": "Soomin Oh",
-   "skill": -0.466,
+   "skill": -0.467,
    "rounds": 6,
    "rank": 182
   },
   {
    "name": "Annabell Fuller",
-   "skill": -0.473,
+   "skill": -0.474,
    "rounds": 11,
    "rank": 183
   },
   {
    "name": "Mina Kreiter",
-   "skill": -0.492,
+   "skill": -0.496,
    "rounds": 28,
    "rank": 184
   },
   {
-   "name": "Yijia Ren",
-   "skill": -0.512,
-   "rounds": 10,
+   "name": "Maude-Aimee LeBlanc",
+   "skill": -0.498,
+   "rounds": 54,
    "rank": 185
   },
   {
-   "name": "Brianna Do",
-   "skill": -0.515,
-   "rounds": 66,
+   "name": "Yijia Ren",
+   "skill": -0.513,
+   "rounds": 10,
    "rank": 186
   },
   {
    "name": "Alexandra Forsterling",
-   "skill": -0.516,
+   "skill": -0.517,
    "rounds": 14,
    "rank": 187
   },
   {
-   "name": "Natasha Oon",
-   "skill": -0.522,
-   "rounds": 38,
+   "name": "Annabelle Pancake-Webb",
+   "skill": -0.531,
+   "rounds": 7,
    "rank": 188
   },
   {
-   "name": "Frida Kinhult",
-   "skill": -0.537,
-   "rounds": 89,
-   "rank": 189
-  },
-  {
    "name": "Madison Young",
-   "skill": -0.55,
+   "skill": -0.553,
    "rounds": 47,
-   "rank": 190
+   "rank": 189
   },
   {
    "name": "Gianna Clemente",
    "skill": -0.558,
    "rounds": 19,
-   "rank": 191
+   "rank": 190
   },
   {
    "name": "Megha Ganne",
-   "skill": -0.582,
+   "skill": -0.584,
    "rounds": 11,
-   "rank": 192
+   "rank": 191
   },
   {
    "name": "Alexa Pano",
-   "skill": -0.599,
-   "rounds": 118,
-   "rank": 193
-  },
-  {
-   "name": "Yahui Zhang",
-   "skill": -0.601,
-   "rounds": 73,
-   "rank": 194
+   "skill": -0.585,
+   "rounds": 119,
+   "rank": 192
   },
   {
    "name": "Gabriela Ruffels",
-   "skill": -0.615,
+   "skill": -0.618,
    "rounds": 106,
+   "rank": 193
+  },
+  {
+   "name": "Natasha Oon",
+   "skill": -0.619,
+   "rounds": 39,
+   "rank": 194
+  },
+  {
+   "name": "Shuying Li",
+   "skill": -0.628,
+   "rounds": 16,
    "rank": 195
   },
   {
    "name": "Kaitlyn Papp Budde",
-   "skill": -0.628,
+   "skill": -0.629,
    "rounds": 12,
    "rank": 196
   },
   {
-   "name": "Shuying Li",
-   "skill": -0.63,
-   "rounds": 16,
+   "name": "Gurleen Kaur",
+   "skill": -0.633,
+   "rounds": 104,
    "rank": 197
   },
   {
-   "name": "Polly Mack",
-   "skill": -0.631,
-   "rounds": 73,
+   "name": "Hibiki Iriya",
+   "skill": -0.634,
+   "rounds": 7,
    "rank": 198
   },
   {
-   "name": "Hibiki Iriya",
-   "skill": -0.635,
-   "rounds": 7,
-   "rank": 199
-  },
-  {
    "name": "Anne Chen",
-   "skill": -0.647,
+   "skill": -0.649,
    "rounds": 17,
-   "rank": 200
-  },
-  {
-   "name": "Gurleen Kaur",
-   "skill": -0.651,
-   "rounds": 103,
-   "rank": 201
-  },
-  {
-   "name": "Alana Uriell",
-   "skill": -0.652,
-   "rounds": 6,
-   "rank": 202
+   "rank": 199
   },
   {
    "name": "Liqi Zeng",
    "skill": -0.652,
    "rounds": 20,
+   "rank": 200
+  },
+  {
+   "name": "Polly Mack",
+   "skill": -0.655,
+   "rounds": 74,
+   "rank": 201
+  },
+  {
+   "name": "Alana Uriell",
+   "skill": -0.656,
+   "rounds": 6,
+   "rank": 202
+  },
+  {
+   "name": "Lauren Walsh",
+   "skill": -0.66,
+   "rounds": 58,
    "rank": 203
   },
   {
    "name": "Bronte Law",
-   "skill": -0.667,
+   "skill": -0.668,
    "rounds": 25,
    "rank": 204
   },
   {
    "name": "Jaravee Boonchant",
-   "skill": -0.674,
+   "skill": -0.675,
    "rounds": 23,
    "rank": 205
   },
   {
    "name": "Stephanie Kyriacou",
-   "skill": -0.68,
+   "skill": -0.681,
    "rounds": 105,
    "rank": 206
   },
   {
    "name": "Lee-Anne Pace",
-   "skill": -0.685,
+   "skill": -0.683,
    "rounds": 9,
    "rank": 207
   },
   {
    "name": "Ashley Lau",
-   "skill": -0.685,
+   "skill": -0.683,
    "rounds": 8,
    "rank": 208
   },
   {
-   "name": "Carolina Chacarra",
-   "skill": -0.689,
-   "rounds": 37,
+   "name": "Hinako Shibuno",
+   "skill": -0.69,
+   "rounds": 107,
    "rank": 209
   },
   {
-   "name": "Lauren Walsh",
-   "skill": -0.702,
-   "rounds": 57,
+   "name": "Carolina Chacarra",
+   "skill": -0.69,
+   "rounds": 37,
    "rank": 210
   },
   {
-   "name": "Hinako Shibuno",
-   "skill": -0.714,
-   "rounds": 103,
+   "name": "Kumkang Park",
+   "skill": -0.719,
+   "rounds": 69,
    "rank": 211
   },
   {
-   "name": "Kumkang Park",
-   "skill": -0.717,
-   "rounds": 69,
+   "name": "Isi Gabsa",
+   "skill": -0.727,
+   "rounds": 36,
    "rank": 212
   },
   {
-   "name": "Isi Gabsa",
-   "skill": -0.729,
-   "rounds": 35,
-   "rank": 213
-  },
-  {
    "name": "Yani Tseng",
-   "skill": -0.734,
+   "skill": -0.733,
    "rounds": 31,
-   "rank": 214
+   "rank": 213
   },
   {
    "name": "Georgia Hall",
    "skill": -0.736,
    "rounds": 35,
+   "rank": 214
+  },
+  {
+   "name": "Briana Chacon",
+   "skill": -0.742,
+   "rounds": 40,
    "rank": 215
   },
   {
    "name": "Ai Suzuki",
-   "skill": -0.748,
+   "skill": -0.746,
    "rounds": 10,
    "rank": 216
   },
   {
-   "name": "Jennifer Chang",
-   "skill": -0.756,
-   "rounds": 20,
+   "name": "Yahui Zhang",
+   "skill": -0.757,
+   "rounds": 77,
    "rank": 217
   },
   {
-   "name": "Briana Chacon",
-   "skill": -0.759,
-   "rounds": 36,
+   "name": "Jennifer Chang",
+   "skill": -0.76,
+   "rounds": 20,
    "rank": 218
   },
   {
    "name": "Alessandra Fanali",
-   "skill": -0.764,
+   "skill": -0.761,
    "rounds": 8,
    "rank": 219
   },
   {
-   "name": "Dasom Ma",
-   "skill": -0.769,
-   "rounds": 6,
+   "name": "Laetitia Beck",
+   "skill": -0.765,
+   "rounds": 33,
    "rank": 220
   },
   {
-   "name": "Pernilla Lindberg",
-   "skill": -0.775,
-   "rounds": 11,
+   "name": "Dasom Ma",
+   "skill": -0.767,
+   "rounds": 6,
    "rank": 221
   },
   {
-   "name": "Carla Bernat Escuder",
-   "skill": -0.776,
-   "rounds": 15,
+   "name": "Pernilla Lindberg",
+   "skill": -0.772,
+   "rounds": 11,
    "rank": 222
   },
   {
-   "name": "Dottie Ardina",
-   "skill": -0.779,
-   "rounds": 9,
+   "name": "Carla Bernat Escuder",
+   "skill": -0.775,
+   "rounds": 15,
    "rank": 223
+  },
+  {
+   "name": "Dottie Ardina",
+   "skill": -0.777,
+   "rounds": 9,
+   "rank": 224
   },
   {
    "name": "Sung Hyun Park",
    "skill": -0.792,
    "rounds": 46,
-   "rank": 224
-  },
-  {
-   "name": "Aline Krauter",
-   "skill": -0.794,
-   "rounds": 61,
    "rank": 225
   },
   {
    "name": "Heather Lin",
-   "skill": -0.794,
+   "skill": -0.792,
    "rounds": 14,
    "rank": 226
   },
   {
-   "name": "Laetitia Beck",
-   "skill": -0.806,
-   "rounds": 32,
+   "name": "Aline Krauter",
+   "skill": -0.795,
+   "rounds": 61,
    "rank": 227
   },
   {
    "name": "Emma Spitz",
-   "skill": -0.806,
+   "skill": -0.804,
    "rounds": 14,
    "rank": 228
   },
   {
-   "name": "Linnea Strom",
-   "skill": -0.813,
-   "rounds": 95,
+   "name": "Brianna Do",
+   "skill": -0.807,
+   "rounds": 70,
    "rank": 229
   },
   {
-   "name": "Caley McGinty",
-   "skill": -0.82,
-   "rounds": 47,
+   "name": "Linnea Strom",
+   "skill": -0.81,
+   "rounds": 96,
    "rank": 230
   },
   {
-   "name": "Menghan Li",
-   "skill": -0.826,
-   "rounds": 8,
+   "name": "Caley McGinty",
+   "skill": -0.821,
+   "rounds": 47,
    "rank": 231
   },
   {
    "name": "Nuria Iturrioz",
-   "skill": -0.827,
+   "skill": -0.823,
    "rounds": 6,
    "rank": 232
   },
   {
-   "name": "Yue Ren",
-   "skill": -0.827,
-   "rounds": 9,
+   "name": "Menghan Li",
+   "skill": -0.824,
+   "rounds": 8,
    "rank": 233
   },
   {
-   "name": "Moa Folke",
-   "skill": -0.834,
-   "rounds": 10,
+   "name": "Yue Ren",
+   "skill": -0.825,
+   "rounds": 9,
    "rank": 234
   },
   {
-   "name": "Muni He",
-   "skill": -0.837,
-   "rounds": 56,
+   "name": "Moa Folke",
+   "skill": -0.831,
+   "rounds": 10,
    "rank": 235
   },
   {
-   "name": "Pei-Ying Tsai",
-   "skill": -0.839,
-   "rounds": 6,
+   "name": "Muni He",
+   "skill": -0.836,
+   "rounds": 56,
    "rank": 236
+  },
+  {
+   "name": "Pei-Ying Tsai",
+   "skill": -0.836,
+   "rounds": 6,
+   "rank": 237
+  },
+  {
+   "name": "Shinsil Bang",
+   "skill": -0.844,
+   "rounds": 8,
+   "rank": 238
   },
   {
    "name": "Bailey Tardy",
    "skill": -0.848,
    "rounds": 61,
-   "rank": 237
-  },
-  {
-   "name": "Shinsil Bang",
-   "skill": -0.848,
-   "rounds": 8,
-   "rank": 238
-  },
-  {
-   "name": "Helen Briem",
-   "skill": -0.863,
-   "rounds": 37,
    "rank": 239
   },
   {
-   "name": "Gigi Stoll",
-   "skill": -0.867,
-   "rounds": 63,
+   "name": "Helen Briem",
+   "skill": -0.864,
+   "rounds": 37,
    "rank": 240
   },
   {
-   "name": "Lilia Vu",
-   "skill": -0.922,
-   "rounds": 90,
+   "name": "Gigi Stoll",
+   "skill": -0.87,
+   "rounds": 63,
    "rank": 241
   },
   {
-   "name": "Zixuan Wang",
-   "skill": -0.924,
-   "rounds": 12,
+   "name": "Lilia Vu",
+   "skill": -0.895,
+   "rounds": 91,
    "rank": 242
   },
   {
-   "name": "Daniela Darquea",
-   "skill": -0.926,
-   "rounds": 43,
+   "name": "Zixuan Wang",
+   "skill": -0.919,
+   "rounds": 12,
    "rank": 243
   },
   {
-   "name": "Maria Fassi",
-   "skill": -0.935,
-   "rounds": 23,
+   "name": "Daniela Darquea",
+   "skill": -0.928,
+   "rounds": 43,
    "rank": 244
   },
   {
-   "name": "Aunchisa Utama",
-   "skill": -0.941,
-   "rounds": 12,
+   "name": "Maria Fassi",
+   "skill": -0.933,
+   "rounds": 23,
    "rank": 245
   },
   {
-   "name": "Austin Ernst",
-   "skill": -0.955,
-   "rounds": 13,
+   "name": "Aunchisa Utama",
+   "skill": -0.939,
+   "rounds": 12,
    "rank": 246
   },
   {
-   "name": "Emma McMyler",
-   "skill": -0.999,
-   "rounds": 34,
+   "name": "Austin Ernst",
+   "skill": -0.953,
+   "rounds": 13,
    "rank": 247
   },
   {
-   "name": "Ingrid Lindblad",
+   "name": "Ilhee Lee",
    "skill": -1,
-   "rounds": 104,
+   "rounds": 50,
    "rank": 248
   },
   {
-   "name": "Ilhee Lee",
+   "name": "Emma McMyler",
    "skill": -1.001,
-   "rounds": 50,
+   "rounds": 34,
    "rank": 249
   },
   {
    "name": "Riley Smyth",
-   "skill": -1.005,
+   "skill": -1.006,
    "rounds": 24,
    "rank": 250
   },
   {
    "name": "Chloe Williams",
-   "skill": -1.024,
+   "skill": -1.018,
    "rounds": 6,
    "rank": 251
   },
   {
    "name": "Celine Herbin-Marshall",
-   "skill": -1.025,
+   "skill": -1.028,
    "rounds": 21,
    "rank": 252
   },
   {
-   "name": "Camille Boyd",
-   "skill": -1.033,
-   "rounds": 24,
+   "name": "Juniper Jang",
+   "skill": -1.035,
+   "rounds": 51,
    "rank": 253
   },
   {
-   "name": "Juniper Jang",
-   "skill": -1.033,
-   "rounds": 51,
+   "name": "Camille Boyd",
+   "skill": -1.035,
+   "rounds": 24,
    "rank": 254
   },
   {
    "name": "Benedetta Moresco",
-   "skill": -1.045,
+   "skill": -1.046,
    "rounds": 103,
    "rank": 255
   },
   {
    "name": "Trichat Cheenglab",
-   "skill": -1.057,
+   "skill": -1.051,
    "rounds": 8,
    "rank": 256
   },
   {
    "name": "Min Lee",
-   "skill": -1.059,
+   "skill": -1.054,
    "rounds": 7,
    "rank": 257
   },
   {
    "name": "Cheyenne Knight",
-   "skill": -1.062,
+   "skill": -1.057,
    "rounds": 22,
    "rank": 258
   },
   {
    "name": "Laura Fuenfstueck",
-   "skill": -1.064,
+   "skill": -1.06,
    "rounds": 7,
    "rank": 259
   },
   {
-   "name": "Wichanee Meechai",
-   "skill": -1.07,
-   "rounds": 34,
+   "name": "Ingrid Lindblad",
+   "skill": -1.061,
+   "rounds": 108,
    "rank": 260
   },
   {
-   "name": "Celine Borge",
-   "skill": -1.075,
-   "rounds": 91,
+   "name": "Wichanee Meechai",
+   "skill": -1.066,
+   "rounds": 34,
    "rank": 261
   },
   {
-   "name": "Cocona Sakurai",
-   "skill": -1.085,
-   "rounds": 30,
+   "name": "Celine Borge",
+   "skill": -1.076,
+   "rounds": 91,
    "rank": 262
   },
   {
    "name": "Brittany Lincicome",
-   "skill": -1.087,
+   "skill": -1.083,
    "rounds": 18,
    "rank": 263
   },
   {
-   "name": "Brianna Navarrosa",
-   "skill": -1.092,
-   "rounds": 9,
+   "name": "Cocona Sakurai",
+   "skill": -1.087,
+   "rounds": 30,
    "rank": 264
   },
   {
    "name": "Hyejun Park",
-   "skill": -1.092,
+   "skill": -1.087,
    "rounds": 6,
    "rank": 265
   },
   {
-   "name": "Dorthea Forbrigd",
-   "skill": -1.095,
-   "rounds": 7,
+   "name": "Brianna Navarrosa",
+   "skill": -1.088,
+   "rounds": 9,
    "rank": 266
   },
   {
-   "name": "Xingtong Chen",
-   "skill": -1.096,
-   "rounds": 8,
+   "name": "Dorthea Forbrigd",
+   "skill": -1.088,
+   "rounds": 7,
    "rank": 267
   },
   {
-   "name": "Stephanie Meadow",
-   "skill": -1.096,
-   "rounds": 30,
+   "name": "Xingtong Chen",
+   "skill": -1.089,
+   "rounds": 8,
    "rank": 268
   },
   {
-   "name": "Nana Suganuma",
-   "skill": -1.106,
-   "rounds": 7,
+   "name": "Yuka Saso",
+   "skill": -1.091,
+   "rounds": 91,
    "rank": 269
   },
   {
-   "name": "Caroline Inglis",
-   "skill": -1.107,
-   "rounds": 44,
+   "name": "Stephanie Meadow",
+   "skill": -1.099,
+   "rounds": 30,
    "rank": 270
   },
   {
-   "name": "Lauren Morris",
-   "skill": -1.109,
-   "rounds": 26,
+   "name": "Nana Suganuma",
+   "skill": -1.101,
+   "rounds": 7,
    "rank": 271
   },
   {
-   "name": "Stacy Lewis",
-   "skill": -1.127,
+   "name": "Caroline Inglis",
+   "skill": -1.105,
    "rounds": 44,
    "rank": 272
   },
   {
-   "name": "Jeneath Wong",
-   "skill": -1.137,
-   "rounds": 7,
+   "name": "Lauren Morris",
+   "skill": -1.106,
+   "rounds": 26,
    "rank": 273
   },
   {
-   "name": "Luna Sobron Galmes",
-   "skill": -1.14,
-   "rounds": 6,
+   "name": "Stacy Lewis",
+   "skill": -1.125,
+   "rounds": 44,
    "rank": 274
   },
   {
-   "name": "Xiang Sui",
-   "skill": -1.176,
-   "rounds": 12,
+   "name": "Jeneath Wong",
+   "skill": -1.131,
+   "rounds": 7,
    "rank": 275
   },
   {
-   "name": "Nicole Felce",
-   "skill": -1.183,
+   "name": "Luna Sobron Galmes",
+   "skill": -1.134,
    "rounds": 6,
    "rank": 276
   },
   {
-   "name": "Eun-Hee Ji",
-   "skill": -1.196,
-   "rounds": 26,
+   "name": "Xiang Sui",
+   "skill": -1.17,
+   "rounds": 12,
    "rank": 277
   },
   {
-   "name": "Runzhi Pang",
-   "skill": -1.199,
-   "rounds": 11,
+   "name": "Nicole Felce",
+   "skill": -1.175,
+   "rounds": 6,
    "rank": 278
   },
   {
-   "name": "Savannah Grewal",
-   "skill": -1.202,
-   "rounds": 53,
+   "name": "Eun-Hee Ji",
+   "skill": -1.191,
+   "rounds": 26,
    "rank": 279
   },
   {
-   "name": "Hailee Cooper",
-   "skill": -1.208,
-   "rounds": 33,
+   "name": "Runzhi Pang",
+   "skill": -1.194,
+   "rounds": 11,
    "rank": 280
   },
   {
-   "name": "Hira Naveed",
-   "skill": -1.209,
-   "rounds": 70,
+   "name": "Savannah Grewal",
+   "skill": -1.204,
+   "rounds": 53,
    "rank": 281
   },
   {
    "name": "Miyu Sato",
-   "skill": -1.212,
+   "skill": -1.207,
    "rounds": 11,
    "rank": 282
   },
   {
-   "name": "Zining An",
-   "skill": -1.218,
-   "rounds": 9,
+   "name": "Hailee Cooper",
+   "skill": -1.21,
+   "rounds": 33,
    "rank": 283
   },
   {
-   "name": "Sarah Kemp",
-   "skill": -1.224,
-   "rounds": 23,
+   "name": "Hira Naveed",
+   "skill": -1.21,
+   "rounds": 70,
    "rank": 284
   },
   {
-   "name": "Yuka Saso",
-   "skill": -1.276,
-   "rounds": 87,
+   "name": "Zining An",
+   "skill": -1.21,
+   "rounds": 9,
    "rank": 285
   },
   {
-   "name": "Natthakritta Vongtaveelap",
-   "skill": -1.286,
-   "rounds": 8,
+   "name": "Sarah Kemp",
+   "skill": -1.219,
+   "rounds": 23,
    "rank": 286
   },
   {
-   "name": "Lauren Kim",
-   "skill": -1.299,
+   "name": "Natthakritta Vongtaveelap",
+   "skill": -1.28,
    "rounds": 8,
    "rank": 287
   },
   {
-   "name": "Ziyan Meng",
-   "skill": -1.301,
-   "rounds": 6,
+   "name": "Liyana Durisic",
+   "skill": -1.293,
+   "rounds": 8,
    "rank": 288
   },
   {
-   "name": "Liyana Durisic",
-   "skill": -1.301,
-   "rounds": 8,
+   "name": "Ziyan Meng",
+   "skill": -1.294,
+   "rounds": 6,
    "rank": 289
   },
   {
-   "name": "Kate Smith-Stroh",
-   "skill": -1.314,
-   "rounds": 50,
+   "name": "Lauren Kim",
+   "skill": -1.295,
+   "rounds": 8,
    "rank": 290
   },
   {
    "name": "Kelsey Bennett",
-   "skill": -1.32,
+   "skill": -1.311,
    "rounds": 6,
    "rank": 291
   },
   {
-   "name": "Pranavi Urs",
-   "skill": -1.348,
-   "rounds": 6,
+   "name": "Kate Smith-Stroh",
+   "skill": -1.313,
+   "rounds": 50,
    "rank": 292
+  },
+  {
+   "name": "Pranavi Urs",
+   "skill": -1.339,
+   "rounds": 6,
+   "rank": 293
   },
   {
    "name": "Lauren Tenuta",
    "skill": -1.362,
    "rounds": 64,
-   "rank": 293
+   "rank": 294
   },
   {
    "name": "Anna Foster",
-   "skill": -1.389,
+   "skill": -1.381,
    "rounds": 7,
-   "rank": 294
+   "rank": 295
   },
   {
    "name": "Adela Cernousek",
    "skill": -1.41,
    "rounds": 41,
-   "rank": 295
-  },
-  {
-   "name": "Brittany Altomare",
-   "skill": -1.417,
-   "rounds": 29,
    "rank": 296
   },
   {
-   "name": "Malia Nam",
-   "skill": -1.427,
-   "rounds": 9,
+   "name": "Brittany Altomare",
+   "skill": -1.411,
+   "rounds": 29,
    "rank": 297
   },
   {
-   "name": "Fatima Fernandez Cano",
-   "skill": -1.428,
-   "rounds": 13,
+   "name": "Malia Nam",
+   "skill": -1.417,
+   "rounds": 9,
    "rank": 298
   },
   {
-   "name": "Katie Cranston",
-   "skill": -1.453,
-   "rounds": 6,
+   "name": "Fatima Fernandez Cano",
+   "skill": -1.419,
+   "rounds": 13,
    "rank": 299
   },
   {
-   "name": "Dani Holmqvist",
-   "skill": -1.5,
-   "rounds": 24,
+   "name": "Katie Cranston",
+   "skill": -1.444,
+   "rounds": 6,
    "rank": 300
   },
   {
-   "name": "Daniela Iacobelli",
-   "skill": -1.513,
-   "rounds": 8,
+   "name": "Dani Holmqvist",
+   "skill": -1.495,
+   "rounds": 24,
    "rank": 301
   },
   {
-   "name": "Haeji Kang",
-   "skill": -1.544,
-   "rounds": 48,
+   "name": "Daniela Iacobelli",
+   "skill": -1.501,
+   "rounds": 8,
    "rank": 302
   },
   {
    "name": "Jenny Coleman",
-   "skill": -1.551,
+   "skill": -1.539,
    "rounds": 9,
    "rank": 303
   },
   {
-   "name": "Anne van Dam",
-   "skill": -1.596,
-   "rounds": 7,
+   "name": "Haeji Kang",
+   "skill": -1.541,
+   "rounds": 48,
    "rank": 304
+  },
+  {
+   "name": "Anne van Dam",
+   "skill": -1.583,
+   "rounds": 7,
+   "rank": 305
   },
   {
    "name": "Moriya Jutanugarn",
    "skill": -1.6,
    "rounds": 59,
-   "rank": 305
+   "rank": 306
   },
   {
    "name": "Danielle Kang",
    "skill": -1.6,
    "rounds": 59,
-   "rank": 306
-  },
-  {
-   "name": "Yuai Ji",
-   "skill": -1.6,
-   "rounds": 16,
    "rank": 307
   },
   {
@@ -1858,94 +1858,100 @@
    "rank": 309
   },
   {
-   "name": "Sherman Santiwiwatthanaphong",
-   "skill": -1.6,
-   "rounds": 6,
-   "rank": 310
-  },
-  {
    "name": "Darcey Harry",
    "skill": -1.6,
    "rounds": 14,
-   "rank": 311
+   "rank": 310
   },
   {
    "name": "Maria Torres",
    "skill": -1.6,
    "rounds": 6,
-   "rank": 312
+   "rank": 311
   },
   {
    "name": "Natalie Gulbis",
    "skill": -1.6,
    "rounds": 7,
-   "rank": 313
+   "rank": 312
   },
   {
    "name": "Christina Kim",
    "skill": -1.6,
    "rounds": 10,
-   "rank": 314
+   "rank": 313
   },
   {
    "name": "Su Oh",
    "skill": -1.6,
    "rounds": 6,
-   "rank": 315
+   "rank": 314
   },
   {
    "name": "Katherine Perry-Hamski",
    "skill": -1.6,
    "rounds": 6,
-   "rank": 316
+   "rank": 315
   },
   {
    "name": "Alena Sharp",
    "skill": -1.6,
    "rounds": 36,
+   "rank": 316
+  },
+  {
+   "name": "Yuai Ji",
+   "skill": -1.6,
+   "rounds": 16,
    "rank": 317
+  },
+  {
+   "name": "Sherman Santiwiwatthanaphong",
+   "skill": -1.6,
+   "rounds": 6,
+   "rank": 318
   },
   {
    "name": "Amelia Lewis",
    "skill": -1.6,
    "rounds": 7,
-   "rank": 318
+   "rank": 319
   },
   {
    "name": "Annie Park",
    "skill": -1.6,
    "rounds": 6,
-   "rank": 319
+   "rank": 320
   },
   {
    "name": "Kelly Tan",
    "skill": -1.6,
    "rounds": 16,
-   "rank": 320
+   "rank": 321
   },
   {
    "name": "Sophia Popov",
    "skill": -1.6,
    "rounds": 38,
-   "rank": 321
+   "rank": 322
   },
   {
    "name": "Genevieve Ling",
    "skill": -1.6,
    "rounds": 8,
-   "rank": 322
+   "rank": 323
   },
   {
    "name": "Fiona Xu",
    "skill": -1.6,
    "rounds": 18,
-   "rank": 323
+   "rank": 324
   },
   {
    "name": "Mirim Lee",
    "skill": -1.6,
    "rounds": 16,
-   "rank": 324
+   "rank": 325
   }
  ]
 }
